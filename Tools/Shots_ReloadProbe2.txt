@@ -1,0 +1,24 @@
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8.0 CampusReloadPose 0.40 0
+8.3 CampusDebugVM
+8.4 CampusShot pq_40
+8.5 CampusReloadPose 0.45 0
+8.8 CampusDebugVM
+8.9 CampusShot pq_45
+9.0 CampusReloadPose 0.48 0
+9.3 CampusDebugVM
+9.4 CampusShot pq_48
+9.5 CampusReloadPose 0.50 0
+9.8 CampusDebugVM
+9.9 CampusShot pq_50
+10.0 CampusReloadPose 0.53 0
+10.3 CampusDebugVM
+10.4 CampusShot pq_53
+10.5 CampusReloadPose 0.56 0
+10.8 CampusDebugVM
+10.9 CampusShot pq_56
+11.0 CampusReloadPose 0.85 1
+11.4 CampusShot pk_def
+12.0 quit

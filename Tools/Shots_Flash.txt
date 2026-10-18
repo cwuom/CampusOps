@@ -1,0 +1,8 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Flash.txt
+# Full flashbang in view: whiteout, the afterimage as it lifts, and recovery.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -5200 110 90 -2
+8.0 CampusAct flashme
+8.0 CampusShotSeq fb 18 8
+13.5 quit

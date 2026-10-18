@@ -1,0 +1,16 @@
+# Main menu in the special operations HQ: every page and its camera.
+4.0 waitshaders
+10.0 CampusShot m_title
+10.5 CampusMenu play
+14.0 CampusShot m_play
+14.5 CampusMenu loadouts
+18.0 CampusShot m_loadouts
+18.5 CampusMenu gunsmith
+22.5 CampusShot m_gunsmith
+23.0 CampusMenu operator
+27.0 CampusShot m_operator
+27.5 CampusMenu options
+31.0 CampusShot m_options
+31.5 CampusMenu play
+35.0 CampusShot m_play2
+36.0 quit

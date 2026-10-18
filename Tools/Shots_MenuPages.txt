@@ -1,0 +1,10 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1600 -ResY=900 -CampusScriptFile=E:/game-project/Tools/Shots_MenuPages.txt
+# The main menu pages once the camera has settled: play (operator), loadouts and gunsmith (weapon on the bench).
+6 waitshaders
+8 CampusMenu play -1
+12 CampusShot mp_play
+12.5 CampusMenu loadouts -1
+17 CampusShot mp_loadouts
+17.5 CampusMenu gunsmith -1
+22 CampusShot mp_gunsmith
+23 quit

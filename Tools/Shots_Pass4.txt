@@ -1,0 +1,42 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM -game -CampusScriptFile=E:/game-project/Tools/Shots_Pass4.txt
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+8 CampusDebugVM
+8.1 CampusShot 80_corridor_hip
+8.5 CampusMove 0 1
+8.6 CampusAct sprint
+9.4 CampusDebugVM
+9.45 CampusShot 81_tac_default
+9.8 CampusAct slide
+9.9 CampusDebugVM
+10.3 CampusShot 82_slide
+10.5 CampusDebugVM
+10.9 CampusDebugVM
+11.3 CampusDebugVM
+11.4 CampusShot 83_slide_end
+11.5 CampusAct stop
+12 CampusView -3290 -2600 110 90 0
+12.2 CampusPose tac 4 9 -5 30 24 -24
+12.5 CampusMove 0 1
+12.6 CampusAct sprint
+13.4 CampusShot 84_tac_b
+13.6 CampusPose tac 2 7 -4 38 14 -38
+14.2 CampusShot 85_tac_c
+14.4 CampusAct stop
+15 CampusView -3815 -1250 110 180 -2
+17.5 CampusShot 86_class_window
+18 CampusView -3290 -2000 110 90 0
+20.5 CampusShot 87_corridor_tiles
+21 CampusView 2000 -2600 100 75 0
+23.5 CampusShot 88_courts
+24 CampusView -2400 -3300 110 -60 -2
+26.5 CampusShot 89_admin_arcade
+27 CampusLookAtBot
+27.8 CampusShot 90_enemy
+28 CampusFire 1
+28.12 CampusShot 91_hit
+28.5 CampusShot 92_hits
+29.2 CampusFire 0
+29.6 CampusShot 93_kill
+30.2 CampusShot 94_kill_late
+31 quit

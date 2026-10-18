@@ -1,0 +1,20 @@
+# Pool water: wading (wake), shooting the water (rings off the walls), caustics on the floor.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView -2150 -400 100 180 -40
+10.5 CampusShot pw_0_still
+10.7 CampusAct fire
+11.0 CampusAct unfire
+11.25 CampusShot pw_1_shots
+11.7 CampusShot pw_2_rings
+12.4 CampusView -2900 300 34 0 -45
+12.5 CampusMove 0 1
+13.4 CampusShot pw_3_wading
+13.8 CampusMove 0 0
+13.9 CampusShot pw_4_stop
+14.3 CampusView -2900 300 34 180 -50
+14.6 CampusShot pw_5_behind
+15.0 CampusFreeCam 1
+15.2 CampusView -2700 -700 120 120 -55
+16.5 CampusShot pw_6_floor
+17.0 quit

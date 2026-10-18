@@ -1,0 +1,24 @@
+# Launch with ?Weather=<n>?Time=<n> -benchmark -fps=30: the same three views (apartment wall,
+# yard from the walkway, classroom) at the low preset (no Lumen: the sky light fills in for the bounce), then at ultra
+# with ray traced GI, to compare how bright and how lit they read.
+6.0 CampusGod
+6.2 CampusPreset 0
+6.3 CampusFreeCam 1
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 270 2
+9.0 CampusShot ll_lo_wall
+9.2 CampusView -875 -3800 110 75 1
+11.0 CampusShot ll_lo_yard
+11.2 CampusView -3600 -2700 170 110 35
+13.0 CampusShot ll_lo_room
+13.2 CampusPreset 3
+13.3 CampusUpscale 0 0 0
+13.4 CampusGfx GI 4
+13.5 waitshaders
+14.0 CampusView -875 -4900 110 270 2
+17.0 CampusShot ll_hi_wall
+17.2 CampusView -875 -3800 110 75 1
+19.0 CampusShot ll_hi_yard
+19.2 CampusView -3600 -2700 170 110 35
+21.0 CampusShot ll_hi_room
+21.5 quit

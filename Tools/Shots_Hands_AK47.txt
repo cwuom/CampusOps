@@ -1,0 +1,14 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Hands_AK47.txt
+# Support hand on the AK47 handguard: hip and sprint once the stamina is gone (both hands on).
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:AK47 -1
+9.8 CampusHost TDM
+14 waitshaders
+14.2 CampusGod
+22 CampusShot h_ak47_hip
+22.4 CampusMove 0 1
+22.5 CampusAct sprintonly
+23.3 CampusShot h_ak47_sprint
+23.5 CampusAct stop
+24 quit

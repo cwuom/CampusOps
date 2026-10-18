@@ -1,0 +1,12 @@
+# Map_Hotel?game=TDM?Bots=0?Weather=0?Time=3, isolated UserDir, 4K native Ultra
+2 CampusPreset 3
+2.1 CampusUpscale 0 0 0
+2.2 r.SetRes 3840x2160w
+5 waitshaders
+6 CampusFreeCam 1
+6.1 showhud
+7 CampusView -1900 -2500 170 90 -4
+10 CampusShot menu_art_hotel
+11 CampusView 0 -1600 610 90 -12
+14 CampusShot menu_art_gunfight
+15 quit

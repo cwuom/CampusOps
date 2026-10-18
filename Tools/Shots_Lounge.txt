@@ -1,0 +1,17 @@
+# Sky lounge interior: bar, sofas, booths, ceiling; dusk then night.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView -1000 -1650 170 35 -6
+14.0 CampusShot lg_sofa
+14.2 CampusView 400 -900 170 160 -4
+16.0 CampusShot lg_bar
+16.2 CampusView -200 1550 170 -120 8
+18.0 CampusShot lg_ceiling
+18.2 CampusView 200 1200 160 -160 -6
+20.0 CampusShot lg_booths
+20.3 CampusWeather 0 4
+24.0 CampusShot lg_bar_night
+24.2 CampusView -1000 -1650 170 35 -6
+26.0 CampusShot lg_sofa_night
+27.0 quit

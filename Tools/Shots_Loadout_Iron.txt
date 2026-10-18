@@ -1,0 +1,7 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Loadout_Iron.txt
+# Bare M4A1 (iron sights) for sight-picture checks. Restore the player's build with Shots_Loadout_User.txt.
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:M4A1 -1
+9.5 CampusMenu strip -1
+11 quit

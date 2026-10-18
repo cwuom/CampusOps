@@ -1,0 +1,31 @@
+# Launch Map_Campus ?Time=3 -benchmark -fps=60 at 1920x1080: the very first time the 6x comes up (every frame, with the
+# eye's exposure logged), ultra with ray traced GI; then firing under the passage ceiling with screen space GI,
+# MegaLights on and off (muzzle flash light on the ceiling).
+6.0 CampusGod
+6.1 campus.ScopeDebug 1
+6.4 CampusPreset 3
+6.5 CampusUpscale 0 0 0
+6.6 CampusGfx GI 4
+6.7 r.setres 1920x1080w
+6.8 waitshaders
+7.0 CampusView -875 -3800 110 90 -3
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+12.0 CampusAim 1
+12.0 CampusShotSeq fa 30 2
+14.0 CampusShot fa_settled
+14.5 CampusAim 0
+16.0 CampusAim 1
+16.0 CampusShotSeq fb 12 2
+18.0 CampusAim 0
+18.5 CampusGfx GI 0
+18.6 waitshaders
+19.0 CampusView -875 -4300 110 60 30
+22.0 CampusFire 1
+22.3 CampusShotSeq ff_ml 8 1
+23.0 CampusFire 0
+23.5 r.MegaLights.Enable 0
+25.0 CampusFire 1
+25.3 CampusShotSeq ff_noml 8 1
+26.0 CampusFire 0
+26.5 quit

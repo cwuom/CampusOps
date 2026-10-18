@@ -1,0 +1,284 @@
+# Map_Hotel?game=TDM?Bots=0?Weather=0?Time=1
+# Run with -game -windowed -ResX=1280 -ResY=720 -benchmark -fps=60
+# 597 screenshots at 60 fps, 57 script seconds; all actions use real input, without held animation poses
+# short trigger taps exercise firing and manual reloads; automatic reload may begin before the capture
+# the _empty filenames are retained for baseline comparison; Shots_EmptyMotion.txt verifies actual zero-round reloads
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusAct stop
+7.1 CampusView -3000 -4300 100 0 -2
+7.2 CampusEquip KNIFE
+8.0 CampusAct switch
+# Two alternating light cuts, captured every frame through wind-up, contact, recovery and the next input
+9.50 CampusShotSeq action_knife_light 90 1
+9.55 CampusAct fire
+9.61 CampusAct unfire
+10.00 CampusAct fire
+10.06 CampusAct unfire
+# Heavy stab, followed by enough idle time for the actual cooldown
+11.19 CampusShotSeq action_knife_heavy 60 1
+11.20 CampusAct melee
+# Another stab interrupted by the actual weapon-switch input
+13.10 CampusAct melee
+13.24 CampusShotSeq action_knife_switch 48 1
+13.30 CampusAct switch
+14.15 CampusAct stop
+14.20 CampusEquip M4A1
+14.25 CampusView -3000 -4300 100 0 -2
+# M4A1: fire before the manual reload and capture the magazine path and return
+15.60 CampusAct fire
+15.65 CampusAct unfire
+15.74 CampusAct fire
+15.79 CampusAct unfire
+15.88 CampusAct fire
+15.93 CampusAct unfire
+16.02 CampusAct fire
+16.07 CampusAct unfire
+16.16 CampusAct fire
+16.21 CampusAct unfire
+16.30 CampusAct fire
+16.35 CampusAct unfire
+16.44 CampusAct fire
+16.49 CampusAct unfire
+16.58 CampusAct fire
+16.63 CampusAct unfire
+16.72 CampusAct fire
+16.77 CampusAct unfire
+16.86 CampusAct fire
+16.91 CampusAct unfire
+17.00 CampusAct fire
+17.05 CampusAct unfire
+17.14 CampusAct fire
+17.19 CampusAct unfire
+17.28 CampusAct fire
+17.33 CampusAct unfire
+17.42 CampusAct fire
+17.47 CampusAct unfire
+17.56 CampusAct fire
+17.61 CampusAct unfire
+17.70 CampusAct fire
+17.75 CampusAct unfire
+17.84 CampusAct fire
+17.89 CampusAct unfire
+17.98 CampusAct fire
+18.03 CampusAct unfire
+18.12 CampusAct fire
+18.17 CampusAct unfire
+18.26 CampusAct fire
+18.31 CampusAct unfire
+18.40 CampusAct fire
+18.45 CampusAct unfire
+18.54 CampusAct fire
+18.59 CampusAct unfire
+18.68 CampusAct fire
+18.73 CampusAct unfire
+18.82 CampusAct fire
+18.87 CampusAct unfire
+18.96 CampusAct fire
+19.01 CampusAct unfire
+19.10 CampusAct fire
+19.15 CampusAct unfire
+19.24 CampusAct fire
+19.29 CampusAct unfire
+19.38 CampusAct fire
+19.43 CampusAct unfire
+19.52 CampusAct fire
+19.57 CampusAct unfire
+19.66 CampusAct fire
+19.71 CampusAct unfire
+19.72 CampusShotSeq action_reload_m4_empty 82 2
+19.75 CampusAct reload
+22.50 CampusDebugVM
+22.70 CampusEquip AK47
+22.75 CampusView -3000 -4300 100 0 -2
+# AK47: capture magazine removal, insertion and return after a series of trigger taps
+24.00 CampusAct fire
+24.05 CampusAct unfire
+24.14 CampusAct fire
+24.19 CampusAct unfire
+24.28 CampusAct fire
+24.33 CampusAct unfire
+24.42 CampusAct fire
+24.47 CampusAct unfire
+24.56 CampusAct fire
+24.61 CampusAct unfire
+24.70 CampusAct fire
+24.75 CampusAct unfire
+24.84 CampusAct fire
+24.89 CampusAct unfire
+24.98 CampusAct fire
+25.03 CampusAct unfire
+25.12 CampusAct fire
+25.17 CampusAct unfire
+25.26 CampusAct fire
+25.31 CampusAct unfire
+25.40 CampusAct fire
+25.45 CampusAct unfire
+25.54 CampusAct fire
+25.59 CampusAct unfire
+25.68 CampusAct fire
+25.73 CampusAct unfire
+25.82 CampusAct fire
+25.87 CampusAct unfire
+25.96 CampusAct fire
+26.01 CampusAct unfire
+26.10 CampusAct fire
+26.15 CampusAct unfire
+26.24 CampusAct fire
+26.29 CampusAct unfire
+26.38 CampusAct fire
+26.43 CampusAct unfire
+26.52 CampusAct fire
+26.57 CampusAct unfire
+26.66 CampusAct fire
+26.71 CampusAct unfire
+26.80 CampusAct fire
+26.85 CampusAct unfire
+26.94 CampusAct fire
+26.99 CampusAct unfire
+27.08 CampusAct fire
+27.13 CampusAct unfire
+27.22 CampusAct fire
+27.27 CampusAct unfire
+27.36 CampusAct fire
+27.41 CampusAct unfire
+27.50 CampusAct fire
+27.55 CampusAct unfire
+27.64 CampusAct fire
+27.69 CampusAct unfire
+27.78 CampusAct fire
+27.83 CampusAct unfire
+27.92 CampusAct fire
+27.97 CampusAct unfire
+28.06 CampusAct fire
+28.11 CampusAct unfire
+28.12 CampusShotSeq action_reload_ak_empty 93 2
+28.15 CampusAct reload
+31.30 CampusDebugVM
+31.50 CampusEquip X16
+31.70 CampusAct switch
+31.75 CampusView -3000 -4300 100 0 -2
+# X16 requires a release after each shot; inspect the HUD before classifying this reload
+33.00 CampusAct fire
+33.05 CampusAct unfire
+33.14 CampusAct fire
+33.19 CampusAct unfire
+33.28 CampusAct fire
+33.33 CampusAct unfire
+33.42 CampusAct fire
+33.47 CampusAct unfire
+33.56 CampusAct fire
+33.61 CampusAct unfire
+33.70 CampusAct fire
+33.75 CampusAct unfire
+33.84 CampusAct fire
+33.89 CampusAct unfire
+33.98 CampusAct fire
+34.03 CampusAct unfire
+34.12 CampusAct fire
+34.17 CampusAct unfire
+34.26 CampusAct fire
+34.31 CampusAct unfire
+34.40 CampusAct fire
+34.45 CampusAct unfire
+34.54 CampusAct fire
+34.59 CampusAct unfire
+34.68 CampusAct fire
+34.73 CampusAct unfire
+34.82 CampusAct fire
+34.87 CampusAct unfire
+34.96 CampusAct fire
+35.01 CampusAct unfire
+35.02 CampusShotSeq action_reload_x16_empty 63 2
+35.05 CampusAct reload
+37.30 CampusDebugVM
+38.00 CampusEquip AK47 optic_reddot,light_tac
+38.05 CampusView -3000 -4300 100 0 -28
+# fire the AK away from the curtain so gunfire cannot change the wall fixture
+40.00 CampusAct fire
+40.05 CampusAct unfire
+40.14 CampusAct fire
+40.19 CampusAct unfire
+40.28 CampusAct fire
+40.33 CampusAct unfire
+40.42 CampusAct fire
+40.47 CampusAct unfire
+40.56 CampusAct fire
+40.61 CampusAct unfire
+40.70 CampusAct fire
+40.75 CampusAct unfire
+40.84 CampusAct fire
+40.89 CampusAct unfire
+40.98 CampusAct fire
+41.03 CampusAct unfire
+41.12 CampusAct fire
+41.17 CampusAct unfire
+41.26 CampusAct fire
+41.31 CampusAct unfire
+41.40 CampusAct fire
+41.45 CampusAct unfire
+41.54 CampusAct fire
+41.59 CampusAct unfire
+41.68 CampusAct fire
+41.73 CampusAct unfire
+41.82 CampusAct fire
+41.87 CampusAct unfire
+41.96 CampusAct fire
+42.01 CampusAct unfire
+42.10 CampusAct fire
+42.15 CampusAct unfire
+42.24 CampusAct fire
+42.29 CampusAct unfire
+42.38 CampusAct fire
+42.43 CampusAct unfire
+42.52 CampusAct fire
+42.57 CampusAct unfire
+42.66 CampusAct fire
+42.71 CampusAct unfire
+42.80 CampusAct fire
+42.85 CampusAct unfire
+42.94 CampusAct fire
+42.99 CampusAct unfire
+43.08 CampusAct fire
+43.13 CampusAct unfire
+43.22 CampusAct fire
+43.27 CampusAct unfire
+43.36 CampusAct fire
+43.41 CampusAct unfire
+43.50 CampusAct fire
+43.55 CampusAct unfire
+43.64 CampusAct fire
+43.69 CampusAct unfire
+43.78 CampusAct fire
+43.83 CampusAct unfire
+43.92 CampusAct fire
+43.97 CampusAct unfire
+44.06 CampusAct fire
+44.11 CampusAct unfire
+# North cabana south curtain at y=754; x=-1680 avoids both corner posts and furniture
+# teleport after the last shot, then reload while looking down against the wall
+44.12 CampusView -1680 710 110 90 -28
+44.13 CampusShotSeq action_reload_ak_dot_low_wall 93 2
+44.15 CampusAct reload
+44.25 CampusAimTrace
+44.30 CampusWhere action_low_wall
+45.50 CampusDebugVM
+47.30 CampusDebugVM
+48.00 CampusAct stop
+48.05 CampusView -3000 -4300 100 0 -2
+48.10 CampusEquip M4A1
+# A loaded tactical reload may be interrupted by a real melee input
+50.00 CampusAct fire
+50.05 CampusAct unfire
+50.58 CampusShotSeq action_reload_cancel_melee 34 2
+50.60 CampusAct reload
+51.00 CampusAct melee
+51.80 CampusDebugVM
+# The old magazine still has rounds, so a trigger press is a legal reload cancellation
+52.98 CampusShotSeq action_reload_cancel_fire 34 2
+53.00 CampusAct reload
+53.45 CampusAct fire
+53.51 CampusAct unfire
+54.30 CampusDebugVM
+55.00 CampusAct stop
+57.00 quit

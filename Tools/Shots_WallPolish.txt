@@ -1,0 +1,109 @@
+# Map_Campus?game=TDM?Bots=0?Weather=0?Time=1, -benchmark -fps=30
+# real west perimeter x=-4785 and southwest corner y=-5585, camera at standing height
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusEquip MK14 optic_sniper,muzzle_suppressor
+7.1 CampusView -4570 -5000 110 180 0
+8.7 CampusShot wall_mk_ready
+9.0 CampusMove 0 1
+9.01 CampusShotSeq wall_mk_approach 12 2
+9.9 CampusDebugVM
+10.0 CampusMove 0 -1
+10.01 CampusShotSeq wall_mk_release 10 2
+10.8 CampusAct stop
+11.4 CampusDebugVM
+11.5 CampusView -4740 -5000 110 180 0
+12.1 CampusAim 1
+12.11 CampusShotSeq wall_mk_ads 8 2
+12.8 CampusDebugVM
+13.0 CampusAim 0
+13.4 CampusReloadPose 0.05 1
+13.7 CampusShot wall_mk_reload_reach
+13.8 CampusReloadPose 0.20 1
+14.1 CampusShot wall_mk_reload_mag
+14.2 CampusReloadPose 0.78 1
+14.5 CampusShot wall_mk_reload_catch
+14.6 CampusDebugVM
+14.7 CampusReloadPose 0.91 1
+15.0 CampusShot wall_mk_reload_return
+15.1 CampusReloadPose -1
+15.11 CampusShotSeq wall_mk_reload_cancel 6 2
+16.0 CampusView -4740 -5000 110 135 0
+16.7 CampusShot wall_mk_side_right
+16.8 CampusDebugVM
+17.0 CampusView -4740 -5000 110 -135 0
+17.7 CampusShot wall_mk_side_left
+17.8 CampusDebugVM
+18.0 CampusView -4710 -5510 110 -135 0
+18.1 CampusMove 0 1
+18.11 CampusShotSeq wall_mk_corner 10 2
+19.0 CampusAct stop
+19.1 CampusDebugVM
+20.0 CampusEquip AK47 muzzle_suppressor,optic_reddot
+20.1 CampusView -4570 -5000 110 180 0
+21.7 CampusShot wall_ak_ready
+22.0 CampusMove 0 1
+22.01 CampusShotSeq wall_ak_approach 12 2
+22.9 CampusDebugVM
+23.0 CampusMove 0 -1
+23.01 CampusShotSeq wall_ak_release 10 2
+23.8 CampusAct stop
+24.4 CampusDebugVM
+24.5 CampusView -4740 -5000 110 180 0
+25.1 CampusAim 1
+25.11 CampusShotSeq wall_ak_ads 8 2
+25.8 CampusDebugVM
+26.0 CampusAim 0
+26.4 CampusReloadPose 0.20 1
+26.8 CampusShot wall_ak_reload_mag
+27.0 CampusReloadPose 0.78 1
+27.4 CampusShot wall_ak_reload_catch
+27.5 CampusDebugVM
+27.6 CampusReloadPose -1
+27.61 CampusShotSeq wall_ak_reload_cancel 6 2
+28.5 CampusView -4740 -5000 110 135 0
+29.2 CampusShot wall_ak_side_right
+29.3 CampusDebugVM
+29.5 CampusView -4740 -5000 110 -135 0
+30.2 CampusShot wall_ak_side_left
+30.3 CampusDebugVM
+30.5 CampusView -4500 -5000 110 180 0
+30.6 CampusMove 0 1
+30.7 CampusAct sprintonly
+30.71 CampusShotSeq wall_ak_sprint 14 2
+31.8 CampusDebugVM
+31.9 CampusAct stop
+32.8 CampusView -4500 -5000 110 180 0
+32.9 CampusMove 0 1
+33.0 CampusAct tac
+33.01 CampusShotSeq wall_ak_tac 14 2
+34.1 CampusDebugVM
+34.2 CampusAct stop
+35.0 CampusView -4710 -5510 110 -135 0
+35.1 CampusMove 0 1
+35.11 CampusShotSeq wall_ak_corner 10 2
+36.0 CampusAct stop
+36.1 CampusDebugVM
+# hold ADS while looking along the wall, then turn into it and back without changing position
+36.5 CampusEquip MK14 optic_sniper,muzzle_suppressor
+36.6 CampusView -4740 -5000 110 90 0
+37.8 CampusAim 1
+38.5 CampusShot wall_mk_scope_along_wall
+38.6 CampusView -4740 -5000 110 180 0
+38.61 CampusShotSeq wall_mk_scope_turn_in 16 1
+39.3 CampusDebugVM
+39.5 CampusView -4740 -5000 110 90 0
+39.51 CampusShotSeq wall_mk_scope_turn_out 16 1
+40.2 CampusDebugVM
+40.5 CampusAim 0
+# approach and retreat with the aim input still held, checking automatic sight and FOV recovery
+41.0 CampusView -4570 -5000 110 180 0
+41.2 CampusAim 1
+42.0 CampusMove 0 1
+42.01 CampusShotSeq wall_mk_aimed_approach 14 2
+43.1 CampusDebugVM
+43.3 CampusMove 0 -1
+43.31 CampusShotSeq wall_mk_aimed_release 14 2
+44.4 CampusAct stop
+44.8 CampusDebugVM
+45.0 quit

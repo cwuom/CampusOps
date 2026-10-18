@@ -1,0 +1,13 @@
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView 550 -2200 -300 90 15
+14.0 CampusShot fx_c1
+14.2 CampusView 550 0 -300 -90 15
+16.0 CampusShot fx_c2
+16.2 CampusView 1600 -500 -300 0 10
+18.0 CampusShot fx_c3
+18.2 CampusView 1050 -1700 -300 90 15
+20.0 CampusShot fx_c4
+20.5 CampusProbe 550 -1900 -200 80
+21.0 quit

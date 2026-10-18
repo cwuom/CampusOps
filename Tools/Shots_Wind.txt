@@ -1,0 +1,9 @@
+# One fixed view of the lawn and hedge, three frames half a second apart (wind).
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusFreeCam 1
+8.2 CampusView -2640 -1080 120 30 -22
+12.0 CampusShot wd_0
+12.5 CampusShot wd_1
+13.0 CampusShot wd_2
+14.0 quit

@@ -1,0 +1,10 @@
+# Hotel: standing on the helipad at the head of the north outside stair, looking south down it past the pad curb.
+6.0 CampusGod
+6.5 waitshaders
+10.5 CampusView 1230 1600 620 270 -55
+12.0 CampusShot ps_0_user
+12.2 CampusView 1250 1560 620 250 -65
+13.5 CampusShot ps_1_closer
+13.7 CampusView 1400 1650 620 270 -35
+15.0 CampusShot ps_2_landing
+15.5 quit

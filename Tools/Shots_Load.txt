@@ -1,0 +1,8 @@
+# load gate hold
+0.5 CampusShot ld_0
+2.0 CampusShot ld_1
+3.2 CampusShot ld_2
+3.6 CampusShot ld_3
+6.0 CampusShot ld_4
+9.5 CampusShot ld_5
+10 quit

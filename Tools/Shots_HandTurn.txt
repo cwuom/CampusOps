@@ -1,0 +1,41 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_HandTurn.txt
+# Support-hand wrist turn on the magazine (CampusPose rlhandmag 0 0 0 Pitch Yaw Roll) at the release, draw and insert phases.
+6.5 CampusGod
+7 CampusView -2700 -5000 110 90 0
+7.6 CampusPose rlhandmag 0 0 0 10 25 -30
+7.7 CampusReloadPose 0.13 0
+8.5 CampusShot ht01
+8.7 CampusReloadPose 0.22 0
+9.5 CampusShot ht02
+9.7 CampusReloadPose 0.585 0
+10.5 CampusShot ht03
+10.7 CampusPose rlhandmag 0 0 0 10 25 30
+10.8 CampusReloadPose 0.13 0
+11.6 CampusShot ht11
+11.8 CampusReloadPose 0.22 0
+12.6 CampusShot ht12
+12.8 CampusReloadPose 0.585 0
+13.6 CampusShot ht13
+13.8 CampusPose rlhandmag 0 0 0 0 35 55
+13.9 CampusReloadPose 0.13 0
+14.7 CampusShot ht21
+14.9 CampusReloadPose 0.22 0
+15.7 CampusShot ht22
+15.9 CampusReloadPose 0.585 0
+16.7 CampusShot ht23
+16.9 CampusPose rlhandmag 0 0 0 25 15 15
+17.0 CampusReloadPose 0.13 0
+17.8 CampusShot ht31
+18.0 CampusReloadPose 0.22 0
+18.8 CampusShot ht32
+19.0 CampusReloadPose 0.585 0
+19.8 CampusShot ht33
+20.0 CampusPose rlhandmag 0 0 0 -15 40 20
+20.1 CampusReloadPose 0.13 0
+20.9 CampusShot ht41
+21.1 CampusReloadPose 0.22 0
+21.9 CampusShot ht42
+22.1 CampusReloadPose 0.585 0
+22.9 CampusShot ht43
+23.1 CampusReloadPose -1 0
+23.5 quit

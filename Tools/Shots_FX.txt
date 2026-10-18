@@ -1,0 +1,10 @@
+# fx2
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusEquip M4A1
+10.8 CampusLookAtDoor 500
+11.0 CampusAct fire
+11.0 CampusShotSeq fx_ 8 1
+11.4 CampusAct unfire
+11.8 CampusShot fx_after
+12.5 quit

@@ -1,0 +1,13 @@
+# Iron sights at the hip and aimed for the equipped primary, then the pistol.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+8.0 CampusShot irn_hip
+8.2 CampusAim 1
+9.4 CampusShot irn_ads
+9.6 CampusAim 0
+10.0 CampusAct switch
+11.5 CampusShot irn_phip
+11.7 CampusAim 1
+12.9 CampusShot irn_pads
+13.2 quit

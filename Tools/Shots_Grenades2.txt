@@ -1,0 +1,43 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Grenades2.txt
+# Grenade effects at known distances (each type dropped once far away first so its shaders are compiled), the frag up
+# close on the ground, and the draw / cook pose.
+6.5 CampusGod
+6.6 CampusAct refill
+6.7 CampusView -875 -5200 110 90 -4
+6.8 CampusAct dropfrag3000
+6.9 CampusAct dropsmoke3200
+7.0 CampusAct dropthermite3400
+7.1 CampusAct dropflash3600
+10.0 waitshaders
+11.0 CampusView -875 -5200 110 90 -12
+11.1 CampusAct dropfrag180
+11.5 CampusShot cl_frag
+11.6 CampusView -875 -5200 110 90 -4
+11.7 CampusAct dropfrag900
+12.6 CampusShotSeq ex 16 3
+15.0 CampusShot ex_late
+16.0 CampusView -2500 -5200 110 90 -6
+16.1 CampusAct dropsmoke800
+19.5 CampusShot sm_3s
+23.0 CampusShot sm_7s
+23.2 CampusView -2000 -4200 140 -45 -6
+23.6 CampusShot sm_side
+24.0 CampusView 500 -5200 110 90 -10
+24.1 CampusAct dropthermite500
+24.8 CampusShotSeq th 5 10
+27.0 CampusView 1800 -5200 110 90 -8
+27.1 CampusAct dropflash600
+27.7 CampusShotSeq fl 16 4
+31.0 CampusView -875 -5200 110 90 -4
+31.1 CampusAct frag
+31.1 CampusShotSeq tf 10 3
+32.5 CampusShot hold_a
+32.6 CampusPose throwturn 0 0 0 0 0 -70
+32.9 CampusShot hold_b
+33.0 CampusPose throwturn 0 0 0 30 -30 -60
+33.3 CampusShot hold_c
+33.4 CampusPose throwturn 0 0 0 -40 20 20
+33.7 CampusShot hold_d
+33.8 CampusAct release
+33.8 CampusShotSeq tt 10 2
+36.0 quit

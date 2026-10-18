@@ -1,0 +1,29 @@
+# Reloading on the move: running, sprinting, tactical sprint (a few rounds fired first so the reload runs).
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusView -3000 -4300 100 0 -2
+8.5 CampusEquip M4A1
+9.6 CampusAct fire
+9.9 CampusAct unfire
+10.2 CampusMove 0 1
+10.3 CampusAct reload
+10.35 CampusShotSeq rr_run 16 10
+13.2 CampusMove 0 0
+13.4 CampusView -3000 -4300 100 0 -2
+13.6 CampusAct fire
+13.9 CampusAct unfire
+14.1 CampusMove 0 1
+14.2 CampusAct reload
+14.5 CampusAct sprintonly
+14.55 CampusShotSeq rr_sprint 16 10
+17.4 CampusAct stop
+17.6 CampusView -3000 -4300 100 0 -2
+17.8 CampusAct fire
+18.1 CampusAct unfire
+18.3 CampusMove 0 1
+18.35 CampusAct sprintonly
+18.8 CampusAct reload
+18.85 CampusShotSeq rr_tac 16 10
+21.6 CampusAct stop
+21.8 CampusMove 0 0
+22.5 quit

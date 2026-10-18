@@ -1,0 +1,28 @@
+# glass
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusEquip M4A1
+9.5 CampusLookAtWindow 260
+10.2 CampusShot gl_0
+10.3 CampusAct fire
+10.34 CampusAct unfire
+10.8 CampusShot gl_1
+11.0 CampusAct fire
+11.04 CampusAct unfire
+11.5 CampusShot gl_2
+11.7 CampusAct fire
+11.74 CampusAct unfire
+11.76 CampusShotSeq gl_f 6 3
+12.6 CampusShot gl_3
+12.8 CampusAct fire
+12.84 CampusAct unfire
+13.6 CampusShot gl_4
+14.5 CampusShot gl_5
+15.0 CampusEquip SAIGA12
+15.8 CampusLookAtWindow 260
+16.5 CampusShot gs_0
+16.6 CampusAct fire
+16.64 CampusAct unfire
+16.66 CampusShotSeq gs_f 6 3
+18.0 CampusShot gs_1
+19 quit

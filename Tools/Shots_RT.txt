@@ -1,0 +1,18 @@
+# Launch: CampusOps.exe /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -windowed -CampusScriptFile=E:/game-project/Tools/Shots_RT.txt
+# Render thread breakdown on the high preset at the south yard spawn.
+5.0 CampusGod
+5.1 waitshaders
+5.5 t.MaxFPS 0
+5.6 r.VSync 0
+5.8 CampusView -875 -4900 110 60 -2
+6.0 CampusPreset 2
+6.3 waitshaders
+9.0 stat scenerendering
+12.0 CampusShot rt1
+12.2 stat scenerendering
+12.4 stat initviews
+15.0 CampusShot rt2
+15.2 stat initviews
+15.4 stat gpu
+18.0 CampusShot rt3
+18.5 quit

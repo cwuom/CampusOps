@@ -1,0 +1,39 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Pose3.txt
+# Sprint carries: hip, tactical sprint across a stride, sprint without stamina, the raise, pistol sprints.
+# Screenshots hitch ~0.4 s, so shots are spaced at least 0.5 s apart.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+7.6 CampusDebugVM
+7.7 CampusShot s00_spawn
+8.5 CampusDebugVM
+8.6 CampusShot s01_hip
+9.0 CampusMove 0 1
+9.1 CampusAct sprint
+9.6 CampusDebugVM
+9.7 CampusShot s10_tac
+10.2 CampusShot s11_tac
+10.7 CampusShot s12_tac
+11.2 CampusShot s13_tac
+11.4 CampusAct stop
+12.0 CampusView -3290 -2600 110 90 0
+12.1 CampusMove 0 1
+12.2 CampusAct sprintonly
+12.9 CampusDebugVM
+13.0 CampusShot s20_sprint
+13.5 CampusShot s21_sprint
+13.7 CampusAct stop
+14.3 CampusAct switch
+14.45 CampusShot s30_raise
+14.95 CampusShot s31_raise
+15.6 CampusShot s33_pistol_hip
+15.8 CampusView -3290 -2600 110 90 0
+15.9 CampusMove 0 1
+16.0 CampusAct sprint
+16.6 CampusShot s40_pistol_tac
+17.1 CampusShot s41_pistol_tac
+17.3 CampusAct stop
+17.9 CampusMove 0 1
+18.0 CampusAct sprintonly
+18.8 CampusShot s42_pistol_sprint
+19.0 CampusAct stop
+19.6 quit

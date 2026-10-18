@@ -1,0 +1,12 @@
+# School in the fog: out of the central passage, across the courtyard, along the field, and out of a shaded arcade.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView -875 -3550 170 90 0
+12.0 CampusShot fg_0_passage
+12.2 CampusView 0 -1500 170 90 0
+14.0 CampusShot fg_1_court
+14.2 CampusView 2500 0 170 0 0
+16.0 CampusShot fg_2_field
+16.2 CampusView -3250 -400 170 15 0
+19.0 CampusShot fg_3_arcade
+19.5 quit

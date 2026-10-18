@@ -1,0 +1,33 @@
+# Window glass: hold on the frame through the fall, then inspect the real floor
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusEquip M4A1
+8.0 CampusView -2900 -5450 110 90 0
+8.5 CampusLookAtWindow 200
+9.0 CampusShot glass_polish_intact
+9.2 CampusAim 1
+9.5 CampusFire 1
+9.51 CampusShotSeq glass_polish_fall 60 2
+10.5 CampusFire 0
+# strike intact glass beside each hole so five distinct impacts collapse the pane
+10.6 CampusView -1991.5 -4972 95 -95 5
+10.8 CampusFire 1
+11.0 CampusFire 0
+11.2 CampusView -1991.5 -4972 95 -85 5
+11.4 CampusFire 1
+11.6 CampusFire 0
+11.8 CampusView -1991.5 -4972 95 -85 -5
+12.0 CampusFire 1
+12.2 CampusFire 0
+12.4 CampusView -1991.5 -4972 95 -95 -5
+12.6 CampusFire 1
+12.8 CampusFire 0
+12.9 CampusAim 0
+13.0 CampusView -1991.5 -4972 95 -90 0
+16.0 CampusShot glass_polish_frame_after_fall
+16.5 CampusView -1991.5 -4972 95 -90 -45
+17.2 CampusShot glass_polish_floor
+17.5 CampusFreeCam 1
+18.0 CampusView -1991.5 -5290 180 90 -65
+18.5 CampusShot glass_polish_inside_floor
+20.0 quit

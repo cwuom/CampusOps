@@ -1,0 +1,10 @@
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+7.6 CampusAct sprint
+7.6 CampusMove 0 1
+8.6 CampusShot wb_sprint1
+9.4 CampusShot wb_sprint2
+9.5 CampusMove 0 0
+10.4 CampusShot wb_stand
+10.6 quit

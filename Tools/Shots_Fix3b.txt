@@ -1,0 +1,24 @@
+# Launch with ?Time=3 -benchmark -fps=30: static free-camera sequences for temporal noise (Tools/flicker.py), ultra +
+# TSR, screen space GI (SSR) then ray traced GI: classroom ceiling, walkway ceiling, the courtyard facade from below.
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 0
+6.5 CampusFreeCam 1
+6.6 waitshaders
+7.0 CampusView -3600 -2700 170 110 35
+7.5 waitshaders
+11.0 CampusShotSeq n_ss_ceil_ 6 2
+12.0 CampusView -3290 -2600 180 90 30
+16.0 CampusShotSeq n_ss_walk_ 6 2
+17.0 CampusView -2600 -600 170 180 30
+21.0 CampusShotSeq n_ss_fac_ 6 2
+22.0 CampusGfx GI 4
+22.2 waitshaders
+22.5 CampusView -3600 -2700 170 110 35
+26.5 CampusShotSeq n_rt_ceil_ 6 2
+27.5 CampusView -3290 -2600 180 90 30
+31.5 CampusShotSeq n_rt_walk_ 6 2
+32.5 CampusView -2600 -600 170 180 30
+36.5 CampusShotSeq n_rt_fac_ 6 2
+37.5 quit

@@ -1,0 +1,69 @@
+# release sweep
+6.5 CampusGod
+6.7 CampusView -875 -5200 110 90 -4
+7.5 waitshaders
+8.0 CampusShot gx_hold_pre
+9 CampusAct refill
+9.05 CampusPose tturnrelease 0 0 0 0 60 -70
+9.06 CampusPose tfreeze 0.16 0 0 0 0 0
+9.1 CampusAct frag
+10.3 CampusShot gx_r0
+10.35 CampusPose tfreeze -100 0 0 0 0 0
+10.4 CampusAct release
+12.2 CampusAct refill
+12.25 CampusPose tturnrelease 0 0 0 50 -170 -30
+12.26 CampusPose tfreeze 0.16 0 0 0 0 0
+12.299999999999999 CampusAct frag
+13.5 CampusShot gx_r1
+13.549999999999999 CampusPose tfreeze -100 0 0 0 0 0
+13.6 CampusAct release
+15.399999999999999 CampusAct refill
+15.45 CampusPose tturnrelease 0 0 0 60 -150 -20
+15.459999999999999 CampusPose tfreeze 0.16 0 0 0 0 0
+15.499999999999998 CampusAct frag
+16.7 CampusShot gx_r2
+16.75 CampusPose tfreeze -100 0 0 0 0 0
+16.799999999999997 CampusAct release
+18.599999999999998 CampusAct refill
+18.65 CampusPose tturnrelease 0 0 0 40 -120 -30
+18.659999999999997 CampusPose tfreeze 0.16 0 0 0 0 0
+18.7 CampusAct frag
+19.9 CampusShot gx_r3
+19.95 CampusPose tfreeze -100 0 0 0 0 0
+19.999999999999996 CampusAct release
+21.799999999999997 CampusAct refill
+21.849999999999998 CampusPose tturnrelease 0 0 0 70 -170 0
+21.859999999999996 CampusPose tfreeze 0.16 0 0 0 0 0
+21.9 CampusAct frag
+23.099999999999998 CampusShot gx_r4
+23.15 CampusPose tfreeze -100 0 0 0 0 0
+23.199999999999996 CampusAct release
+24.999999999999996 CampusAct refill
+25.049999999999997 CampusPose tturnfollow 0 0 0 40 60 -70
+25.059999999999995 CampusPose tfreeze 0.26 0 0 0 0 0
+25.099999999999998 CampusAct frag
+26.299999999999997 CampusShot gx_f0
+26.349999999999998 CampusPose tfreeze -100 0 0 0 0 0
+26.399999999999995 CampusAct release
+28.199999999999996 CampusAct refill
+28.249999999999996 CampusPose tturnfollow 0 0 0 -20 -120 -30
+28.259999999999994 CampusPose tfreeze 0.26 0 0 0 0 0
+28.299999999999997 CampusAct frag
+29.499999999999996 CampusShot gx_f1
+29.549999999999997 CampusPose tfreeze -100 0 0 0 0 0
+29.599999999999994 CampusAct release
+31.399999999999995 CampusAct refill
+31.449999999999996 CampusPose tturnfollow 0 0 0 -40 -150 -30
+31.459999999999994 CampusPose tfreeze 0.26 0 0 0 0 0
+31.499999999999996 CampusAct frag
+32.699999999999996 CampusShot gx_f2
+32.74999999999999 CampusPose tfreeze -100 0 0 0 0 0
+32.8 CampusAct release
+34.599999999999994 CampusAct refill
+34.64999999999999 CampusPose tturnfollow 0 0 0 0 -100 -60
+34.66 CampusPose tfreeze 0.26 0 0 0 0 0
+34.699999999999996 CampusAct frag
+35.89999999999999 CampusShot gx_f3
+35.949999999999996 CampusPose tfreeze -100 0 0 0 0 0
+35.99999999999999 CampusAct release
+37.8 quit

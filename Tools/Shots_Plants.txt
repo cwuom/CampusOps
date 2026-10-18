@@ -1,0 +1,19 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Plants.txt
+# Planting check at eye level: courtyard gardens, plaza shrub beds, rough grass along the field fence.
+6.5 CampusGod
+7 CampusFreeCam 1
+7.2 CampusView -2200 -1750 170 90 -12
+8.6 CampusShot g01_garden_w
+8.8 CampusView 450 150 170 -90 -14
+10.2 CampusShot g02_garden_e
+10.4 CampusView -1700 -800 120 180 -6
+11.8 CampusShot g03_garden_low
+12.0 CampusView -2900 -5450 170 90 -10
+13.4 CampusShot g04_plaza
+13.6 CampusView 1500 -4000 170 -90 -12
+15.0 CampusShot g05_plaza_e
+15.2 CampusView -1000 4900 170 80 -8
+16.6 CampusShot g06_field
+16.8 CampusView -2200 -1500 300 90 -35
+18.2 CampusShot g07_garden_top
+19 quit

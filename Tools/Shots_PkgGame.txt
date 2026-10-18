@@ -1,0 +1,11 @@
+# Packaged build smoke test (match): CampusOps.exe /Game/Campus/Maps/Map_Campus?game=TDM -CampusScriptFile=E:/game-project/Tools/Shots_PkgGame.txt
+6.5 CampusGod
+7 CampusView -875 -2900 110 90 0
+8 CampusShot p10_hip
+8.5 CampusAim 1
+9.5 CampusShot p11_ads
+10 CampusAim 0
+10.5 CampusFire 1
+10.65 CampusShot p12_fire
+11 CampusFire 0
+12 quit

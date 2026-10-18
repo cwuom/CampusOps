@@ -1,0 +1,29 @@
+# HQ regression: unchanged ultra quality, native TSR, no frame generation, 1080p
+# Launch the menu with -CampusScriptFile=E:/game-project/Tools/Shots_PerfHQ.txt
+2 CampusPreset 3
+2.1 CampusUpscale 0 0 0
+2.2 r.setres 1920x1080w
+2.3 t.MaxFPS 0
+2.4 r.VSync 0
+2.5 t.IdleWhenNotForeground 0
+2.6 r.ProfileGPU.ShowUI 0
+3 waitshaders
+10 csvprofile STARTFILE=hq_title.csv
+10.1 csvprofile START
+18 csvprofile STOP
+19 CampusShot perfhq_title
+19.2 profilegpu
+20 CampusMenu play -1
+25 csvprofile STARTFILE=hq_lobby.csv
+25.1 csvprofile START
+33 csvprofile STOP
+34 CampusShot perfhq_lobby
+34.2 profilegpu
+35 CampusMenu loadouts -1
+40 csvprofile STARTFILE=hq_loadouts.csv
+40.1 csvprofile START
+48 csvprofile STOP
+49 CampusShot perfhq_loadouts
+49.2 profilegpu
+50 CampusDumpScreens
+53 quit

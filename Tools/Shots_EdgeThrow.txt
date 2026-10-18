@@ -1,0 +1,15 @@
+# Hotel north edge in the rain: what the rain and a frag thrown out over the edge land on.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusView 0 4420 170 90 -40
+14.0 CampusShot et_0_down
+14.2 CampusView 0 4420 170 90 20
+14.5 CampusAct frag
+15.0 CampusAct release
+16.0 CampusView 0 4420 170 90 -40
+17.5 CampusShot et_1_fly
+19.5 CampusShot et_2_after
+20.0 CampusView 1500 4420 170 90 -55
+21.5 CampusShot et_3_east
+22.0 CampusWhere edge
+23.0 quit

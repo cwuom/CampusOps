@@ -1,0 +1,14 @@
+# Smoke grenade inside the sky lounge (dusk, then night and noon): grey smoke, not a glowing cloud.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusView -500 -2500 110 90 -2
+12.5 CampusAct dropsmoke1000
+19.0 CampusShot sm_fix_dusk
+19.2 CampusView -100 -1500 110 90 -2
+20.5 CampusShot sm_fix_dusk_inside
+20.7 CampusView -500 -2500 110 90 -2
+20.8 CampusWeather 0 4
+24.0 CampusShot sm_fix_night
+24.1 CampusWeather 0 1
+27.0 CampusShot sm_fix_noon
+28.0 quit

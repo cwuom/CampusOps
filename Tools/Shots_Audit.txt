@@ -1,0 +1,2 @@
+# Geometry audit run: the builder logs [CampusAudit] lines on BeginPlay (needs -CampusAudit); just wait and quit.
+8.0 quit

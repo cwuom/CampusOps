@@ -1,0 +1,28 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_PistolReload.txt
+# Pistol reload framing: candidate reload offsets held at the release, draw and insert phases.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+7.2 CampusAct switch
+8.4 CampusPose reload -2 -5 3 22 -4 28
+8.5 CampusReloadPose 0.13 0
+9.3 CampusShot pr11_c1_seat
+9.5 CampusReloadPose 0.23 0
+10.3 CampusShot pr12_c1_draw
+10.5 CampusReloadPose 0.58 0
+11.3 CampusShot pr13_c1_insert
+11.5 CampusPose reload -2 -6 4 16 -8 36
+11.6 CampusReloadPose 0.13 0
+12.4 CampusShot pr21_c2_seat
+12.6 CampusReloadPose 0.23 0
+13.4 CampusShot pr22_c2_draw
+13.6 CampusReloadPose 0.58 0
+14.4 CampusShot pr23_c2_insert
+14.6 CampusPose reload -4 -4 5 12 -6 30
+14.7 CampusReloadPose 0.13 0
+15.5 CampusShot pr31_c3_seat
+15.7 CampusReloadPose 0.23 0
+16.5 CampusShot pr32_c3_draw
+16.7 CampusReloadPose 0.58 0
+17.5 CampusShot pr33_c3_insert
+17.7 CampusReloadPose -1 0
+18.0 quit

@@ -1,0 +1,8 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Loadout_MP5Grip.txt
+# MP5 with a vertical foregrip (support hand test).
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:MP5 -1
+9.5 CampusMenu strip -1
+9.7 CampusMenu attach:grip_vertical -1
+11 quit

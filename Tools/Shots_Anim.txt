@@ -1,0 +1,16 @@
+# anim2
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusEquip M4A1
+10.8 CampusAct fire
+11.3 CampusAct unfire
+11.5 CampusAct reload
+11.5 CampusShotSeq rl_ 18 4
+14.3 CampusLookAtBotFrom 1800
+14.5 CampusMove 0 1
+14.6 CampusAct sprintonly
+15.4 CampusShotSeq sp_ 6 3
+16.2 CampusAct tac
+16.8 CampusShotSeq tc_ 6 3
+17.8 CampusAct stop
+18.2 quit

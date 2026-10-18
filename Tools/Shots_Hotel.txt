@@ -1,0 +1,23 @@
+# Hotel rooftop survey: free camera through every zone.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView -1900 -2500 170 90 -4
+14.0 CampusShot h_pool
+14.2 CampusView 0 -4100 170 90 0
+16.0 CampusShot h_spawn
+16.2 CampusView -800 -1500 160 60 -2
+18.0 CampusShot h_lounge
+18.2 CampusView 1900 -2800 170 90 0
+20.0 CampusShot h_east
+20.2 CampusView -3000 -4300 250 20 -8
+22.0 CampusShot h_vista
+22.2 CampusView 0 -1600 610 90 -12
+24.0 CampusShot h_heli
+24.2 CampusView 550 -2000 -240 90 0
+26.0 CampusShot h_lower
+26.2 CampusView 3200 4400 1400 -125 -22
+28.0 CampusShot h_over
+28.2 CampusView -2000 0 170 180 -2
+30.0 CampusShot h_sunset
+31.0 quit

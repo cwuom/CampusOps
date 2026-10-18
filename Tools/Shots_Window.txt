@@ -1,0 +1,11 @@
+# North wing: the classroom windows from the covered corridor (the player's screenshot), and from inside.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.2 CampusView -2300 3230 175 85 -6
+12.0 CampusShot wn_corridor
+12.2 CampusView -1500 3240 170 120 -4
+13.5 CampusShot wn_corridor2
+13.7 CampusView -2000 3900 170 -100 -4
+15.0 CampusShot wn_inside
+16.0 quit

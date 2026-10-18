@@ -1,0 +1,26 @@
+# Low preset as a GTX 1650 runs it (TSR, no DLSS / frame generation) at 1080p: GPU breakdown at two views and on the 6x.
+# Launch with -ResX=1920 -ResY=1080; the map URL picks the place (views below are Campus; Hotel uses its own file).
+6.0 CampusGod
+6.5 waitshaders
+7.0 t.MaxFPS 0
+7.1 r.VSync 0
+7.2 r.ProfileGPU.ShowUI 0
+7.3 CampusPreset 0
+7.4 CampusUpscale 0 0 0
+7.5 r.setres 1920x1080w
+7.6 waitshaders
+8.0 CampusView -2640 -1080 170 30 -10
+9.0 stat unit
+12.0 CampusShot pf_a
+12.2 profilegpu
+14.0 CampusView -2200 -1700 170 90 -8
+17.0 CampusShot pf_b
+17.2 profilegpu
+18.0 CampusEquip MK14 optic_sniper
+19.0 CampusAim 1
+22.0 CampusShot pf_scope
+22.2 profilegpu
+23.0 CampusAim 0
+23.5 startfpschart
+33.5 stopfpschart
+34.0 quit

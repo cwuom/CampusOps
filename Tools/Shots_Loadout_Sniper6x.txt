@@ -1,0 +1,8 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Loadout_Sniper6x.txt
+# Test build: the active loadout's primary becomes an MK14 with the 6x scope.
+5 CampusMenu gunsmith -1
+8 waitshaders
+8.2 CampusMenu weapon:MK14 -1
+8.5 CampusMenu strip -1
+8.7 CampusMenu attach:optic_sniper -1
+9.5 quit

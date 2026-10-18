@@ -1,0 +1,44 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM -game -windowed -ResX=1280 -ResY=720 -CampusScriptFile=E:/game-project/Tools/Shots_AIStats.txt
+# 5v5 bots for ~80 s, every bot's state and speed logged every 2 s (the player hides out of the way, invulnerable).
+6.5 CampusGod
+6.6 CampusView -875 -9000 3000 90 -80
+10 CampusBots
+12 CampusBots
+14 CampusBots
+16 CampusBots
+18 CampusBots
+20 CampusBots
+22 CampusBots
+24 CampusBots
+26 CampusBots
+28 CampusBots
+30 CampusBots
+32 CampusBots
+34 CampusBots
+36 CampusBots
+38 CampusBots
+40 CampusBots
+42 CampusBots
+44 CampusBots
+46 CampusBots
+48 CampusBots
+50 CampusBots
+52 CampusBots
+54 CampusBots
+56 CampusBots
+58 CampusBots
+60 CampusBots
+62 CampusBots
+64 CampusBots
+66 CampusBots
+68 CampusBots
+70 CampusBots
+72 CampusBots
+74 CampusBots
+76 CampusBots
+78 CampusBots
+80 CampusBots
+82 CampusBots
+84 CampusBots
+86 CampusBots
+88 quit

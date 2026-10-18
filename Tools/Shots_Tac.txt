@@ -1,0 +1,44 @@
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+9.5 CampusView -3000 -4300 100 0 -2
+9.5 CampusPose tac 31 22 -29 76 0 95
+9.5 CampusPose taclean 0 0 0 6 0 0
+9.6 CampusMove 0 1
+9.7 CampusAct tac
+10.70 CampusShot tq_base_0
+10.90 CampusShot tq_base_1
+11.10 CampusShot tq_base_2
+11.5 CampusAct stop
+11.5 CampusMove 0 0
+12.5 CampusView -3000 -4300 100 0 -2
+12.5 CampusPose tac 30 19 -20 72 0 92
+12.5 CampusPose taclean 0 0 0 6 0 0
+12.6 CampusMove 0 1
+12.7 CampusAct tac
+13.70 CampusShot tq_t1_0
+13.90 CampusShot tq_t1_1
+14.10 CampusShot tq_t1_2
+14.5 CampusAct stop
+14.5 CampusMove 0 0
+15.5 CampusView -3000 -4300 100 0 -2
+15.5 CampusPose tac 29 17 -16 68 0 90
+15.5 CampusPose taclean 0 0 0 4 0 0
+15.6 CampusMove 0 1
+15.7 CampusAct tac
+16.70 CampusShot tq_t2_0
+16.90 CampusShot tq_t2_1
+17.10 CampusShot tq_t2_2
+17.5 CampusAct stop
+17.5 CampusMove 0 0
+18.5 CampusView -3000 -4300 100 0 -2
+18.5 CampusPose tac 30 18 -18 62 -6 88
+18.5 CampusPose taclean 0 0 0 2 0 0
+18.6 CampusMove 0 1
+18.7 CampusAct tac
+19.70 CampusShot tq_t3_0
+19.90 CampusShot tq_t3_1
+20.10 CampusShot tq_t3_2
+20.5 CampusAct stop
+20.5 CampusMove 0 0
+21.5 quit

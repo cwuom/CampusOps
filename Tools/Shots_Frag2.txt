@@ -1,0 +1,12 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Frag2.txt
+# Reworked frag blast in the open plaza: 2.4 s at 0.2 s steps, then the lingering pall at 3.5 s and 5.5 s.
+6.5 CampusGod
+6.7 CampusView -875 -5200 110 -90 -4
+6.8 CampusAct dropfrag2600
+9.5 waitshaders
+10.0 CampusView -875 -5600 110 90 -5
+10.1 CampusAct dropfrag900
+11.05 CampusShotSeq fx 12 6
+14.5 CampusShot fx_late1
+16.5 CampusShot fx_late2
+17.0 quit

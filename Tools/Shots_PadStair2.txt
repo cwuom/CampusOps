@@ -1,0 +1,15 @@
+# Hotel south outside stair along the lounge's glass east wall: from the deck (the reported view), then up close.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView 1900 -300 170 238 5
+12.0 CampusShot pt_0_view
+12.2 CampusView 1560 -900 170 250 25
+13.5 CampusShot pt_1_bottom
+13.7 CampusFreeCam 1
+13.9 CampusView 1360 -1150 330 270 -10
+15.0 CampusShot pt_2_inner
+15.2 CampusView 1520 -1400 500 230 -25
+16.5 CampusShot pt_3_top
+16.7 CampusView 1290 -1300 300 0 0
+18.0 CampusShot pt_4_gap
+18.5 quit

@@ -1,0 +1,5 @@
+# Options page with the key bindings section.
+5 CampusMenu options -1
+7 waitshaders
+8 CampusShot keys_0
+9 quit

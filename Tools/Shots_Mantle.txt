@@ -1,0 +1,13 @@
+# Hotel pool bar kiosk (110 cm): walk at it and hold jump, filming the climb.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.5 CampusView -1690 0 165 180 -6
+10.5 CampusShot mt_0_before
+10.6 CampusMove 0 1
+10.7 CampusAct jump
+10.72 CampusShotSeq mt_ 20 2
+12.2 CampusMove 0 0
+12.5 CampusWhere top
+12.6 CampusShot mt_9_after
+13.0 quit

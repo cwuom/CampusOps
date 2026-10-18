@@ -1,0 +1,28 @@
+# Hotel rain regression: dry and soaked arms, roof edge, distant city, pool and Low effects
+# Launch Map_Hotel?game=TDM?Bots=0?Weather=0?Time=1 at 1280x720
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusWeather 0 1
+8.0 CampusEquip AK47
+9.0 CampusView -2500 -3600 100 60 0
+12.0 CampusShot experience_rain_dry_arm
+12.2 CampusWeather 3 1
+25.0 CampusShot experience_rain_soaked_arm
+25.2 CampusView -3000 -4300 120 -120 -8
+28.0 CampusShot experience_rain_city
+28.2 CampusView -3000 -4300 120 -120 -35
+31.0 CampusShot experience_rain_city_down
+31.2 CampusView -1000 -1200 110 90 2
+34.0 CampusShot experience_rain_lounge
+34.2 CampusView -1900 -2500 170 90 -4
+37.0 CampusShot experience_rain_pool
+37.2 CampusWeather 0 1
+40.0 CampusShot experience_rain_stopped_pool
+40.2 CampusWeather 4 1
+40.5 CampusPreset 0
+41.0 waitshaders
+44.0 CampusShot experience_rain_low_storm
+44.2 profilegpu
+45.0 startfpschart
+55.0 stopfpschart
+56.0 quit

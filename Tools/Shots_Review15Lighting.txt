@@ -1,0 +1,29 @@
+# 两档光照使用固定分辨率和相同机位，避免预设重置桌面分辨率
+6.0 CampusGod
+6.1 CampusFreeCam 1
+6.2 CampusPreset 0
+6.3 CampusUpscale 0 0 0
+6.4 r.setres 1280x720w
+6.5 waitshaders
+6.7 r.setres 1280x720w
+7.0 CampusView -875 -4900 110 270 2
+9.0 CampusShot review_night_low_wall
+9.2 CampusView -875 -3800 110 75 1
+11.0 CampusShot review_night_low_yard
+11.2 CampusView -3600 -2700 170 110 35
+13.0 CampusShot review_night_low_room
+13.2 CampusPreset 3
+13.3 CampusUpscale 0 0 0
+13.4 CampusGfx GI 4
+13.5 r.setres 1280x720w
+13.6 waitshaders
+14.0 CampusView -875 -4900 110 270 2
+14.2 r.setres 1280x720w
+17.0 CampusShot review_night_high_wall
+17.2 CampusView -875 -3800 110 75 1
+19.0 CampusShot review_night_high_yard
+19.2 CampusView -3600 -2700 170 110 35
+21.0 CampusShot review_night_high_room
+21.2 CampusView -875 -3800 110 75 1
+21.21 CampusShotSeq review_night_adapt 24 3
+24.0 quit

@@ -1,0 +1,3 @@
+# Every frame across the touchdown at the end of the deploy drop.
+5.65 CampusShotSeq land 36 2
+8.0 quit

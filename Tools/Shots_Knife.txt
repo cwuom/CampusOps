@@ -1,0 +1,44 @@
+# Knife (hip, two cuts, sprints, a grenade with it), pistol grenade hand, the 6x in rain, and a classroom door's glass.
+# Launch on Map_Campus?game=TDM?Bots=0?Weather=3?Time=1
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip KNIFE
+8.5 CampusAct switch
+10.0 CampusShot kn_hip
+10.1 CampusAct fire
+10.12 CampusShotSeq kn_a 16 2
+10.2 CampusAct unfire
+11.2 CampusAct fire
+11.22 CampusShotSeq kn_b 16 2
+11.3 CampusAct unfire
+12.0 CampusMove 0 1
+12.1 CampusAct sprint
+13.2 CampusShot kn_tac
+13.4 CampusAct stop
+13.6 CampusMove 0 1
+13.7 CampusAct sprintonly
+14.6 CampusShot kn_run
+14.8 CampusAct stop
+15.5 CampusAct frag
+16.4 CampusShot kn_frag
+16.5 CampusAct release
+18.0 CampusEquip X16
+18.5 CampusAct switch
+19.6 CampusAct frag
+20.5 CampusShot px_frag
+20.6 CampusAct release
+22.0 CampusEquip MK14 optic_sniper
+23.0 CampusAim 1
+25.0 CampusShot sc_rain
+25.2 CampusAim 0
+25.5 CampusEquip M4A1
+26.0 CampusLookAtDoor 160
+27.0 CampusShot gd_0
+27.1 CampusAct fire
+27.5 CampusAct unfire
+28.5 CampusShot gd_1
+28.6 CampusAct door
+30.5 CampusShot gd_2
+30.6 CampusAct door
+32.5 CampusShot gd_3
+33.0 quit

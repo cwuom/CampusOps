@@ -1,0 +1,31 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=3 -game -CampusScriptFile=E:/game-project/Tools/Shots_QA2.txt
+# QA: classroom door (prompt, open, close), west wing stairs both flights, a garden, bots with gear.
+6.5 CampusGod
+7 CampusView -3290 -2627 110 180 -4
+8 CampusShot w01_door_closed
+8.2 CampusAct door
+9.4 CampusShot w02_door_open
+9.6 CampusView -3560 -2627 110 0 -4
+10.6 CampusShot w03_door_inside
+10.8 CampusAct door
+12.0 CampusShot w04_door_closed_again
+12.2 CampusView -3470 -3078 110 180 -6
+12.6 CampusMove 0 1
+13.0 CampusShot w10_stair_a
+13.4 CampusShot w11_stair_a
+13.8 CampusShot w12_stair_a
+14.2 CampusMove 0 0
+14.3 CampusView -3850 -2862 300 0 -6
+14.6 CampusMove 0 1
+15.0 CampusShot w13_stair_b
+15.4 CampusShot w14_stair_b
+15.8 CampusShot w15_stair_b
+16.2 CampusMove 0 0
+16.6 CampusShot w16_stair_top
+17.0 CampusView -2200 -1750 170 90 -12
+18.2 CampusShot w20_garden
+18.4 CampusLookAtBot
+19.0 CampusShot w30_bot
+19.6 CampusLookAtBot
+20.2 CampusShot w31_bot
+21 quit

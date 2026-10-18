@@ -1,0 +1,14 @@
+# Hotel, rain at dusk: the terrace planter, the city in the rain, a bot up close (wet uniform).
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+9.0 CampusView -1500 -3450 150 -90 -8
+11.0 CampusShot f2h_planter
+11.2 CampusView -3000 -4300 160 -120 -6
+13.0 CampusShot f2h_city
+13.2 CampusView -600 -2600 150 90 0
+14.0 CampusLookAtBot
+15.5 CampusShot f2h_bot
+15.8 CampusLookAtBot
+17.0 CampusShot f2h_bot2
+18.0 quit

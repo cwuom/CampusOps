@@ -1,0 +1,19 @@
+# baseline
+6.0 CampusGod
+8.0 waitshaders
+9.0 CampusShot b_hip
+9.2 CampusAct aim
+10.0 CampusShot b_ads
+10.2 CampusAct unaim
+11.0 CampusAct frag
+11.0 CampusShotSeq b_frag 12 5
+13.5 CampusAct release
+13.6 CampusShotSeq b_thr 8 3
+15.5 CampusAct reload
+15.5 CampusShotSeq b_rl 15 6
+19.0 CampusLookAtWindow 300
+19.5 CampusShot b_win0
+19.6 CampusAct fire
+19.9 CampusAct unfire
+20.3 CampusShot b_win1
+21.0 quit

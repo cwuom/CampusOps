@@ -1,0 +1,40 @@
+# 快速切页后停留，确认最终页面的展示主体和旋转边界
+5.0 CampusPreset 1
+5.1 CampusUpscale 0 0 0
+5.2 r.setres 1280x720w
+5.3 waitshaders
+6.0 CampusMenu play -1
+7.0 CampusShot review_menu_play
+7.2 CampusMenu loadouts -1
+7.35 CampusMenu operator -1
+7.5 CampusMenu options -1
+7.65 CampusMenu operator -1
+7.66 CampusShotSeq review_menu_interrupt 30 1
+9.0 CampusShot review_menu_operator_settled
+9.5 CampusMenu gunsmith -1
+10.0 CampusMenu weapon:MP5 -1
+11.0 CampusMenu turn:514,267 -1
+11.6 CampusShot review_menu_mp5_rotated
+12.0 CampusMenu gunsmith 3
+12.8 CampusShot review_menu_mp5_optic
+13.2 CampusMenu turn:257,-534 -1
+14.0 CampusShot review_menu_mp5_optic_rotated
+14.5 CampusMenu gunsmith -1
+15.0 CampusMenu weapon:MK14 -1
+16.0 CampusMenu turn:514,267 -1
+17.0 CampusShot review_menu_long_rotated
+17.5 CampusMenu gunsmith 3
+18.3 CampusShot review_menu_long_optic
+19.0 CampusMenu options -1
+19.6 campus.OptionsTab 3
+20.0 CampusShot review_menu_options_basic
+20.5 campus.OptionsAdvanced 1
+21.0 CampusShot review_menu_options_advanced
+21.5 campus.OptionsAdvanced 0
+22.0 CampusMenu play -1
+22.15 CampusMenu loadouts -1
+22.3 CampusMenu options -1
+22.45 CampusMenu operator -1
+22.46 CampusShotSeq review_menu_interrupt_second 30 1
+24.0 CampusShot review_menu_operator_final
+25.0 quit

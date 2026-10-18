@@ -1,0 +1,14 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1280 -ResY=720 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Throw.txt
+# First-person grenade throw, frame by frame: frag drawn and held (cooking), released, then a smoke tossed straight away.
+6.5 CampusGod
+6.6 CampusAct refill
+6.7 CampusView -875 -5200 110 90 -4
+8.0 waitshaders
+8.5 CampusAct frag
+8.5 CampusShotSeq tf 18 2
+10.0 CampusAct release
+10.0 CampusShotSeq tr 30 1
+13.0 CampusAct smoke
+13.0 CampusAct release
+13.0 CampusShotSeq ts 24 2
+16.0 quit

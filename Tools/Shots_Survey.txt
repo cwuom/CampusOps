@@ -1,0 +1,39 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Survey.txt
+# Map survey with the free camera: aerial views from four sides, then eye level through every section.
+6.5 CampusGod
+7 CampusFreeCam 1
+7.2 CampusView -7000 -7000 3200 45 -24
+8.5 CampusShot m01_air_sw
+8.8 CampusView 6500 7500 3000 -128 -24
+10.1 CampusShot m02_air_ne
+10.4 CampusView 9000 -500 2400 180 -18
+11.7 CampusShot m03_air_e
+12.0 CampusView -8500 1500 2200 -10 -16
+13.3 CampusShot m04_air_w
+13.6 CampusView -1500 200 1700 180 -22
+14.9 CampusShot m05_ww_courtside
+15.2 CampusView -3290 2850 545 90 0
+16.5 CampusShot m06_ww2f_north
+16.8 CampusView -3290 -2950 545 -90 0
+18.1 CampusShot m07_ww2f_south
+18.4 CampusView -3200 3240 545 0 0
+19.7 CampusShot m08_nw2f_east
+20.0 CampusView 1250 3240 545 180 0
+21.3 CampusShot m09_nw2f_west
+21.6 CampusView -4800 -2400 500 80 -5
+22.9 CampusShot m10_westalley
+23.2 CampusView -3800 5600 420 -70 -6
+24.5 CampusShot m11_field_nw
+25.8 CampusView 900 5600 420 -110 -6
+27.1 CampusShot m12_field_ne
+27.4 CampusView -875 -600 170 90 0
+28.7 CampusShot m13_courtyard
+29.0 CampusView 200 -5600 300 100 -4
+30.3 CampusShot m14_plaza
+30.6 CampusView 2600 -2500 260 90 0
+31.9 CampusShot m15_eastlane
+32.2 CampusView -3900 -2900 545 60 -10
+33.5 CampusShot m16_ww_stair2f
+33.8 CampusView -4000 3600 545 0 -5
+35.1 CampusShot m17_nw_cornerstair2f
+36 quit

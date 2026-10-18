@@ -1,0 +1,14 @@
+# Launch with ?Time=3 -benchmark -fps=30: the corridor ceiling with and without specular (snow from glints or albedo).
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 0
+6.5 CampusFreeCam 1
+6.6 waitshaders
+7.0 CampusView -3290 -2400 180 90 30
+7.5 waitshaders
+11.0 CampusShot sp_on
+11.1 showflag.specular 0
+13.0 CampusShot sp_off
+13.1 showflag.specular 1
+13.5 quit

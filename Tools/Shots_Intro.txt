@@ -1,0 +1,31 @@
+# Deploy drop frames
+0.60 CampusShot intro_060
+0.85 CampusShot intro_085
+1.10 CampusShot intro_110
+1.35 CampusShot intro_135
+1.60 CampusShot intro_160
+1.85 CampusShot intro_185
+2.10 CampusShot intro_210
+2.35 CampusShot intro_235
+2.60 CampusShot intro_260
+2.85 CampusShot intro_285
+3.10 CampusShot intro_310
+3.35 CampusShot intro_335
+3.60 CampusShot intro_360
+3.85 CampusShot intro_385
+4.10 CampusShot intro_410
+4.35 CampusShot intro_435
+4.60 CampusShot intro_460
+4.85 CampusShot intro_485
+5.10 CampusShot intro_510
+5.35 CampusShot intro_535
+5.60 CampusShot intro_560
+5.85 CampusShot intro_585
+6.10 CampusShot intro_610
+6.35 CampusShot intro_635
+6.60 CampusShot intro_660
+6.85 CampusShot intro_685
+7.10 CampusShot intro_710
+7.35 CampusShot intro_735
+7.60 CampusShot intro_760
+8.5 quit

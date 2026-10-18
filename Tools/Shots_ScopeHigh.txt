@@ -1,0 +1,13 @@
+# High preset, rain: the 6x on the courtyard block's windows (specks in the magnified view).
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusPreset 2
+7.1 CampusUpscale 0 0 0
+7.2 waitshaders
+8.0 CampusView -1200 -4700 110 25 2
+8.5 CampusEquip MK14 optic_sniper
+10.0 CampusAim 1
+13.0 CampusShot sh_scope
+13.2 CampusAim 0
+14.5 CampusShot sh_hip
+15.0 quit

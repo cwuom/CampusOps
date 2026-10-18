@@ -1,0 +1,22 @@
+# Launch with -benchmark -fps=30: the 6x and the ACOG at the hip in the sun and in the shade (eyepiece glass, eyecup),
+# then the 6x at full ADS in the sun (eyecup rim around the picture).
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 4
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 270 2
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+10.0 CampusShot lh_sun
+10.2 CampusView -875 -3800 110 75 1
+11.5 CampusShot lh_shade
+11.7 CampusEquip M4A1 optic_scope
+12.0 waitshaders
+13.5 CampusShot lh_acog
+13.7 CampusEquip MK14 optic_sniper
+13.8 CampusView -875 -4900 110 270 2
+14.0 waitshaders
+15.0 CampusAim 1
+17.5 CampusShot lh_ads
+18.0 quit

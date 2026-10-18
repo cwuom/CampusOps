@@ -1,0 +1,22 @@
+# 固定受伤反馈便于比较遮挡，神模式只用于避免随机死亡打断取样
+0.3 CampusPreset 1
+0.4 CampusUpscale 0 0 0
+0.5 r.setres 1280x720w
+1.0 CampusShotSeq review_start 90 3
+6.0 CampusGod
+6.4 CampusShotSeq review_start_combat 60 3
+7.0 CampusView -875 -3800 110 90 -2
+8.0 waitshaders
+10.0 CampusAct hurt
+10.01 CampusShotSeq review_hurt_single 14 2
+12.0 CampusAct hurt
+12.1 CampusAct hurt
+12.2 CampusAct hurt
+12.3 CampusAct hurt
+12.31 CampusShotSeq review_hurt_burst 24 2
+15.0 CampusShot review_hurt_cleared
+16.0 CampusAct hurtcritical
+16.2 CampusShot review_critical_health
+17.0 CampusShotSeq review_critical_pulse 12 3
+24.0 CampusShot review_health_recovered
+24.5 quit

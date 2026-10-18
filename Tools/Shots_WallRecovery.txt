@@ -1,0 +1,22 @@
+# 先验证进退顺序和旁侧墙面下的持镜恢复，再执行完整酒店墙面矩阵
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusEquip AK47 optic_reddot
+7.1 CampusView -1680 500 110 90 0
+8.2 CampusMove 0 1
+8.21 CampusShotSeq recovery_approach 30 2
+9.1 CampusMove 0 0
+9.6 CampusDebugVM
+9.8 CampusMove 0 -1
+9.81 CampusShotSeq recovery_ak 72 1
+11.2 CampusDebugVM
+11.4 CampusAct stop
+12.0 CampusEquip MK14 optic_sniper,muzzle_suppressor
+13.0 CampusView -1680 710 110 90 0
+13.2 CampusAim 1
+14.4 CampusDebugVM
+14.6 CampusView -1680 710 110 0 0
+14.61 CampusShotSeq recovery_scope 90 1
+16.2 CampusDebugVM
+16.4 CampusAct stop
+17.0 quit

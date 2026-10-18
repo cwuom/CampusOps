@@ -1,0 +1,25 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_QA6.txt
+# QA: stair wells (railing, slab band, linings), plaza trees, classroom door dado, current weapon hip / ADS.
+6.5 CampusGod
+6.6 CampusFreeCam 1
+7.0 CampusView -3300 3250 540 180 -5
+8.2 CampusShot x01
+8.4 CampusView -3600 3250 540 180 -5
+9.6 CampusShot x02
+9.8 CampusView -3800 3900 540 270 -10
+11.0 CampusShot x03
+11.2 CampusView 1100 3450 540 90 -5
+12.4 CampusShot x04
+12.6 CampusView -3520 -2800 540 270 -5
+13.8 CampusShot x05
+14.0 CampusView -2100 -4540 165 180 -8
+15.4 CampusShot x06
+15.6 CampusView -3250 -2628 180 180 -5
+17.0 CampusShot x07
+17.2 CampusFreeCam 0
+17.4 CampusView -2900 -5450 110 90 0
+18.6 CampusShot x08
+18.8 CampusAim 1
+19.8 CampusShot x09
+20.0 CampusAim 0
+20.4 quit

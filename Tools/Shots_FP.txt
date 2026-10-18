@@ -1,0 +1,31 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_FP.txt
+# First-person poses: hip, ADS, fire, tactical sprint, sprint once the stamina is gone, reload, pistol.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+8.5 CampusDebugVM
+8.6 CampusShot f01_hip
+9 CampusAim 1
+10 CampusShot f02_ads
+10.5 CampusAim 0
+11 CampusFire 1
+11.1 CampusShot f03_fire
+11.4 CampusFire 0
+12 CampusMove 0 1
+12.1 CampusAct sprint
+13 CampusShot f04_tac
+14 CampusShot f04b_tac
+16.8 CampusShot f05_sprint
+17.5 CampusAct stop
+18 CampusAct reload
+18.5 CampusShot f06_reload_a
+19.1 CampusShot f06_reload_b
+19.7 CampusShot f06_reload_c
+21 CampusAct switch
+22 CampusShot f07_pistol
+22.5 CampusAim 1
+23.5 CampusShot f08_pistol_ads
+24 CampusAim 0
+24.5 CampusFire 1
+24.55 CampusShot f09_pistol_fire
+24.7 CampusFire 0
+25.5 quit

@@ -1,0 +1,15 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=4 -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_EquipHit.txt
+# Hitmarkers from equipment on a frozen bot: frag, thermite, flash.
+6.0 CampusGod
+8.0 waitshaders
+10.0 CampusBotThrow 0 0
+10.1 CampusLookAtBotFrom 900
+10.3 CampusAct dropfrag450
+11.32 CampusShotSeq e_frag_ 6 2
+13.0 CampusLookAtBotFrom 900
+13.1 CampusAct dropthermite820
+14.2 CampusShotSeq e_therm_ 6 4
+16.0 CampusLookAtBotFrom 900
+16.1 CampusAct dropflash700
+16.85 CampusShotSeq e_flash_ 6 2
+18 quit

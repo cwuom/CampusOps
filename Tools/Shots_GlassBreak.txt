@@ -1,0 +1,41 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_GlassBreak.txt
+# Progressive glass: one round (hole + crack star), a second, a short burst, then a long one into the same pane.
+# Fired aimed, photographed with the sight lowered so the reflex glass doesn't cover the impact.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+7.5 CampusLookAtWindow 200
+8.0 CampusShot gb_0
+8.4 CampusAim 1
+9.0 CampusFire 1
+9.04 CampusFire 0
+9.3 CampusAim 0
+10.0 CampusShot gb_1
+10.1 CampusAim 1
+10.6 CampusFire 1
+10.64 CampusFire 0
+10.9 CampusAim 0
+11.6 CampusShot gb_2
+11.7 CampusAim 1
+12.2 CampusFire 1
+12.5 CampusFire 0
+12.8 CampusAim 0
+13.5 CampusShot gb_3
+13.6 CampusAim 1
+14.1 CampusFire 1
+14.9 CampusFire 0
+15.2 CampusAim 0
+16.2 CampusShot gb_4
+16.5 CampusLookAtDoor 160
+17.2 CampusShot gd_0
+17.3 CampusAim 1
+17.8 CampusFire 1
+17.84 CampusFire 0
+18.1 CampusAim 0
+18.8 CampusShot gd_1
+18.9 CampusAim 1
+19.4 CampusFire 1
+19.7 CampusFire 0
+20.0 CampusAim 0
+20.8 CampusShot gd_2
+21.0 quit

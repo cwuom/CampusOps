@@ -1,0 +1,15 @@
+# Launch with ?Bots=6?Weather=<n>?Time=<n> -benchmark -fps=30: the bots up close while they move (model, gear,
+# animation, lighting on them), at ultra: a sequence on the nearest bot from 3 m, again later from 6 m, then a kill.
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 4
+6.5 waitshaders
+12.0 CampusLookAtBotFrom 300
+12.1 CampusShotSeq br_a_ 4 6
+16.0 CampusLookAtBotFrom 600
+16.1 CampusShotSeq br_b_ 4 6
+20.0 CampusLookAtBotFrom 250
+20.5 CampusKillBot 0
+20.6 CampusShotSeq br_k_ 4 8
+24.0 quit

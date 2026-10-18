@@ -1,0 +1,11 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=4 -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_Defeat.txt
+# The DEFEAT sequence: drop-in, impact, settled.
+6.0 CampusGod
+8.0 waitshaders
+10.0 CampusEndMatch 0
+10.3 CampusShot d_0
+10.78 CampusShot d_1
+10.9 CampusShot d_2
+11.4 CampusShot d_3
+12.3 CampusShot d_4
+14 quit

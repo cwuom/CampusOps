@@ -1,0 +1,11 @@
+# Packaged build smoke test (match with bots): CampusOps.exe "/Game/Campus/Maps/Map_Campus?game=TDM?Bots=9" -CampusScriptFile=E:/game-project/Tools/Shots_PkgMatch.txt
+# A minute of a full match: the spawn, scoped on the 6x, the yard, then quit; the log is checked for crashes.
+8 waitshaders
+10 CampusShot pm_spawn
+12 CampusEquip MK14 optic_sniper
+14 CampusAim 1
+17 CampusShot pm_scope
+18 CampusAim 0
+30 CampusShot pm_30s
+60 CampusShot pm_60s
+62 quit

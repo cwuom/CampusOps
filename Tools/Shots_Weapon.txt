@@ -1,0 +1,9 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Weapon.txt -CampusShotPrefix
+# Current loadout: hip and ADS in the sun.
+6.5 CampusGod
+7 CampusView -2900 -5450 110 90 0
+8.2 CampusShot wp_hip
+8.4 CampusAim 1
+9.6 CampusShot wp_ads
+9.8 CampusAim 0
+10.4 quit

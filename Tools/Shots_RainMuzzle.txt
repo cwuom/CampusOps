@@ -1,0 +1,18 @@
+# Hotel in rain at dusk: the rain against the city and in the lounge doorway; then muzzle flash in the lounge.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+9.0 CampusView -2500 -3600 100 60 0
+11.0 CampusShot rm_rain_deck
+11.2 CampusView -3000 -4300 120 -120 -8
+13.0 CampusShot rm_rain_city
+13.2 CampusView -1000 -2400 110 90 2
+15.0 CampusShot rm_rain_lounge
+15.2 CampusView -600 -900 100 0 -2
+16.5 CampusShot rm_lounge_still
+16.6 CampusAct fire
+16.68 CampusShot rm_fire_0
+16.76 CampusShot rm_fire_1
+16.9 CampusShot rm_fire_2
+17.1 CampusAct unfire
+18.0 quit

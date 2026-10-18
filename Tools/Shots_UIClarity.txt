@@ -1,0 +1,16 @@
+# Campus TDM with bots; native 1440p, independent UserDir, -benchmark -fps=30
+4 CampusGod
+4.1 CampusPreset 2
+4.2 CampusUpscale 0 0 0
+4.3 r.SetRes 2560x1440w
+5 waitshaders
+8 CampusLookAtBotFrom 1100
+8.5 CampusKillBot 1
+8.55 CampusShotSeq ui_medal_entry 12 2
+9.2 CampusShot ui_medal_hold
+10.0 CampusShotSeq ui_medal_exit 10 2
+12 CampusLookAtBotFrom 1100
+12.2 CampusKillBot 0
+12.6 CampusShot ui_kill_alignment
+14 CampusShot ui_clear
+15 quit

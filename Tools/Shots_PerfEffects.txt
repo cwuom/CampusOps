@@ -1,0 +1,28 @@
+# Hotel rain and transient effects regression at unchanged ultra quality, native TSR, 1080p
+# Map_Hotel?game=TDM?Bots=0?Weather=3?Time=3
+2 CampusPreset 3
+2.1 CampusUpscale 0 0 0
+2.2 r.setres 1920x1080w
+2.3 t.MaxFPS 0
+2.4 r.VSync 0
+2.5 t.IdleWhenNotForeground 0
+5 CampusGod
+6 waitshaders
+7 CampusView -2500 -3600 100 60 0
+10 csvprofile STARTFILE=effects_rain.csv
+10.1 csvprofile START
+18 csvprofile STOP
+19 CampusShot perffx_rain
+20 CampusAct refill
+20.2 CampusAct smoke
+20.8 CampusAct release
+25 CampusShot perffx_smoke
+25.2 CampusAct thermite
+25.8 CampusAct release
+27 CampusShot perffx_thermite
+28 CampusAct frag
+30 CampusAct release
+31.1 CampusShotSeq perffx_blast 6 2
+33 CampusView -3000 -4300 120 -120 -8
+35 CampusShot perffx_city
+36 quit

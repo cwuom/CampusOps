@@ -1,0 +1,20 @@
+# 非固定步长的两段1080p Low采样，关闭帧生成并等待着色器
+6.0 CampusGod
+6.1 CampusPreset 0
+6.2 CampusUpscale 0 0 0
+6.3 r.setres 1920x1080w
+6.4 t.MaxFPS 0
+6.5 r.VSync 0
+6.6 waitshaders
+6.8 r.setres 1920x1080w
+7.0 CampusEquip AK47
+7.2 CampusView -2500 -3600 100 60 0
+10.0 startfpschart
+22.0 stopfpschart
+23.0 CampusShot review_perf_deck
+24.0 CampusFreeCam 1
+24.1 CampusView 0 -4700 200 -90 -62
+27.0 startfpschart
+39.0 stopfpschart
+40.0 CampusShot review_perf_city
+41.0 quit

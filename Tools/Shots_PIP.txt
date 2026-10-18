@@ -1,0 +1,20 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_PIP.txt
+# School store interior, then the picture-in-picture scope: hip, ADS in, full ADS standing and strafing (needs Shots_Loadout_Scope first).
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView 3800 3150 110 -20 -8
+8.2 CampusShot k1
+8.4 CampusView 4300 3450 110 -60 -12
+9.6 CampusShot k2
+9.8 CampusView -1000 -4540 110 180 -2
+10.8 CampusShot p0
+11.0 CampusAim 1
+11.2 CampusShot p1
+11.45 CampusShot p2
+12.5 CampusShot p3
+12.7 CampusMove 0 1
+13.4 CampusShot p4
+13.5 CampusMove 0 0
+13.6 CampusView -875 -5300 110 -90 1
+14.6 CampusShot p5
+15.0 quit

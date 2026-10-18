@@ -1,0 +1,10 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Restore.txt
+# Restores the M4A1 test loadout (red dot, vertical grip, compensator) used by the map capture scripts.
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:M4A1 -1
+9.5 CampusMenu strip -1
+9.7 CampusMenu attach:optic_reddot -1
+9.8 CampusMenu attach:grip_vertical -1
+9.9 CampusMenu attach:muzzle_comp -1
+11 quit

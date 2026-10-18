@@ -1,0 +1,4 @@
+6.0 waitshaders
+8.0 CampusProbe 550 -1600 -36 300
+8.3 CampusProbe 1000 -500 405 150
+9.0 quit

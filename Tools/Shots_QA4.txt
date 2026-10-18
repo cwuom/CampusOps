@@ -1,0 +1,26 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_QA4.txt
+# QA: exposure in the sun, iron sight picture, aim-then-slide, plaza overview for stray plants.
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -2900 -5450 110 90 0
+8.6 CampusShot t01_hip_sun
+8.8 CampusAim 1
+9.8 CampusShot t02_ads_iron
+10.0 CampusAim 0
+10.4 CampusView -3290 -2600 110 90 0
+10.9 CampusMove 0 1
+11.0 CampusAct sprint
+12.2 CampusAim 1
+12.32 CampusAct slide
+12.6 CampusShot t10_aimslide_a
+12.65 CampusDebugVM
+13.0 CampusShot t11_aimslide_b
+13.05 CampusDebugVM
+13.4 CampusAct stop
+13.6 CampusAim 0
+14.0 CampusFreeCam 1
+14.2 CampusView -1000 -6600 2400 90 -50
+15.6 CampusShot t20_plaza_top
+15.8 CampusView -300 -6300 900 90 -25
+17.2 CampusShot t21_plaza_low
+17.6 quit

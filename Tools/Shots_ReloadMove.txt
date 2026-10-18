@@ -1,0 +1,47 @@
+# Reload combined with jumps and slides (the clipping reports): dense frame sequences of each case.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusView -3000 -4300 100 0 -2
+8.5 CampusEquip AK47
+9.6 CampusAct fire
+9.9 CampusAct unfire
+# A: running, reload, jump twice during it
+10.2 CampusMove 0 1
+10.3 CampusAct reload
+10.35 CampusShotSeq rj_a 40 4
+10.6 CampusAct jump
+11.8 CampusAct jump
+13.0 CampusAct stop
+13.2 CampusMove 0 0
+# B: sprint, reload, slide during it
+13.4 CampusView -3000 -4300 100 0 -2
+13.6 CampusAct fire
+13.9 CampusAct unfire
+14.1 CampusMove 0 1
+14.2 CampusAct sprintonly
+14.8 CampusAct reload
+14.85 CampusShotSeq rj_b 40 4
+15.2 CampusAct slide
+17.4 CampusAct stop
+17.5 CampusMove 0 0
+17.6 CampusAct crouch
+# C: sprint, slide, reload in the slide, slide-jump out of it
+17.8 CampusView -3000 -4300 100 0 -2
+18.0 CampusAct fire
+18.3 CampusAct unfire
+18.5 CampusMove 0 1
+18.6 CampusAct sprintonly
+19.2 CampusAct slide
+19.25 CampusShotSeq rj_c 40 4
+19.3 CampusAct reload
+19.8 CampusAct jump
+21.8 CampusAct stop
+21.9 CampusMove 0 0
+# D: standing jump, reload in the air, land
+22.2 CampusView -3000 -4300 100 0 -2
+22.4 CampusAct fire
+22.7 CampusAct unfire
+23.0 CampusAct jump
+23.1 CampusShotSeq rj_d 40 4
+23.15 CampusAct reload
+26.0 quit

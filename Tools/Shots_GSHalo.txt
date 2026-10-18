@@ -1,0 +1,12 @@
+# Gunsmith on the secondary: the X16 standing still (edge halo), turned by a drag, then the knife.
+8.0 waitshaders
+9.0 CampusMenu gunsmith2
+9.5 CampusMenu weapon:X16
+14.0 CampusShotSeq gh_a 3 20
+16.0 CampusMenu turn:-260,0
+18.0 CampusShot gh_turn_yaw
+18.2 CampusMenu turn:0,180
+20.0 CampusShot gh_turn_roll
+20.2 CampusMenu weapon:KNIFE
+23.0 CampusShot gh_knife
+23.5 quit

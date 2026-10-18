@@ -1,0 +1,17 @@
+# Hotel north core stair to B1: down the flights from the lobby edge, along the divider, and from the landing.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.5 CampusView 700 3330 170 270 -45
+12.0 CampusShot cs_0_top
+12.2 CampusView 560 3330 230 270 -60
+13.5 CampusShot cs_1_divider
+13.7 CampusView 620 2700 -50 90 -35
+15.0 CampusShot cs_2_mid
+15.2 CampusView 450 2500 -230 90 -20
+16.5 CampusShot cs_3_landing
+16.7 CampusView 900 3000 170 180 -40
+18.0 CampusShot cs_4_lobby
+18.2 CampusView 1000 650 -230 90 -40
+19.5 CampusShot cs_5_kitchen
+20.0 quit

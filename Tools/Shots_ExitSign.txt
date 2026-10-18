@@ -1,0 +1,12 @@
+# School west wing: the exit sign hung over the south stair, seen from the arcade (glow on the ceiling round it).
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusPreset 2
+7.2 waitshaders
+10.0 CampusFreeCam 1
+10.5 CampusView -2950 -2900 180 180 8
+12.5 CampusShot ex_0_arcade
+12.7 CampusView -3150 -2780 200 210 12
+14.5 CampusShot ex_1_close
+14.7 CampusFreeCam 0
+15.0 quit

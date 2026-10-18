@@ -1,0 +1,29 @@
+# Bot activity on the hotel: state and position of every bot every 3 s for a minute.
+6.0 CampusGod
+6.5 waitshaders
+18.0 CampusBots
+21.0 CampusBots
+24.0 CampusBots
+27.0 CampusBots
+30.0 CampusBots
+33.0 CampusBots
+36.0 CampusBots
+39.0 CampusBots
+42.0 CampusBots
+45.0 CampusBots
+48.0 CampusBots
+51.0 CampusBots
+54.0 CampusBots
+57.0 CampusBots
+60.0 CampusBots
+63.0 CampusBots
+66.0 CampusBots
+69.0 CampusBots
+72.0 CampusBots
+75.0 CampusBots
+78.0 CampusBots
+81.0 CampusBots
+84.0 CampusBots
+40.0 CampusShot ai_a
+60.0 CampusShot ai_b
+86.0 quit

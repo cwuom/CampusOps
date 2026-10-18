@@ -1,0 +1,24 @@
+# Hotel pool bar kiosk (110 cm) climbed with a rifle, the pistol and the knife.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.5 CampusView -1690 0 165 180 -6
+10.6 CampusMove 0 1
+10.7 CampusAct jump
+10.72 CampusShotSeq ma_r 10 4
+12.2 CampusMove 0 0
+12.5 CampusEquip X16
+13.0 CampusAct switch
+14.0 CampusView -1690 0 165 180 -6
+14.6 CampusMove 0 1
+14.7 CampusAct jump
+14.72 CampusShotSeq ma_p 10 4
+16.2 CampusMove 0 0
+16.5 CampusEquip KNIFE
+17.0 CampusAct switch
+18.0 CampusView -1690 0 165 180 -6
+18.6 CampusMove 0 1
+18.7 CampusAct jump
+18.72 CampusShotSeq ma_k 10 4
+20.2 CampusMove 0 0
+20.5 quit

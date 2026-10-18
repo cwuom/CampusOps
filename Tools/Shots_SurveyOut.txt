@@ -1,0 +1,49 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_SurveyOut.txt
+# Outdoor survey (free camera): field, courtyard, east lane, plaza, alleys, facades, aerials.
+6.5 CampusGod
+6.6 CampusFreeCam 1
+7.0 CampusView -3000 4760 170 0 -6
+8.2 CampusShot o01
+8.4 CampusView 3000 4760 170 180 -6
+9.6 CampusShot o02
+9.8 CampusView 0 3800 1000 90 -28
+11.0 CampusShot o03
+11.2 CampusView -875 5300 170 -90 0
+12.4 CampusShot o04
+12.6 CampusView 3100 4900 170 -90 0
+13.8 CampusShot o05
+14.0 CampusView -875 -3000 170 90 -3
+15.2 CampusShot o06
+15.4 CampusView -875 2900 170 -90 -3
+16.6 CampusShot o07
+16.8 CampusView -875 -2800 1600 90 -40
+18.0 CampusShot o08
+18.2 CampusView 3000 -2900 170 90 -3
+19.4 CampusShot o09
+19.6 CampusView 3000 -4000 1400 90 -35
+20.8 CampusShot o10
+21.0 CampusView 4500 3000 170 -90 -3
+22.2 CampusShot o11
+22.4 CampusView -875 -6400 1200 90 -30
+23.6 CampusShot o12
+23.8 CampusView -875 -5500 170 90 0
+25.0 CampusShot o13
+25.2 CampusView -1600 -5000 170 200 0
+26.4 CampusShot o14
+26.6 CampusView -4500 -3000 170 90 -3
+27.8 CampusShot o15
+28.0 CampusView -4500 3000 170 -90 -3
+29.2 CampusShot o16
+29.4 CampusView 800 2200 170 90 -3
+30.6 CampusShot o17
+30.8 CampusView -1500 5000 300 -90 -5
+32.0 CampusShot o18
+32.2 CampusView 1500 -5200 200 90 -5
+33.4 CampusShot o19
+33.6 CampusView 5500 0 1500 180 -30
+34.8 CampusShot o20
+35.0 CampusView -875 -9000 5000 90 -35
+36.2 CampusShot o21
+36.4 CampusView 0 6500 170 90 -3
+37.6 CampusShot o22
+38 quit

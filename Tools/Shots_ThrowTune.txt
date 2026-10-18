@@ -1,0 +1,25 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1280 -ResY=720 -CampusScriptFile=E:/game-project/Tools/Shots_ThrowTune.txt
+# Throw pose tuning: a smoke held (never released) and posed as a frozen instant of the follow-through (tfreeze X = s
+# after release) while the follow-through wrist turn is varied.
+6.5 CampusGod
+6.6 CampusAct refill
+6.7 CampusView -875 -5200 110 90 -4
+8.0 waitshaders
+8.5 CampusAct smoke
+9.6 CampusPose tfreeze 0.2 0 0 0 0 0
+9.9 CampusShot tq_f20_base
+10.0 CampusPose tturnfollow 0 0 0 40 60 -70
+10.3 CampusShot tq_f20_a
+10.4 CampusPose tturnfollow 0 0 0 0 60 -70
+10.7 CampusShot tq_f20_b
+10.8 CampusPose tturnfollow 0 0 0 -40 60 -70
+11.1 CampusShot tq_f20_c
+11.2 CampusPose tturnfollow 0 0 0 70 30 -90
+11.5 CampusShot tq_f20_d
+11.6 CampusPose tfreeze 0.25 0 0 0 0 0
+11.9 CampusShot tq_f25_d
+12.0 CampusPose tturnfollow 0 0 0 40 60 -70
+12.3 CampusShot tq_f25_a
+12.4 CampusPose tturnfollow 0 0 0 0 60 -70
+12.7 CampusShot tq_f25_b
+13.0 quit

@@ -1,0 +1,23 @@
+# time(seconds after shaders finish)  console command
+0.5 CampusShot 00_warmup
+4 CampusShot 01_title
+5 CampusMenu play
+9 waitshaders
+9.5 CampusShot 02_lobby
+10 CampusMenu loadouts
+13 waitshaders
+13.5 CampusShot 03_loadouts
+14 CampusMenu gunsmith
+17 waitshaders
+17.5 CampusShot 04_gunsmith
+18 CampusMenu gunsmith 3
+21 CampusShot 05_gunsmith_optic
+22 CampusMenu operator
+26 waitshaders
+26.5 CampusShot 06_operator
+27 CampusMenu options
+31 waitshaders
+31.5 CampusShot 07_options
+32 CampusMenu deploy
+32.6 CampusShot 08_deploy
+34 quit

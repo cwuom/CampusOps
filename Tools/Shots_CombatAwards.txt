@@ -1,0 +1,24 @@
+# Map_Campus?game=TDM?Bots=1?Weather=0?Time=1 with -benchmark -fps=30
+6 CampusGod
+6.2 waitshaders
+8 CampusLookAtBotFrom 1100
+8.2 CampusBotThrow 180 0
+8.5 CampusKillBot 1
+8.9 CampusShot ui_award_firstblood
+10.7 CampusShot ui_award_headshot
+11.5 CampusShot ui_award_faded
+12 CampusLookAtBotFrom 1100
+12.2 CampusKillBot 0
+12.5 CampusLookAtBotFrom 1100
+12.7 CampusKillBot 0
+13 CampusShot ui_award_double
+13.2 CampusLookAtBotFrom 1100
+13.4 CampusKillBot 0
+14.8 CampusShot ui_award_triple
+15.4 CampusLookAtBotFrom 1100
+15.6 CampusKillBot 0
+16.7 CampusShot ui_award_streak
+18.3 CampusShot ui_award_streak_hold
+21 CampusShot ui_award_clear
+22 CampusBots
+23 quit

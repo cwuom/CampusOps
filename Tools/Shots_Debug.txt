@@ -1,0 +1,18 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Debug.txt
+# Measures where the weapon actually ends up in camera space for a given carry pose.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+8 CampusDebugVM
+8.2 CampusAim 1
+9.2 CampusDebugVM
+9.3 CampusAim 0
+9.8 CampusMove 0 1
+9.9 CampusAct sprint
+10.6 CampusDebugVM
+10.7 CampusPose tac 30 10.5 -24 74 0 125
+11.3 CampusDebugVM
+11.4 CampusShot d10_tac
+11.9 CampusDebugVM
+12.0 CampusShot d11_tac
+12.2 CampusAct stop
+12.8 quit

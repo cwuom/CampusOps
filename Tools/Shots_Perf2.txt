@@ -1,0 +1,6 @@
+6.0 CampusGod
+6.5 waitshaders
+14.0 t.MaxFPS 0
+14.5 startfpschart
+44.5 stopfpschart
+45.0 quit

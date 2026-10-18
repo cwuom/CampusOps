@@ -1,0 +1,345 @@
+6.0 CampusGod
+6.5 waitshaders
+8.00 CampusEquip M4A1
+9.60 CampusReloadPose 0.12
+9.60 CampusView -2500 -3600 100 60 0
+10.10 CampusShot rd_M4A1_12_0stand
+10.20 CampusView -2500 -3600 800 60 0
+11.20 CampusShot rd_M4A1_12_1
+11.32 CampusShot rd_M4A1_12_2
+11.44 CampusShot rd_M4A1_12_3
+11.56 CampusShot rd_M4A1_12_4
+11.68 CampusShot rd_M4A1_12_5
+12.20 CampusReloadPose 0.3
+12.20 CampusView -2500 -3600 100 60 0
+12.70 CampusShot rd_M4A1_30_0stand
+12.80 CampusView -2500 -3600 800 60 0
+13.80 CampusShot rd_M4A1_30_1
+13.92 CampusShot rd_M4A1_30_2
+14.04 CampusShot rd_M4A1_30_3
+14.16 CampusShot rd_M4A1_30_4
+14.28 CampusShot rd_M4A1_30_5
+14.80 CampusReloadPose 0.6
+14.80 CampusView -2500 -3600 100 60 0
+15.30 CampusShot rd_M4A1_60_0stand
+15.40 CampusView -2500 -3600 800 60 0
+16.40 CampusShot rd_M4A1_60_1
+16.52 CampusShot rd_M4A1_60_2
+16.64 CampusShot rd_M4A1_60_3
+16.76 CampusShot rd_M4A1_60_4
+16.88 CampusShot rd_M4A1_60_5
+17.40 CampusReloadPose 0.8
+17.40 CampusView -2500 -3600 100 60 0
+17.90 CampusShot rd_M4A1_80_0stand
+18.00 CampusView -2500 -3600 800 60 0
+19.00 CampusShot rd_M4A1_80_1
+19.12 CampusShot rd_M4A1_80_2
+19.24 CampusShot rd_M4A1_80_3
+19.36 CampusShot rd_M4A1_80_4
+19.48 CampusShot rd_M4A1_80_5
+20.00 CampusReloadPose -1
+20.30 CampusEquip AK47
+21.90 CampusReloadPose 0.12
+21.90 CampusView -2500 -3600 100 60 0
+22.40 CampusShot rd_AK47_12_0stand
+22.50 CampusView -2500 -3600 800 60 0
+23.50 CampusShot rd_AK47_12_1
+23.62 CampusShot rd_AK47_12_2
+23.74 CampusShot rd_AK47_12_3
+23.86 CampusShot rd_AK47_12_4
+23.98 CampusShot rd_AK47_12_5
+24.50 CampusReloadPose 0.3
+24.50 CampusView -2500 -3600 100 60 0
+25.00 CampusShot rd_AK47_30_0stand
+25.10 CampusView -2500 -3600 800 60 0
+26.10 CampusShot rd_AK47_30_1
+26.22 CampusShot rd_AK47_30_2
+26.34 CampusShot rd_AK47_30_3
+26.46 CampusShot rd_AK47_30_4
+26.58 CampusShot rd_AK47_30_5
+27.10 CampusReloadPose 0.6
+27.10 CampusView -2500 -3600 100 60 0
+27.60 CampusShot rd_AK47_60_0stand
+27.70 CampusView -2500 -3600 800 60 0
+28.70 CampusShot rd_AK47_60_1
+28.82 CampusShot rd_AK47_60_2
+28.94 CampusShot rd_AK47_60_3
+29.06 CampusShot rd_AK47_60_4
+29.18 CampusShot rd_AK47_60_5
+29.70 CampusReloadPose 0.8
+29.70 CampusView -2500 -3600 100 60 0
+30.20 CampusShot rd_AK47_80_0stand
+30.30 CampusView -2500 -3600 800 60 0
+31.30 CampusShot rd_AK47_80_1
+31.42 CampusShot rd_AK47_80_2
+31.54 CampusShot rd_AK47_80_3
+31.66 CampusShot rd_AK47_80_4
+31.78 CampusShot rd_AK47_80_5
+32.30 CampusReloadPose -1
+32.60 CampusEquip MP5
+34.20 CampusReloadPose 0.12
+34.20 CampusView -2500 -3600 100 60 0
+34.70 CampusShot rd_MP5_12_0stand
+34.80 CampusView -2500 -3600 800 60 0
+35.80 CampusShot rd_MP5_12_1
+35.92 CampusShot rd_MP5_12_2
+36.04 CampusShot rd_MP5_12_3
+36.16 CampusShot rd_MP5_12_4
+36.28 CampusShot rd_MP5_12_5
+36.80 CampusReloadPose 0.3
+36.80 CampusView -2500 -3600 100 60 0
+37.30 CampusShot rd_MP5_30_0stand
+37.40 CampusView -2500 -3600 800 60 0
+38.40 CampusShot rd_MP5_30_1
+38.52 CampusShot rd_MP5_30_2
+38.64 CampusShot rd_MP5_30_3
+38.76 CampusShot rd_MP5_30_4
+38.88 CampusShot rd_MP5_30_5
+39.40 CampusReloadPose 0.6
+39.40 CampusView -2500 -3600 100 60 0
+39.90 CampusShot rd_MP5_60_0stand
+40.00 CampusView -2500 -3600 800 60 0
+41.00 CampusShot rd_MP5_60_1
+41.12 CampusShot rd_MP5_60_2
+41.24 CampusShot rd_MP5_60_3
+41.36 CampusShot rd_MP5_60_4
+41.48 CampusShot rd_MP5_60_5
+42.00 CampusReloadPose 0.8
+42.00 CampusView -2500 -3600 100 60 0
+42.50 CampusShot rd_MP5_80_0stand
+42.60 CampusView -2500 -3600 800 60 0
+43.60 CampusShot rd_MP5_80_1
+43.72 CampusShot rd_MP5_80_2
+43.84 CampusShot rd_MP5_80_3
+43.96 CampusShot rd_MP5_80_4
+44.08 CampusShot rd_MP5_80_5
+44.60 CampusReloadPose -1
+44.90 CampusEquip MK14
+46.50 CampusReloadPose 0.12
+46.50 CampusView -2500 -3600 100 60 0
+47.00 CampusShot rd_MK14_12_0stand
+47.10 CampusView -2500 -3600 800 60 0
+48.10 CampusShot rd_MK14_12_1
+48.22 CampusShot rd_MK14_12_2
+48.34 CampusShot rd_MK14_12_3
+48.46 CampusShot rd_MK14_12_4
+48.58 CampusShot rd_MK14_12_5
+49.10 CampusReloadPose 0.3
+49.10 CampusView -2500 -3600 100 60 0
+49.60 CampusShot rd_MK14_30_0stand
+49.70 CampusView -2500 -3600 800 60 0
+50.70 CampusShot rd_MK14_30_1
+50.82 CampusShot rd_MK14_30_2
+50.94 CampusShot rd_MK14_30_3
+51.06 CampusShot rd_MK14_30_4
+51.18 CampusShot rd_MK14_30_5
+51.70 CampusReloadPose 0.6
+51.70 CampusView -2500 -3600 100 60 0
+52.20 CampusShot rd_MK14_60_0stand
+52.30 CampusView -2500 -3600 800 60 0
+53.30 CampusShot rd_MK14_60_1
+53.42 CampusShot rd_MK14_60_2
+53.54 CampusShot rd_MK14_60_3
+53.66 CampusShot rd_MK14_60_4
+53.78 CampusShot rd_MK14_60_5
+54.30 CampusReloadPose 0.8
+54.30 CampusView -2500 -3600 100 60 0
+54.80 CampusShot rd_MK14_80_0stand
+54.90 CampusView -2500 -3600 800 60 0
+55.90 CampusShot rd_MK14_80_1
+56.02 CampusShot rd_MK14_80_2
+56.14 CampusShot rd_MK14_80_3
+56.26 CampusShot rd_MK14_80_4
+56.38 CampusShot rd_MK14_80_5
+56.90 CampusReloadPose -1
+57.20 CampusEquip HK416
+58.80 CampusReloadPose 0.12
+58.80 CampusView -2500 -3600 100 60 0
+59.30 CampusShot rd_HK416_12_0stand
+59.40 CampusView -2500 -3600 800 60 0
+60.40 CampusShot rd_HK416_12_1
+60.52 CampusShot rd_HK416_12_2
+60.64 CampusShot rd_HK416_12_3
+60.76 CampusShot rd_HK416_12_4
+60.88 CampusShot rd_HK416_12_5
+61.40 CampusReloadPose 0.3
+61.40 CampusView -2500 -3600 100 60 0
+61.90 CampusShot rd_HK416_30_0stand
+62.00 CampusView -2500 -3600 800 60 0
+63.00 CampusShot rd_HK416_30_1
+63.12 CampusShot rd_HK416_30_2
+63.24 CampusShot rd_HK416_30_3
+63.36 CampusShot rd_HK416_30_4
+63.48 CampusShot rd_HK416_30_5
+64.00 CampusReloadPose 0.6
+64.00 CampusView -2500 -3600 100 60 0
+64.50 CampusShot rd_HK416_60_0stand
+64.60 CampusView -2500 -3600 800 60 0
+65.60 CampusShot rd_HK416_60_1
+65.72 CampusShot rd_HK416_60_2
+65.84 CampusShot rd_HK416_60_3
+65.96 CampusShot rd_HK416_60_4
+66.08 CampusShot rd_HK416_60_5
+66.60 CampusReloadPose 0.8
+66.60 CampusView -2500 -3600 100 60 0
+67.10 CampusShot rd_HK416_80_0stand
+67.20 CampusView -2500 -3600 800 60 0
+68.20 CampusShot rd_HK416_80_1
+68.32 CampusShot rd_HK416_80_2
+68.44 CampusShot rd_HK416_80_3
+68.56 CampusShot rd_HK416_80_4
+68.68 CampusShot rd_HK416_80_5
+69.20 CampusReloadPose -1
+69.50 CampusEquip UMP45
+71.10 CampusReloadPose 0.12
+71.10 CampusView -2500 -3600 100 60 0
+71.60 CampusShot rd_UMP45_12_0stand
+71.70 CampusView -2500 -3600 800 60 0
+72.70 CampusShot rd_UMP45_12_1
+72.82 CampusShot rd_UMP45_12_2
+72.94 CampusShot rd_UMP45_12_3
+73.06 CampusShot rd_UMP45_12_4
+73.18 CampusShot rd_UMP45_12_5
+73.70 CampusReloadPose 0.3
+73.70 CampusView -2500 -3600 100 60 0
+74.20 CampusShot rd_UMP45_30_0stand
+74.30 CampusView -2500 -3600 800 60 0
+75.30 CampusShot rd_UMP45_30_1
+75.42 CampusShot rd_UMP45_30_2
+75.54 CampusShot rd_UMP45_30_3
+75.66 CampusShot rd_UMP45_30_4
+75.78 CampusShot rd_UMP45_30_5
+76.30 CampusReloadPose 0.6
+76.30 CampusView -2500 -3600 100 60 0
+76.80 CampusShot rd_UMP45_60_0stand
+76.90 CampusView -2500 -3600 800 60 0
+77.90 CampusShot rd_UMP45_60_1
+78.02 CampusShot rd_UMP45_60_2
+78.14 CampusShot rd_UMP45_60_3
+78.26 CampusShot rd_UMP45_60_4
+78.38 CampusShot rd_UMP45_60_5
+78.90 CampusReloadPose 0.8
+78.90 CampusView -2500 -3600 100 60 0
+79.40 CampusShot rd_UMP45_80_0stand
+79.50 CampusView -2500 -3600 800 60 0
+80.50 CampusShot rd_UMP45_80_1
+80.62 CampusShot rd_UMP45_80_2
+80.74 CampusShot rd_UMP45_80_3
+80.86 CampusShot rd_UMP45_80_4
+80.98 CampusShot rd_UMP45_80_5
+81.50 CampusReloadPose -1
+81.80 CampusEquip RPK
+83.40 CampusReloadPose 0.12
+83.40 CampusView -2500 -3600 100 60 0
+83.90 CampusShot rd_RPK_12_0stand
+84.00 CampusView -2500 -3600 800 60 0
+85.00 CampusShot rd_RPK_12_1
+85.12 CampusShot rd_RPK_12_2
+85.24 CampusShot rd_RPK_12_3
+85.36 CampusShot rd_RPK_12_4
+85.48 CampusShot rd_RPK_12_5
+86.00 CampusReloadPose 0.3
+86.00 CampusView -2500 -3600 100 60 0
+86.50 CampusShot rd_RPK_30_0stand
+86.60 CampusView -2500 -3600 800 60 0
+87.60 CampusShot rd_RPK_30_1
+87.72 CampusShot rd_RPK_30_2
+87.84 CampusShot rd_RPK_30_3
+87.96 CampusShot rd_RPK_30_4
+88.08 CampusShot rd_RPK_30_5
+88.60 CampusReloadPose 0.6
+88.60 CampusView -2500 -3600 100 60 0
+89.10 CampusShot rd_RPK_60_0stand
+89.20 CampusView -2500 -3600 800 60 0
+90.20 CampusShot rd_RPK_60_1
+90.32 CampusShot rd_RPK_60_2
+90.44 CampusShot rd_RPK_60_3
+90.56 CampusShot rd_RPK_60_4
+90.68 CampusShot rd_RPK_60_5
+91.20 CampusReloadPose 0.8
+91.20 CampusView -2500 -3600 100 60 0
+91.70 CampusShot rd_RPK_80_0stand
+91.80 CampusView -2500 -3600 800 60 0
+92.80 CampusShot rd_RPK_80_1
+92.92 CampusShot rd_RPK_80_2
+93.04 CampusShot rd_RPK_80_3
+93.16 CampusShot rd_RPK_80_4
+93.28 CampusShot rd_RPK_80_5
+93.80 CampusReloadPose -1
+94.10 CampusEquip SAIGA12
+95.70 CampusReloadPose 0.12
+95.70 CampusView -2500 -3600 100 60 0
+96.20 CampusShot rd_SAIGA12_12_0stand
+96.30 CampusView -2500 -3600 800 60 0
+97.30 CampusShot rd_SAIGA12_12_1
+97.42 CampusShot rd_SAIGA12_12_2
+97.54 CampusShot rd_SAIGA12_12_3
+97.66 CampusShot rd_SAIGA12_12_4
+97.78 CampusShot rd_SAIGA12_12_5
+98.30 CampusReloadPose 0.3
+98.30 CampusView -2500 -3600 100 60 0
+98.80 CampusShot rd_SAIGA12_30_0stand
+98.90 CampusView -2500 -3600 800 60 0
+99.90 CampusShot rd_SAIGA12_30_1
+100.02 CampusShot rd_SAIGA12_30_2
+100.14 CampusShot rd_SAIGA12_30_3
+100.26 CampusShot rd_SAIGA12_30_4
+100.38 CampusShot rd_SAIGA12_30_5
+100.90 CampusReloadPose 0.6
+100.90 CampusView -2500 -3600 100 60 0
+101.40 CampusShot rd_SAIGA12_60_0stand
+101.50 CampusView -2500 -3600 800 60 0
+102.50 CampusShot rd_SAIGA12_60_1
+102.62 CampusShot rd_SAIGA12_60_2
+102.74 CampusShot rd_SAIGA12_60_3
+102.86 CampusShot rd_SAIGA12_60_4
+102.98 CampusShot rd_SAIGA12_60_5
+103.50 CampusReloadPose 0.8
+103.50 CampusView -2500 -3600 100 60 0
+104.00 CampusShot rd_SAIGA12_80_0stand
+104.10 CampusView -2500 -3600 800 60 0
+105.10 CampusShot rd_SAIGA12_80_1
+105.22 CampusShot rd_SAIGA12_80_2
+105.34 CampusShot rd_SAIGA12_80_3
+105.46 CampusShot rd_SAIGA12_80_4
+105.58 CampusShot rd_SAIGA12_80_5
+106.10 CampusReloadPose -1
+106.40 CampusEquip X16
+108.00 CampusReloadPose 0.12
+108.00 CampusView -2500 -3600 100 60 0
+108.50 CampusShot rd_X16_12_0stand
+108.60 CampusView -2500 -3600 800 60 0
+109.60 CampusShot rd_X16_12_1
+109.72 CampusShot rd_X16_12_2
+109.84 CampusShot rd_X16_12_3
+109.96 CampusShot rd_X16_12_4
+110.08 CampusShot rd_X16_12_5
+110.60 CampusReloadPose 0.3
+110.60 CampusView -2500 -3600 100 60 0
+111.10 CampusShot rd_X16_30_0stand
+111.20 CampusView -2500 -3600 800 60 0
+112.20 CampusShot rd_X16_30_1
+112.32 CampusShot rd_X16_30_2
+112.44 CampusShot rd_X16_30_3
+112.56 CampusShot rd_X16_30_4
+112.68 CampusShot rd_X16_30_5
+113.20 CampusReloadPose 0.6
+113.20 CampusView -2500 -3600 100 60 0
+113.70 CampusShot rd_X16_60_0stand
+113.80 CampusView -2500 -3600 800 60 0
+114.80 CampusShot rd_X16_60_1
+114.92 CampusShot rd_X16_60_2
+115.04 CampusShot rd_X16_60_3
+115.16 CampusShot rd_X16_60_4
+115.28 CampusShot rd_X16_60_5
+115.80 CampusReloadPose 0.8
+115.80 CampusView -2500 -3600 100 60 0
+116.30 CampusShot rd_X16_80_0stand
+116.40 CampusView -2500 -3600 800 60 0
+117.40 CampusShot rd_X16_80_1
+117.52 CampusShot rd_X16_80_2
+117.64 CampusShot rd_X16_80_3
+117.76 CampusShot rd_X16_80_4
+117.88 CampusShot rd_X16_80_5
+118.40 CampusReloadPose -1
+119.7 quit

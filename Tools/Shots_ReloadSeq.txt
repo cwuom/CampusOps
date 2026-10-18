@@ -1,0 +1,10 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_ReloadSeq.txt
+# Real-time reload as played: a frame every 1/15 s through a tactical reload (fixed time step, so captures don't hitch).
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -2900 -5450 110 90 0
+7.4 CampusFire 1
+7.7 CampusFire 0
+8.4 CampusShotSeq rs 40 2
+8.45 CampusAct reload
+11.5 quit

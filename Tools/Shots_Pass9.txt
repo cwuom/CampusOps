@@ -1,0 +1,27 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=2560 -ResY=1440 -CampusScriptFile=E:/game-project/Tools/Shots_Pass9.txt
+# Scope glass (hip / ADS) on ultra, skyline and mountains from the yard and from above, row-house window cages and the north fence (grille panels).
+6.5 CampusGod
+6.6 CampusPreset 3
+6.7 r.setres 2560x1440w
+6.8 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+10.0 CampusShot p01
+10.2 CampusAim 1
+11.8 CampusShot p02
+12.0 CampusAim 0
+12.2 CampusView -875 -4900 110 60 2
+14.5 CampusShot p03
+14.7 CampusFreeCam 1
+14.9 CampusView 0 4800 170 90 3
+17.0 CampusShot p04
+17.2 CampusView 0 -5400 260 -90 1
+19.0 CampusShot p05
+19.2 CampusView 0 -2800 1800 -90 -2
+21.5 CampusShot p06
+21.7 CampusView 0 2000 1800 90 -1
+24.0 CampusShot p07
+24.2 CampusView 3000 0 1800 0 -2
+26.5 CampusShot p08
+26.7 CampusView 0 0 6000 120 -6
+29.0 CampusShot p09
+29.5 quit

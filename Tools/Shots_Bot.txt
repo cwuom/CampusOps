@@ -1,0 +1,12 @@
+# bots2
+6.0 CampusGod
+8.0 waitshaders
+11.0 CampusLookAtBotFrom 260
+11.2 CampusShot bq_0
+12.0 CampusLookAtBotFrom 260
+12.2 CampusShot bq_1
+13.0 CampusLookAtBotFrom 300
+13.2 CampusShot bq_2
+14.0 CampusLookAtBotFrom 220
+14.2 CampusShot bq_3
+15 quit

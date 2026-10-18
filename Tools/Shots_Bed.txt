@@ -1,0 +1,20 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Bed.txt
+# Plaza beds close up (sunny and shaded side), then a scoped rifle at full ADS while strafing (needs Shots_Loadout_Scope first).
+6.5 CampusGod
+7.0 CampusView -2600 -4520 110 90 -25
+8.2 CampusShot b4
+8.4 CampusView -2900 -4560 110 -90 -20
+9.6 CampusShot b5
+9.8 CampusView -300 -4560 110 0 -18
+11.0 CampusShot b6
+11.2 CampusView -1000 -4540 110 180 -2
+11.7 CampusAim 1
+13.0 CampusShot m0
+13.2 CampusMove 0 1
+14.2 CampusShot m1
+14.5 CampusShot m2
+14.6 CampusMove 1 0
+15.6 CampusShot m3
+15.9 CampusShot m4
+16.0 CampusMove 0 0
+16.5 quit

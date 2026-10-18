@@ -1,0 +1,15 @@
+# Find the corridor in the player's screenshot (school, night, rain).
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.2 CampusView 1430 -2600 170 90 0
+11.5 CampusShot fw_walk_n
+11.7 CampusView 1670 2600 170 -90 0
+13.0 CampusShot fw_walk_s
+13.2 CampusView -2900 -2600 170 90 0
+14.5 CampusShot fw_west_n
+14.7 CampusView -2900 2600 170 -90 0
+16.0 CampusShot fw_west_s
+16.2 CampusView -2500 -500 170 0 0
+17.5 CampusShot fw_north_e
+18.0 quit

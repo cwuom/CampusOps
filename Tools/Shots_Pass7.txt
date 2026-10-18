@@ -1,0 +1,29 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Pass7.txt
+# Plaza beds, scope at the hip and through the ADS transition, far view, eye adaptation in and out of a classroom.
+6.5 CampusGod
+7.0 CampusView -300 -4560 110 0 -18
+8.2 CampusShot b1
+8.4 CampusView 3900 -4540 110 180 -15
+9.6 CampusShot b2
+9.8 CampusView -1850 -4540 110 180 -12
+11.0 CampusShot b3
+11.2 CampusView -4300 -4540 110 180 -2
+12.4 CampusShot s1
+12.6 CampusShotSeq sa 12 2
+12.62 CampusAim 1
+14.0 CampusAim 0
+14.6 CampusView -875 -5500 110 -90 0
+15.8 CampusShot f1
+16.0 CampusView -4500 0 110 180 0
+17.2 CampusShot f2
+17.4 CampusView 4500 -3000 110 0 2
+18.6 CampusShot f3
+18.8 CampusView -2700 -5300 110 90 -2
+21.0 CampusShot e0
+21.2 CampusView -3600 -2500 110 110 -5
+21.25 CampusShotSeq ei 12 6
+24.0 CampusView -2700 -5300 110 90 -2
+24.05 CampusShotSeq eo 12 6
+27.0 CampusView -3290 -2500 110 90 -3
+28.2 CampusShot x1
+28.6 quit

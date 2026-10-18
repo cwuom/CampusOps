@@ -1,0 +1,12 @@
+# Hotel machine room: the west doors from inside, with the generators moved clear, then walking out through one.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView 2650 300 165 135 -10
+12.0 CampusShot md_room
+12.2 CampusView 2420 580 165 180 0
+13.0 CampusShot md_lane
+13.1 CampusMove 0 1
+15.0 CampusMove 0 0
+15.1 CampusWhere out
+15.2 CampusShot md_out
+16.0 quit

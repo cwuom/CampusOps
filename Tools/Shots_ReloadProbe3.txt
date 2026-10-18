@@ -1,0 +1,29 @@
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8.0 CampusReloadPose 0.45 0
+8.5 CampusPose elbowdrop 0 0 0 0 0 0
+8.9 CampusDebugVM
+9.0 CampusPose elbowdrop 0 -60 0 0 0 0
+9.4 CampusDebugVM
+9.5 CampusPose elbowdrop 60 0 0 0 0 0
+9.9 CampusDebugVM
+10.0 CampusPose elbowdrop 0 0 -80 0 0 0
+10.4 CampusDebugVM
+10.5 CampusPose elbowdrop 0 0 80 0 0 0
+10.9 CampusDebugVM
+11.0 CampusPose elbowdrop -6 -12 -45 0 0 0
+11.4 CampusDebugVM
+8.0 CampusDebugVM
+11.5 CampusReloadPose 0.5 0
+12.0 CampusPose elbowdrop 0 0 0 0 0 0
+12.4 CampusDebugVM
+12.5 CampusPose elbowdrop 0 -60 0 0 0 0
+12.9 CampusDebugVM
+13.0 CampusPose elbowdrop 60 0 0 0 0 0
+13.4 CampusDebugVM
+13.5 CampusPose elbowdrop 0 0 -80 0 0 0
+13.9 CampusDebugVM
+14.0 CampusPose elbowdrop -6 -12 -45 0 0 0
+14.4 CampusDebugVM
+15.0 quit

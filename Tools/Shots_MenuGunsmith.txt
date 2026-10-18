@@ -1,0 +1,9 @@
+# Menu camera moves on first launch: title -> loadouts, loadouts -> play (lobby), lobby -> gunsmith.
+8.0 waitshaders
+10.0 CampusMenu loadouts
+10.02 CampusShotSeq mt_a 26 5
+14.0 CampusMenu play
+14.02 CampusShotSeq mt_b 22 5
+17.5 CampusMenu gunsmith
+17.52 CampusShotSeq mt_c 22 5
+21.0 quit

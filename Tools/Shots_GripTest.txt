@@ -1,0 +1,18 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_GripTest.txt
+# Support hand on the foregrip: hip, ADS, and a few wrist turns to compare.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+9.0 CampusShot gr_hip
+9.2 CampusAim 1
+10.4 CampusShot gr_ads
+10.6 CampusAim 0
+11.0 CampusPose fgripturn 0 0 0 0 0 0
+11.6 CampusShot gr_t0
+11.7 CampusPose fgripturn 0 0 0 0 40 90
+12.3 CampusShot gr_t1
+12.4 CampusPose fgripturn 0 0 0 -30 0 60
+13.0 CampusShot gr_t2
+13.1 CampusPose fgripturn 0 0 0 20 30 40
+13.7 CampusShot gr_t3
+14.0 quit

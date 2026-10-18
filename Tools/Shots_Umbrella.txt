@@ -1,0 +1,19 @@
+# Hotel deck umbrella in rain: from the side, from under it looking up, jumping under it, and climbing onto its table.
+# Launch on Map_Hotel?game=TDM?Bots=0?Weather=3?Time=1
+6.0 CampusGod
+6.5 waitshaders
+9.0 CampusView -1640 300 100 180 12
+11.0 CampusShot ub_side
+11.2 CampusShotSeq ub_sideq 4 6
+12.0 CampusView -1980 395 100 -90 62
+13.5 CampusShot ub_up
+13.6 CampusAct jump
+13.7 CampusShotSeq ub_jump 8 3
+15.5 CampusView -1830 300 100 180 0
+16.0 CampusMove 0 1
+16.1 CampusAct jump
+16.2 CampusShotSeq ub_climb 10 4
+18.5 CampusMove 0 0
+18.6 CampusWhere after_climb
+19.0 CampusShot ub_after
+19.5 quit

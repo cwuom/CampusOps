@@ -1,0 +1,47 @@
+# reload sweep
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusEquip M4A1
+10.8 CampusPose reload 10 -6 5 4 -8 36
+10.8 CampusAct fire
+10.950000000000001 CampusAct unfire
+11.100000000000001 CampusAct reload
+11.15 CampusReloadPose 0.33 0
+11.75 CampusShot rs_0
+11.8 CampusReloadPose -1 0
+14 CampusPose reload 13 -7 5 2 -10 40
+14 CampusAct fire
+14.15 CampusAct unfire
+14.3 CampusAct reload
+14.35 CampusReloadPose 0.33 0
+14.95 CampusShot rs_1
+15 CampusReloadPose -1 0
+17.2 CampusPose reload 9 -4 4 6 -6 34
+17.2 CampusAct fire
+17.349999999999998 CampusAct unfire
+17.5 CampusAct reload
+17.55 CampusReloadPose 0.33 0
+18.15 CampusShot rs_2
+18.2 CampusReloadPose -1 0
+20.4 CampusPose reload 14 -9 6 0 -14 44
+20.4 CampusAct fire
+20.549999999999997 CampusAct unfire
+20.7 CampusAct reload
+20.75 CampusReloadPose 0.33 0
+21.349999999999998 CampusShot rs_3
+21.4 CampusReloadPose -1 0
+23.6 CampusPose reload 11 -3 3 8 -4 32
+23.599999999999998 CampusAct fire
+23.749999999999996 CampusAct unfire
+23.9 CampusAct reload
+23.95 CampusReloadPose 0.33 0
+24.549999999999997 CampusShot rs_4
+24.599999999999998 CampusReloadPose -1 0
+26.8 CampusPose reload 12 -6 7 0 -8 38
+26.799999999999997 CampusAct fire
+26.949999999999996 CampusAct unfire
+27.099999999999998 CampusAct reload
+27.15 CampusReloadPose 0.33 0
+27.749999999999996 CampusShot rs_5
+27.799999999999997 CampusReloadPose -1 0
+30 quit

@@ -1,0 +1,10 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Loadout_Sniper.txt
+# Test build: MK14 with the 6x rifle scope.
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:MK14 -1
+9.5 CampusMenu strip -1
+9.7 CampusMenu attach:optic_sniper -1
+9.8 CampusMenu attach:muzzle_suppressor -1
+9.9 CampusMenu attach:grip_vertical -1
+11 quit

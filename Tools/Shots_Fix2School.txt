@@ -1,0 +1,19 @@
+# School, rain at night: the passage office, the walkway lights, class plates and the hung exit sign, inside rooms.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.2 CampusView -200 -3700 170 180 -4
+12.0 CampusShot f2s_office
+12.2 CampusView 1550 -2800 170 90 8
+14.0 CampusShot f2s_walkway
+14.2 CampusView -3250 -2350 175 95 12
+16.0 CampusShot f2s_plates
+16.2 CampusView -3290 -2550 165 -95 14
+18.0 CampusShot f2s_exit
+18.2 CampusView -3800 -2300 170 0 4
+20.0 CampusShot f2s_room_w
+20.2 CampusView -2600 -3900 170 90 4
+22.0 CampusShot f2s_room_admin
+22.2 CampusView -1900 3800 170 -90 4
+24.0 CampusShot f2s_room_n
+25.0 quit

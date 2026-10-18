@@ -1,0 +1,17 @@
+# Kiosk climb (110 cm) walking up to it, then sprinting at it; every other frame at 30 fps, full size.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.6 CampusView -1690 0 165 180 -6
+10.6 CampusMove 0 1
+10.7 CampusAct jump
+10.7 CampusShotSeq mc_ 14 2
+12.4 CampusMove 0 0
+12.6 CampusView -1520 0 165 180 -6
+13.4 CampusAct sprint
+13.4 CampusMove 0 1
+13.62 CampusAct jump
+13.62 CampusShotSeq md_ 14 2
+15.4 CampusMove 0 0
+15.6 CampusWhere after
+16.0 quit

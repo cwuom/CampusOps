@@ -1,0 +1,21 @@
+# Hotel rain, Low preset, 1080p TSR with no frame generation
+# Start after shader warmup, measure without screenshots, then inspect the same view
+6.0 CampusGod
+6.5 waitshaders
+7.0 t.MaxFPS 0
+7.1 r.VSync 0
+7.2 CampusPreset 0
+7.3 CampusUpscale 0 0 0
+7.4 r.setres 1920x1080w
+7.5 waitshaders
+8.0 CampusEquip AK47
+8.2 CampusView -2500 -3600 100 60 0
+10.0 startfpschart
+22.0 stopfpschart
+22.5 CampusShot experience_perf_deck
+23.0 CampusView -3000 -4300 120 -120 -8
+25.0 CampusShot experience_perf_city
+26.0 CampusEquip MK14 optic_sniper
+27.0 CampusReloadPose 0.80 1
+28.0 CampusShot experience_perf_reload
+29.0 quit

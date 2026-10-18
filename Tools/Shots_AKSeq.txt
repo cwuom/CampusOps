@@ -1,0 +1,37 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_AKSeq.txt
+# Real-time AK sequences (a frame every 1/15 s): raise, tactical reload, sprint during a reload, sprint right after one.
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -2900 -5450 110 90 0
+7.3 CampusAct switch
+8.6 CampusShotSeq eq 14 2
+8.62 CampusAct switch
+10.0 CampusAim 1
+10.6 CampusShot ads
+10.8 CampusAim 0
+11.0 CampusFire 1
+11.3 CampusFire 0
+12.0 CampusShotSeq rl 40 2
+12.02 CampusAct reload
+15.5 CampusView -3290 -3600 110 90 0
+15.9 CampusFire 1
+16.2 CampusFire 0
+16.8 CampusShotSeq rs 34 2
+16.82 CampusAct reload
+17.5 CampusMove 0 1
+17.52 CampusAct sprint
+19.2 CampusAct stop
+19.5 CampusView -3290 -3600 110 90 0
+19.9 CampusFire 1
+20.2 CampusFire 0
+20.6 CampusAct reload
+22.6 CampusShotSeq ra 26 2
+22.62 CampusMove 0 1
+22.64 CampusAct sprint
+24.6 CampusAct stop
+25.0 CampusView -2900 -5450 110 90 0
+25.3 CampusFire 1
+29.0 CampusFire 0
+29.1 CampusShotSeq er 48 2
+29.12 CampusAct reload
+33 quit

@@ -1,0 +1,31 @@
+# Map_Campus?game=TDM?Bots=1?Custom=1?BotHP=1000 with -benchmark -fps=30
+6.0 CampusGod
+6.2 waitshaders
+8.0 CampusEquip M4A1
+9.0 CampusShot hud_idle
+9.2 CampusLookAtBotFrom 600
+9.3 CampusBotThrow 180 0
+9.5 CampusLookAtBotFrom 600
+9.8 CampusFire 1
+9.8 CampusShotSeq hud_hit_ 8 2
+10.5 CampusFire 0
+11.5 CampusLookAtBotFrom 1100
+11.8 CampusKillBot 0
+11.9 CampusShot hud_kill
+12.5 CampusShot hud_kill_hold
+13.3 CampusShot hud_kill_faded
+14.0 CampusLookAtBotFrom 1100
+14.3 CampusKillBot 1
+14.4 CampusShot hud_headshot
+15.0 CampusShot hud_headshot_hold
+16.0 CampusAct reload
+16.8 CampusShot hud_reload
+19.0 CampusEquip MK14
+19.8 CampusShot hud_weapon_swap
+20.5 CampusAct fire
+20.8 CampusAct unfire
+21.2 CampusAct reload
+21.8 CampusShot hud_sniper_reload
+24.0 stat unit
+25.0 CampusShot hud_perf
+26.0 quit

@@ -1,0 +1,15 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1280 -ResY=720 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Mobility.txt
+# Movement chain on the entrance plaza: sprint, slide, aim + fire mid-slide, slide jump, keep firing in the air, land.
+6.5 CampusGod
+6.7 CampusView -875 -6200 110 90 -2
+8.0 waitshaders
+8.2 CampusMove 0 1
+8.3 CampusAct sprint
+9.3 CampusAct slide
+9.3 CampusShotSeq mb 36 2
+9.5 CampusAct aim
+9.6 CampusAct fire
+10.1 CampusAct jump
+11.4 CampusAct unfire
+11.6 CampusAct stop
+12.5 quit

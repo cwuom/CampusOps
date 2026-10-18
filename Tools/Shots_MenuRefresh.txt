@@ -1,0 +1,23 @@
+# Launch with -game -windowed -ResX=1280 -ResY=720 -CampusScriptFile=E:/game-project/Tools/Shots_MenuRefresh.txt
+6 waitshaders
+8 CampusMenu play -1
+12 CampusShot ui_refresh_play
+12.5 CampusMenu playsettings -1
+14 CampusShot ui_refresh_settings
+14.5 CampusMenu playjoin -1
+16 CampusShot ui_refresh_join
+16.5 CampusMenu loadouts -1
+20 CampusShot ui_refresh_loadouts
+20.5 CampusMenu gunsmith -1
+24 CampusShot ui_refresh_gunsmith
+24.5 CampusMenu gunsmith 0
+28 CampusShot ui_refresh_attachment
+28.5 CampusMenu operator -1
+32 CampusShot ui_refresh_operator
+32.5 CampusMenu options -1
+36 CampusShot ui_refresh_options
+36.5 CampusMenu custom -1
+40 CampusShot ui_refresh_custom
+40.5 CampusMenu equipment -1
+44 CampusShot ui_refresh_equipment
+45 quit

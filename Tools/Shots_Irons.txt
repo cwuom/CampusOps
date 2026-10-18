@@ -1,0 +1,38 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -CampusScriptFile=E:/game-project/Tools/Shots_Irons.txt
+# Bare iron sights of every primary, aimed down the plaza (sight picture audit).
+6.5 CampusGod
+6.7 CampusView -875 -5200 110 90 0
+7.0 waitshaders
+8.0 CampusEquip M4A1
+9.5 CampusAim 1
+10.6 CampusShot ir_m4a1
+10.7 CampusAim 0
+11.0 CampusEquip AK47
+12.5 CampusAim 1
+13.6 CampusShot ir_ak47
+13.7 CampusAim 0
+14.0 CampusEquip MP5
+15.5 CampusAim 1
+16.6 CampusShot ir_mp5
+16.7 CampusAim 0
+17.0 CampusEquip MK14
+18.5 CampusAim 1
+19.6 CampusShot ir_mk14
+19.7 CampusAim 0
+20.0 CampusEquip HK416
+21.5 CampusAim 1
+22.6 CampusShot ir_hk416
+22.7 CampusAim 0
+23.0 CampusEquip UMP45
+24.5 CampusAim 1
+25.6 CampusShot ir_ump45
+25.7 CampusAim 0
+26.0 CampusEquip RPK
+27.5 CampusAim 1
+28.8 CampusShot ir_rpk
+28.9 CampusAim 0
+29.2 CampusEquip SAIGA12
+30.7 CampusAim 1
+31.8 CampusShot ir_saiga
+31.9 CampusAim 0
+32.5 quit

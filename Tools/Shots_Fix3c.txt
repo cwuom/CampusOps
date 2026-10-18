@@ -1,0 +1,15 @@
+# Launch with ?Time=3 -benchmark -fps=30: the courtyard facade from below (column / parapet flicker), static camera.
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 0
+6.5 CampusFreeCam 1
+6.6 waitshaders
+7.0 CampusView -2600 -600 170 180 30
+7.5 waitshaders
+11.0 CampusShotSeq n_ss_fac_ 6 2
+12.0 CampusView -2000 500 170 150 22
+16.0 CampusShotSeq n_ss_fac2_ 6 2
+17.0 CampusView -1500 -3000 170 90 25
+21.0 CampusShotSeq n_ss_fac3_ 6 2
+22.0 quit

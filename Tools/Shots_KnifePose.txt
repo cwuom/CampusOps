@@ -1,0 +1,32 @@
+# Knife: ready pose candidates, then each cut held at its wind-up, mid-cut and follow-through.
+6.0 CampusGod
+6.5 waitshaders
+7.5 CampusView -875 -4900 110 60 -2
+8.0 CampusEquip KNIFE
+8.5 CampusAct switch
+10.0 CampusShot kp_hip0
+10.2 CampusPose hip 12 7 -5 -22 -12 -12
+10.8 CampusShot kp_hip1
+11.0 CampusPose hip 10 9 -6 -30 -16 -20
+11.6 CampusShot kp_hip2
+11.8 CampusPose hip 14 10 -4 -14 -8 -6
+12.4 CampusShot kp_hip3
+12.6 CampusPose hip 12 7 -5 -22 -12 -12
+13.0 CampusPose knifet 0.09 2 0 0 0 0
+13.6 CampusShot kp_f1
+13.8 CampusPose knifet 0.15 2 0 0 0 0
+14.4 CampusShot kp_f2
+14.6 CampusPose knifet 0.2 2 0 0 0 0
+15.2 CampusShot kp_f3
+15.4 CampusPose knifet 0.28 2 0 0 0 0
+16.0 CampusShot kp_f4
+16.2 CampusPose knifet 0.09 1 0 0 0 0
+16.8 CampusShot kp_b1
+17.0 CampusPose knifet 0.15 1 0 0 0 0
+17.6 CampusShot kp_b2
+17.8 CampusPose knifet 0.2 1 0 0 0 0
+18.4 CampusShot kp_b3
+18.6 CampusPose knifet 0.28 1 0 0 0 0
+19.2 CampusShot kp_b4
+19.4 CampusPose knifet -1 0 0 0 0 0
+20.0 quit

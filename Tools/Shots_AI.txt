@@ -1,0 +1,24 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM -game -CampusScriptFile=E:/game-project/Tools/Shots_AI.txt
+# Bot navigation / behaviour check plus a slide -> jump cancel.
+6.5 CampusGod
+8 CampusBots
+12 CampusBots
+16 CampusBots
+20 CampusBots
+20.5 CampusView -3290 -2600 110 90 0
+21.5 CampusMove 0 1
+21.6 CampusAct sprint
+22.6 CampusAct slide
+22.75 CampusDebugVM
+22.9 CampusAct jump
+23.0 CampusDebugVM
+23.15 CampusDebugVM
+23.3 CampusDebugVM
+23.5 CampusDebugVM
+23.8 CampusDebugVM
+24.2 CampusAct stop
+26 CampusBots
+26.5 CampusLookAtBot
+27.5 CampusShot ai_bot_view
+30 CampusBots
+31 quit

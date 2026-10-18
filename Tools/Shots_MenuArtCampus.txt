@@ -1,0 +1,10 @@
+# Map_Campus?game=TDM?Bots=0?Weather=0?Time=1, isolated UserDir, 4K native Ultra
+2 CampusPreset 3
+2.1 CampusUpscale 0 0 0
+2.2 r.SetRes 3840x2160w
+5 waitshaders
+6 CampusFreeCam 1
+6.1 showhud
+7 CampusView -875 -600 170 90 0
+10 CampusShot menu_art_campus
+11 quit

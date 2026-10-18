@@ -1,0 +1,23 @@
+# Hotel spawn at Low (TSR): baseline, then without Nanite, then at 50% render scale. A shot and a GPU profile each.
+6.0 CampusGod
+6.5 waitshaders
+7.0 t.MaxFPS 0
+7.1 r.VSync 0
+7.2 r.ProfileGPU.ShowUI 0
+7.3 CampusPreset 0
+7.4 CampusUpscale 0 0 0
+7.5 r.setres 1920x1080w
+7.6 waitshaders
+8.0 CampusView 0 -4200 100 90 -2
+12.0 CampusShot pv_base
+12.2 profilegpu
+13.0 r.Nanite 0
+13.1 waitshaders
+17.0 CampusShot pv_nonanite
+17.2 profilegpu
+18.0 r.Nanite 1
+18.1 r.ScreenPercentage 50
+18.2 waitshaders
+22.0 CampusShot pv_sp50
+22.2 profilegpu
+23.0 quit

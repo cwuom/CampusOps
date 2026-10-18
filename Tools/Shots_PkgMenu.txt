@@ -1,0 +1,7 @@
+# Packaged build smoke test (menu): CampusOps.exe -CampusScriptFile=E:/game-project/Tools/Shots_PkgMenu.txt
+0.5 CampusShot p00_warmup
+4 CampusShot p01_title
+5 CampusMenu play
+9 waitshaders
+9.5 CampusShot p02_lobby
+10 quit

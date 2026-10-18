@@ -1,0 +1,6 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_DLSS.txt
+# Options page with the DLSS / frame generation / Reflex rows.
+5 CampusMenu options -1
+7 waitshaders
+8 CampusShot dlss_opt
+8.5 quit

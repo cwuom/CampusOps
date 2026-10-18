@@ -1,0 +1,8 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_ScopeADS.txt
+# Scoped rifle into full ADS on the plaza (needs Shots_Loadout_Scope first).
+6.5 CampusGod
+7.0 CampusView -4300 -4540 110 180 -2
+8.0 CampusShotSeq sb 8 3
+8.02 CampusAim 1
+10.0 CampusShot sc
+10.2 quit

@@ -1,0 +1,8 @@
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+9.0 CampusView -2500 -3600 100 60 0
+10.5 CampusShot wet_arm
+11.0 CampusLookAtBot
+12.5 CampusShot wet_bot
+13.5 quit

@@ -1,0 +1,32 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Raise.txt
+# Weapon swap raise in slow motion (script times are real time): rifle -> pistol, then pistol -> rifle.
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -3290 -2600 110 90 0
+8.0 slomo 0.2
+8.1 CampusAct switch
+9.25 CampusDebugVM
+9.3 CampusShot v01_raise
+9.65 CampusDebugVM
+9.7 CampusShot v02_raise
+10.05 CampusDebugVM
+10.1 CampusShot v03_raise
+10.45 CampusDebugVM
+10.5 CampusShot v04_raise
+10.95 CampusDebugVM
+11.0 CampusShot v05_pistol
+11.6 CampusAct switch
+12.45 CampusDebugVM
+12.5 CampusShot v11_raise
+12.85 CampusDebugVM
+12.9 CampusShot v12_raise
+13.25 CampusDebugVM
+13.3 CampusShot v13_raise
+13.65 CampusDebugVM
+13.7 CampusShot v14_raise
+14.05 CampusDebugVM
+14.1 CampusShot v15_raise
+14.95 CampusDebugVM
+15.0 CampusShot v16_rifle
+15.5 slomo 1
+16 quit

@@ -1,0 +1,12 @@
+# Main menu title screen: two idle frames 4 s apart (does the stray frame move with the drifting camera?), then frames
+# through the dismissal into the multiplayer page.
+8.0 waitshaders
+10.0 CampusShot tf_0_title
+14.0 CampusShot tf_0b_title
+14.5 CampusMenu play
+14.6 CampusShot tf_1
+14.8 CampusShot tf_2
+15.1 CampusShot tf_3
+15.6 CampusShot tf_4
+17.0 CampusShot tf_5_play
+17.5 quit

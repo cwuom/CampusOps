@@ -1,0 +1,10 @@
+# Map_Campus?game=Gunfight?TeamSize=1?Bots=1?Weather=0?Time=1
+2 CampusGod
+3 waitshaders
+9 CampusLookAtBotFrom 1100
+9.2 CampusBotThrow 180 0
+10 CampusKillBot 1
+10.4 CampusShot ui_award_round_kill
+11.9 CampusShot ui_award_round_second
+14 CampusShot ui_award_round_reset
+16 quit

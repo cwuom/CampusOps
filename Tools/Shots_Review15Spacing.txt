@@ -1,0 +1,19 @@
+# 真实NPC与玩家近距接触，检查退让和持续瞄准
+6.0 CampusGod
+6.1 CampusPreset 1
+6.2 CampusUpscale 0 0 0
+6.4 waitshaders
+7.0 r.setres 1280x720w
+7.2 CampusEquip M4A1 optic_reddot
+8.0 CampusAct aim
+9.0 CampusLookAtBotFrom 110
+9.01 CampusWhere close_start
+9.02 CampusBots
+9.03 CampusShotSeq review_spacing 30 2
+9.05 CampusDebugVM
+9.4 CampusBots
+9.6 CampusDebugVM
+10.2 CampusWhere close_settled
+10.3 CampusBots
+11.0 CampusShot review_spacing_settled
+12.0 quit

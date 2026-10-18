@@ -1,0 +1,30 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Grenades4.txt
+# Grenade effects on the open entrance plaza (shaders pre-warmed by drops behind the player): frag blast, smoke
+# screen (outside and from inside), thermite, and a flashbang going off in view (whiteout, afterimage, recovery).
+6.5 CampusGod
+6.6 CampusAct refill
+6.7 CampusView -875 -5200 110 -90 -4
+6.8 CampusAct dropfrag2600
+6.9 CampusAct dropsmoke2800
+7.0 CampusAct dropthermite3000
+7.1 CampusAct dropflash3200
+10.5 waitshaders
+11.0 CampusView -875 -5200 110 90 -5
+11.1 CampusAct dropfrag650
+12.0 CampusShotSeq ex 15 3
+14.0 CampusShot ex_late
+14.5 CampusView -1900 -5200 110 90 -5
+14.6 CampusAct dropsmoke650
+18.0 CampusShot sm_3s
+22.0 CampusShot sm_7s
+22.1 CampusView -1900 -4550 110 90 -5
+22.5 CampusShot sm_inside
+22.6 CampusView -3100 -4550 110 0 -5
+23.0 CampusShot sm_side
+23.2 CampusView 150 -5200 110 90 -9
+23.3 CampusAct dropthermite420
+24.0 CampusShotSeq th 4 15
+26.5 CampusView 1100 -5200 110 90 -8
+26.6 CampusAct dropflash380
+27.1 CampusShotSeq fl 24 8
+34.0 quit

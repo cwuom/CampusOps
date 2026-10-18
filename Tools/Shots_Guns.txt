@@ -1,0 +1,50 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Guns.txt
+# Gunsmith: every weapon bare, then with a full kit.
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:M4A1 -1
+9.5 CampusMenu strip -1
+11 waitshaders
+11.5 CampusShot g01_m4_stock
+12 CampusMenu attach:optic_reddot -1
+12.1 CampusMenu attach:grip_vertical -1
+12.2 CampusMenu attach:laser_tac -1
+12.3 CampusMenu attach:muzzle_suppressor -1
+14 waitshaders
+14.5 CampusShot g02_m4_kit
+15 CampusMenu weapon:AK47 -1
+17 waitshaders
+17.5 CampusShot g03_ak_stock
+18 CampusMenu attach:optic_holo -1
+18.1 CampusMenu attach:grip_angled -1
+18.2 CampusMenu attach:mag_extended -1
+20 waitshaders
+20.5 CampusShot g04_ak_kit
+21 CampusMenu weapon:MP5 -1
+23 waitshaders
+23.5 CampusShot g05_mp5
+24 CampusMenu attach:optic_reddot -1
+24.1 CampusMenu attach:laser_tac -1
+24.2 CampusMenu attach:stock_tac -1
+26 waitshaders
+26.5 CampusShot g06_mp5_kit
+27 CampusMenu weapon:MK14 -1
+29 waitshaders
+29.5 CampusShot g07_mk14
+30 CampusMenu attach:optic_scope -1
+30.1 CampusMenu attach:muzzle_comp -1
+30.2 CampusMenu attach:barrel_long -1
+30.3 CampusMenu attach:stock_heavy -1
+32 waitshaders
+32.5 CampusShot g08_mk14_kit
+33 CampusMenu gunsmith2 -1
+35 waitshaders
+35.5 CampusShot g09_pistol
+36 CampusMenu weapon:M4A1 -1
+36.5 CampusMenu gunsmith -1
+37 CampusMenu weapon:M4A1 -1
+37.2 CampusMenu strip -1
+37.3 CampusMenu attach:optic_reddot -1
+37.4 CampusMenu attach:grip_vertical -1
+37.5 CampusMenu attach:muzzle_comp -1
+38.5 quit

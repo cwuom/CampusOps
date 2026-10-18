@@ -1,0 +1,44 @@
+# 检查低头滑铲、长枪地面避让和贴墙低视角
+6.0 CampusGod
+6.1 CampusPreset 1
+6.2 CampusUpscale 0 0 0
+6.3 waitshaders
+7.0 CampusEquip AK47 optic_reddot
+7.2 CampusView -4000 4900 110 0 -75
+8.0 CampusMove 0 1
+8.1 CampusAct sprintonly
+9.1 CampusAct slide
+9.12 CampusShotSeq slide_ak_down 18 1
+9.2 CampusDebugVM
+9.5 CampusDebugVM
+9.8 CampusDebugVM
+9.81 CampusShot slide_ak_down_hold
+10.5 CampusAct stop
+11.2 CampusEquip MK14 optic_sniper,muzzle_suppressor
+11.4 CampusView -4000 4900 110 0 -82
+12.3 CampusMove 0 1
+12.4 CampusAct sprintonly
+13.4 CampusAct slide
+13.42 CampusShotSeq slide_mk_down 18 1
+13.5 CampusDebugVM
+13.8 CampusDebugVM
+14.1 CampusDebugVM
+14.11 CampusShot slide_mk_down_hold
+15.0 CampusAct stop
+16.0 CampusView -4740 -5000 110 180 -65
+17.0 CampusShot wall_mk_down
+17.1 CampusDebugVM
+18.0 CampusView -4740 -5000 110 180 0
+19.0 CampusShot wall_mk_level
+19.1 CampusDebugVM
+20.0 CampusView -4000 4900 110 0 0
+21.0 CampusMove 0 1
+21.1 CampusAct sprintonly
+22.1 CampusAct slide
+22.12 CampusShotSeq slide_mk_level 18 1
+22.2 CampusDebugVM
+22.5 CampusDebugVM
+22.8 CampusDebugVM
+22.81 CampusShot slide_mk_level_hold
+24.0 CampusAct stop
+25.0 quit

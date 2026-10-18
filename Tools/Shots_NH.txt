@@ -1,0 +1,18 @@
+# new hold
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusPose thold 30 -25 2 0 0 0
+8.6 CampusPose throwturn 0 0 0 74.1 124.7 -169.7
+10.6 CampusAct refill
+11.0 CampusAct frag
+12.0 CampusShot nh_0
+12.1 CampusPose thold 34 -22 -4 0 0 0
+12.4 CampusShot nh_1
+12.5 CampusPose thold 30 -28 6 0 0 0
+12.8 CampusShot nh_2
+12.9 CampusPose thold 36 -24 -8 0 0 0
+13.2 CampusShot nh_3
+13.3 CampusDebugVM
+13.4 CampusAct release
+13.5 CampusShotSeq nt_ 12 2
+15 quit

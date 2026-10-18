@@ -1,0 +1,26 @@
+# Unreal build output and caches (all regenerated)
+/Binaries/
+/Intermediate/
+/Saved/
+/DerivedDataCache/
+/Build/
+# Plugin builds are regenerated; their Binaries/ThirdParty (the NVIDIA runtime DLLs) are not, and are kept (LFS).
+Plugins/*/Binaries/Win64/
+Plugins/*/Intermediate/
+Tools/__pycache__/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Large assets are not in this repository: Tools/DownloadAssets.ps1 fetches them, NVIDIA plugins go in Plugins/.
+/Content/
+/SourceArt/
+/Plugins/

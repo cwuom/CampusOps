@@ -1,0 +1,12 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_QA5.txt
+# QA: scooters at the gate, hip in the sun with the player's loadout.
+6.5 CampusGod
+6.6 CampusFreeCam 1
+7 CampusView -3900 -4950 150 -66 -15
+8.4 CampusShot u01_scooters
+8.6 CampusView -3300 -5150 110 -100 -8
+10.0 CampusShot u02_scooters_low
+10.2 CampusFreeCam 0
+10.4 CampusView -2900 -5450 110 90 0
+11.6 CampusShot u03_hip_sun
+12 quit

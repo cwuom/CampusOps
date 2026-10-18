@@ -1,0 +1,11 @@
+# hits
+6.0 CampusGod
+8.0 waitshaders
+10.8 CampusLookAtBotFrom 700
+11.0 CampusAct fire
+11.0 CampusShotSeq hx_ 8 2
+11.6 CampusAct unfire
+12.5 CampusLookAtBotFrom 500
+12.6 CampusKillBot 1
+12.6 CampusShotSeq hk_ 8 2
+14 quit

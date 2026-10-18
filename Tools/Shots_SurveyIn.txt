@@ -1,0 +1,35 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_SurveyIn.txt
+# Indoor survey (free camera): corridors, classrooms, offices, stairs, 2F, gunfight arena.
+6.5 CampusGod
+6.6 CampusFreeCam 1
+7.0 CampusView -3290 -2600 180 90 -3
+8.2 CampusShot i01
+8.4 CampusView -3600 -2700 180 110 -8
+9.6 CampusShot i02
+9.8 CampusView -3700 -1950 180 -100 -8
+11.0 CampusShot i03
+11.2 CampusView -3290 2000 180 -90 -3
+12.4 CampusShot i04
+12.6 CampusView -3000 3240 180 0 -3
+13.8 CampusShot i05
+14.0 CampusView -2900 3600 180 45 -8
+15.2 CampusShot i06
+15.4 CampusView -875 -3800 180 90 -3
+16.6 CampusShot i07
+16.8 CampusView -2500 -3900 180 0 -5
+18.0 CampusShot i08
+18.2 CampusView -3290 0 540 90 -3
+19.4 CampusShot i09
+19.6 CampusView -2000 3240 540 0 -3
+20.8 CampusShot i10
+21.0 CampusView 2900 0 170 0 -3
+22.2 CampusShot i11
+22.4 CampusView -3800 3300 180 90 -3
+23.6 CampusShot i12
+23.8 CampusView 1150 3450 180 90 -3
+25.0 CampusShot i13
+25.2 CampusView -3300 -2950 180 180 -3
+26.4 CampusShot i14
+26.6 CampusView -3520 -2800 540 0 -8
+27.8 CampusShot i15
+28.2 quit

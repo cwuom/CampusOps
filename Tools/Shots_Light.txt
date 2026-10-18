@@ -1,0 +1,16 @@
+# light
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusEquip M4A1 light_tac
+9.5 CampusLookAtDoor 350
+10.5 CampusShot lt_off
+10.6 CampusAct light
+11.2 CampusShot lt_on
+11.3 CampusAct aim
+12.2 CampusShot lt_ads
+12.3 CampusAct unaim
+12.4 CampusAct frag
+12.9 CampusAct aim
+13.4 CampusAct release
+13.5 CampusShotSeq tg_ 10 6
+16.5 quit

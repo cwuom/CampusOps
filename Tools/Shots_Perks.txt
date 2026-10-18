@@ -1,0 +1,12 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_Perks.txt
+# New menu pages: play (custom card), custom match rules, perks & equipment, loadout card with perks.
+5 CampusMenu play -1
+8 waitshaders
+8.5 CampusShot pk_play
+9 CampusMenu custom -1
+11 CampusShot pk_custom
+11.5 CampusMenu loadouts -1
+13.5 CampusShot pk_loadouts
+14 CampusMenu equipment -1
+16.5 CampusShot pk_equipment
+17 quit

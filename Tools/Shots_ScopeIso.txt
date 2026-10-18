@@ -1,0 +1,37 @@
+# Launch Map_Campus ?Time=3: the 6x at the hip and at full ADS on the yard (ultra, TSR), ray traced GI then screen
+# space GI, each with a GPU profile; then the walkway ceiling with both. The view outside the eyepiece must not change.
+6.0 CampusGod
+6.1 t.MaxFPS 0
+6.2 r.VSync 0
+6.3 r.ProfileGPU.ShowUI 0
+6.4 CampusPreset 3
+6.5 CampusUpscale 0 0 0
+6.6 CampusGfx GI 4
+6.7 r.setres 1920x1080w
+6.8 waitshaders
+7.0 CampusView -875 -3800 110 90 -3
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+12.0 CampusShot si_rt_hip
+12.2 profilegpu
+13.0 CampusAim 1
+13.2 CampusShotSeq si_rt_up 6 3
+16.0 CampusShot si_rt_ads
+16.2 profilegpu
+17.0 CampusAim 0
+20.0 CampusShot si_rt_hip2
+20.2 CampusGfx GI 0
+20.3 waitshaders
+23.0 CampusShot si_ss_hip
+23.2 profilegpu
+24.0 CampusAim 1
+27.0 CampusShot si_ss_ads
+27.2 profilegpu
+28.0 CampusAim 0
+28.5 CampusFreeCam 1
+28.6 CampusView -3290 -2400 180 90 30
+32.0 CampusShot si_ss_ceil
+32.5 CampusGfx GI 4
+32.6 waitshaders
+36.0 CampusShot si_rt_ceil
+37.0 quit

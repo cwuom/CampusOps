@@ -1,0 +1,5 @@
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+8.0 CampusShot chk_hip
+8.2 quit

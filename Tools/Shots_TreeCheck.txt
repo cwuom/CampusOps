@@ -1,0 +1,4 @@
+# Logs every tree's collision and traces a bullet and a player-sized sweep at its trunk (see [CampusTreeCheck]).
+6.0 CampusGod
+7.0 CampusTreeCheck
+7.5 quit

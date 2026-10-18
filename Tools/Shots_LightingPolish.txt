@@ -1,0 +1,21 @@
+# Hotel, independent UserDir for before/after; native 1440p High, no frame generation
+5 CampusGod
+5.1 CampusPreset 2
+5.2 CampusUpscale 0 0 0
+5.3 t.MaxFPS 0
+5.4 r.VSync 0
+5.5 r.SetRes 2560x1440w
+6 waitshaders
+7 CampusView -2500 -3600 110 60 0
+7.1 CampusWeather 3 4
+11 CampusShot realism_night
+12 CampusWeather 3 2
+16 CampusShot realism_rain
+17 startfpschart
+29 stopfpschart
+30 CampusWeather 0 1
+34 CampusShot realism_noon
+35 CampusView -1000 -1200 110 90 2
+35.1 CampusWeather 0 3
+39 CampusShot realism_interior
+40 quit

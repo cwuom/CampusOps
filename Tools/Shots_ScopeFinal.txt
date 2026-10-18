@@ -1,0 +1,9 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_ScopeFinal.txt
+# 6x scope at the hip and at full ADS, looking down the long yard (needs Shots_Loadout_Sniper first).
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+9.0 CampusShot f01
+9.2 CampusAim 1
+10.8 CampusShot f02
+11.2 quit

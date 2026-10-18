@@ -1,0 +1,46 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Pose.txt
+# Pose candidates: CampusPose <pose> X Y Z Pitch Yaw Roll [ViewmodelFOV] (camera space, around the grip); "lhand" = support-hand target in weapon frame.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+7.5 CampusPose lhand 28 -4.2 5.5 0 0 0
+8.0 CampusPose hip 5 7.5 -3 1 -4 -5
+8.6 CampusDebugVM
+8.7 CampusShot q01_hip
+9.0 CampusPose hip 6 8 -2.5 0 -4 4
+9.6 CampusDebugVM
+9.7 CampusShot q02_hip_cant
+10.0 CampusPose hip 5 7.5 -3 1 -4 -5 82
+10.6 CampusShot q03_hip_fov82
+11.0 CampusPose lhand 26 -4.8 7.0 0 0 0
+11.6 CampusDebugVM
+11.7 CampusShot q04_hip_thumb
+12.0 CampusPose lhand 30 -3.6 4.0 0 0 0
+12.6 CampusShot q05_hip_low
+13.0 CampusPose hip 5 7.5 -3 1 -4 -5 74
+13.2 CampusPose lhand 28 -4.2 5.5 0 0 0
+13.5 CampusView -3290 -2600 110 90 0
+13.6 CampusPose tac 6 14 -2 55 20 60
+13.7 CampusMove 0 1
+13.8 CampusAct sprint
+14.5 CampusDebugVM
+14.6 CampusShot q10_tac
+14.8 CampusPose tac 8 15 0 60 25 85
+15.4 CampusShot q11_tac
+15.6 CampusPose tac 6 13 -4 50 15 40
+16.2 CampusShot q12_tac
+16.4 CampusPose tac 10 16 2 65 30 100
+17.0 CampusShot q13_tac
+17.2 CampusPose tac 5 12 -1 58 -10 70
+17.8 CampusShot q14_tac
+18.0 CampusAct stop
+18.6 CampusView -3290 -2600 110 90 0
+18.7 CampusPose sprint 0 -3 -4 -12 18 -15
+18.8 CampusMove 0 1
+18.9 CampusAct sprintonly
+19.7 CampusShot q20_sprint
+19.9 CampusPose sprint 0 -2 -6 -18 24 -8
+20.5 CampusShot q21_sprint
+20.7 CampusPose sprint 1 -5 -3 -8 12 -30
+21.3 CampusShot q22_sprint
+21.5 CampusAct stop
+22 quit

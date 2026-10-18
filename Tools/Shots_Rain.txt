@@ -1,0 +1,16 @@
+# Rain at dusk: looking up, out over the city, and firing (muzzle flash).
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusView 0 -4200 100 90 55
+13.0 CampusShot rn_0_up
+13.2 CampusView 0 -4200 100 -90 -5
+14.5 CampusShot rn_1_skyline
+14.7 CampusView -1200 -1900 170 -120 2
+16.0 CampusShot rn_2_lounge_out
+16.2 CampusView 0 -4200 100 90 0
+16.4 CampusAct fire
+16.6 CampusShot rn_3_fire
+16.9 CampusAct unfire
+17.2 CampusView -2000 -3600 300 120 -5
+18.5 CampusShot rn_4_wide
+19.0 quit

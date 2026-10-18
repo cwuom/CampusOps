@@ -1,0 +1,15 @@
+# Dusk (Time=3), High preset: the 6x on the backdrop apartments' tiled wall south of the plaza (dark blotches), and
+# the same wall at the hip. Launch with ?Time=3 at 1920x1080.
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusPreset 2
+7.1 CampusUpscale 0 0 0
+7.2 waitshaders
+8.0 CampusView -875 -4900 110 270 2
+8.5 CampusEquip MK14 optic_sniper
+10.0 CampusAim 1
+12.5 CampusShot sd_scope
+12.6 CampusAimTrace
+12.7 CampusAim 0
+13.7 CampusShot sd_hip
+14.0 quit

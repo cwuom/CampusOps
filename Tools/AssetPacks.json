@@ -1,0 +1,25 @@
+{
+  "commit": "",
+  "packs": [
+    {
+      "name": "Content",
+      "file": "CampusOps-Content.zip",
+      "paths": [ "Content" ],
+      "required": true,
+      "gdrive": "",
+      "url": "",
+      "size": 0,
+      "sha256": ""
+    },
+    {
+      "name": "SourceArt",
+      "file": "CampusOps-SourceArt.zip",
+      "paths": [ "SourceArt" ],
+      "required": false,
+      "gdrive": "",
+      "url": "",
+      "size": 0,
+      "sha256": ""
+    }
+  ]
+}

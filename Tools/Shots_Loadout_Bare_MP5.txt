@@ -1,0 +1,5 @@
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:MP5 -1
+9.5 CampusMenu strip -1
+11 quit

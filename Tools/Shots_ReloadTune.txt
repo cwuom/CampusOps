@@ -1,0 +1,42 @@
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8 CampusEquip AK47
+10 CampusReloadPose 0.3
+10 CampusPose reload 11 -5 5 6 -8 34
+11.6 CampusShot rt_AK47_0
+11.7 CampusPose reload 0 -5 5 6 -8 34
+13.3 CampusShot rt_AK47_1
+13.4 CampusPose reload 2 -5 4 6 0 34
+15 CampusShot rt_AK47_2
+15.1 CampusPose reload 0 -6 6 14 -4 28
+16.7 CampusShot rt_AK47_3
+16.8 CampusPose reload 0 -8 3 10 6 30
+18.4 CampusShot rt_AK47_4
+18.5 CampusPose reload -2 -3 3 8 -14 24
+20.1 CampusShot rt_AK47_5
+20.2 CampusPose reload 2 -4 4 18 -10 20
+21.8 CampusShot rt_AK47_6
+21.9 CampusPose reload 4 -9 6 4 -4 40
+23.5 CampusShot rt_AK47_7
+23.6 CampusReloadPose -1
+24.6 CampusEquip M4A1
+26.6 CampusReloadPose 0.3
+26.6 CampusPose reload 11 -5 5 6 -8 34
+28.2 CampusShot rt_M4A1_0
+28.3 CampusPose reload 0 -5 5 6 -8 34
+29.9 CampusShot rt_M4A1_1
+30 CampusPose reload 2 -5 4 6 0 34
+31.6 CampusShot rt_M4A1_2
+31.7 CampusPose reload 0 -6 6 14 -4 28
+33.3 CampusShot rt_M4A1_3
+33.4 CampusPose reload 0 -8 3 10 6 30
+35 CampusShot rt_M4A1_4
+35.1 CampusPose reload -2 -3 3 8 -14 24
+36.7 CampusShot rt_M4A1_5
+36.8 CampusPose reload 2 -4 4 18 -10 20
+38.4 CampusShot rt_M4A1_6
+38.5 CampusPose reload 4 -9 6 4 -4 40
+40.1 CampusShot rt_M4A1_7
+40.2 CampusReloadPose -1
+41.2 quit

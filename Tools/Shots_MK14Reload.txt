@@ -1,0 +1,54 @@
+# MK14 reload held at fixed points: with the 6x, tactical and empty; then bare; then the knife cuts.
+6.0 CampusGod
+6.5 waitshaders
+7.5 CampusView -875 -4900 110 60 -2
+8.0 CampusEquip MK14 optic_sniper
+9.5 CampusReloadPose 0.1 0
+9.9 CampusShot mk_s_10
+10.0 CampusReloadPose 0.22 0
+10.4 CampusShot mk_s_22
+10.5 CampusReloadPose 0.32 0
+10.9 CampusShot mk_s_32
+11.0 CampusReloadPose 0.5 0
+11.4 CampusShot mk_s_50
+11.5 CampusReloadPose 0.6 0
+11.9 CampusShot mk_s_60
+12.0 CampusReloadPose 0.68 0
+12.4 CampusShot mk_s_68
+12.5 CampusReloadPose 0.8 0
+12.9 CampusShot mk_s_80
+13.0 CampusReloadPose 0.5 1
+13.4 CampusShot mk_e_50
+13.5 CampusReloadPose 0.72 1
+13.9 CampusShot mk_e_72
+14.0 CampusReloadPose 0.8 1
+14.4 CampusShot mk_e_80
+14.5 CampusReloadPose 0.86 1
+14.9 CampusShot mk_e_86
+15.0 CampusReloadPose 0.92 1
+15.4 CampusShot mk_e_92
+15.5 CampusReloadPose -1 0
+16.0 CampusEquip MK14
+17.0 CampusReloadPose 0.6 0
+17.4 CampusShot mk_b_60
+17.5 CampusReloadPose 0.8 1
+17.9 CampusShot mk_b_e80
+18.0 CampusReloadPose 0.88 1
+18.4 CampusShot mk_b_e88
+18.5 CampusReloadPose -1 0
+19.0 CampusEquip KNIFE
+19.5 CampusAct switch
+21.0 CampusPose knifet 0.09 2 0 0 0 0
+21.5 CampusShot kq_f1
+21.6 CampusPose knifet 0.13 2 0 0 0 0
+22.1 CampusShot kq_f2
+22.2 CampusPose knifet 0.2 2 0 0 0 0
+22.7 CampusShot kq_f3
+22.8 CampusPose knifet 0.09 1 0 0 0 0
+23.3 CampusShot kq_b1
+23.4 CampusPose knifet 0.13 1 0 0 0 0
+23.9 CampusShot kq_b2
+24.0 CampusPose knifet 0.2 1 0 0 0 0
+24.5 CampusShot kq_b3
+24.6 CampusPose knifet -1 0 0 0 0 0
+25.0 quit

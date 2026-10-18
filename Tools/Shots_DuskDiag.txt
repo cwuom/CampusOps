@@ -1,0 +1,20 @@
+# Dusk orange veil: what makes it (sun, GI, sky light, grading).
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView -3000 -4300 250 -135 -12
+14.5 CampusShot dd_0_base
+14.7 ShowFlag.DirectionalLights 0
+16.0 CampusShot dd_1_nosun
+16.2 ShowFlag.DirectionalLights 1
+16.3 r.Lumen.DiffuseIndirect.Allow 0
+17.8 CampusShot dd_2_nolumengi
+17.9 r.Lumen.DiffuseIndirect.Allow 1
+18.0 ShowFlag.Tonemapper 0
+19.3 CampusShot dd_3_notonemap
+19.4 ShowFlag.Tonemapper 1
+19.5 ShowFlag.Fog 0
+19.6 ShowFlag.AtmosphericFog 0
+19.7 ShowFlag.VolumetricFog 0
+21.0 CampusShot dd_4_noanyfog
+22.0 quit

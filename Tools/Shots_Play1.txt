@@ -1,0 +1,49 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Play1.txt
+# Play-test pass with the player's M4A1 build: hip, ADS, fire, tactical / regular sprint, reload, slide, melee; then
+# the 2F stair wells from inside and outside.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+8 CampusShot p01_hip
+8.4 CampusAim 1
+9.4 CampusShot p02_ads
+9.6 CampusFire 1
+9.75 CampusShot p03_fire
+10.2 CampusFire 0
+10.4 CampusAim 0
+11 CampusView -3290 -2600 110 90 0
+11.1 CampusMove 0 1
+11.2 CampusAct sprint
+12.0 CampusShot p10_tac
+12.5 CampusShot p11_tac
+13.0 CampusShot p12_tac
+13.2 CampusAct stop
+13.8 CampusView -3290 -2600 110 90 0
+13.9 CampusMove 0 1
+14.0 CampusAct sprintonly
+14.8 CampusShot p20_sprint
+15.3 CampusShot p21_sprint
+15.5 CampusAct stop
+16.0 CampusAct reload
+16.4 CampusShot p30_reload_a
+16.9 CampusShot p31_reload_b
+17.4 CampusShot p32_reload_c
+19 CampusView -3290 -2600 110 90 0
+19.1 CampusMove 0 1
+19.2 CampusAct sprint
+19.9 CampusAct slide
+20.2 CampusShot p40_slide
+20.8 CampusAct stop
+21.5 CampusAct melee
+21.65 CampusShot p50_melee
+22.5 CampusFreeCam 1
+22.6 CampusView -3800 -2850 560 0 -8
+23.9 CampusShot p60_wwstair_in
+24.0 CampusView -4900 -2950 700 0 -6
+25.3 CampusShot p61_wwstair_out
+25.4 CampusView -3900 3400 560 -90 -8
+26.7 CampusShot p62_nwstair_in
+26.8 CampusView -4000 5200 650 -90 -4
+28.1 CampusShot p63_nwstair_out
+28.2 CampusView 1150 5200 650 -90 -4
+29.5 CampusShot p64_nweast_out
+30 quit

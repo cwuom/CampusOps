@@ -1,0 +1,40 @@
+# Map_Campus?game=TDM?Bots=0?Weather=0?Time=1
+# Scoped MK14 magazine and empty reload paths, cancellation, alternating cuts and close-wall stances
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+7.2 CampusEquip MK14 optic_sniper,grip_vertical
+9.0 CampusReloadPose 0.05 1
+9.4 CampusShot ex_mk14_reach
+9.5 CampusReloadPose 0.20 1
+9.9 CampusShot ex_mk14_mag
+10.0 CampusReloadPose 0.78 1
+10.4 CampusShot ex_mk14_catch
+10.5 CampusReloadPose 0.91 1
+10.9 CampusShot ex_mk14_return
+11.0 CampusReloadPose 0.45 1
+11.5 CampusReloadPose -1
+11.5 CampusShotSeq ex_reload_cancel 8 2
+13.0 CampusEquip KNIFE
+13.5 CampusAct switch
+15.0 CampusAct fire
+15.01 CampusShotSeq ex_knife_light 12 2
+15.2 CampusAct unfire
+16.2 CampusAct melee
+16.21 CampusShotSeq ex_knife_heavy 16 2
+18.0 CampusEquip MK14 optic_sniper,muzzle_suppressor
+19.5 CampusView -4740 -5000 110 180 0
+20.0 CampusMove 0 1
+20.1 CampusAct sprintonly
+21.3 CampusShot ex_wall_sprint
+21.4 CampusDebugVM
+21.5 CampusAct stop
+22.0 CampusAim 1
+22.6 CampusShot ex_wall_ads
+22.7 CampusDebugVM
+22.8 CampusAim 0
+23.0 CampusReloadPose 0.20 1
+23.5 CampusShot ex_wall_reload
+23.6 CampusDebugVM
+24.0 CampusReloadPose -1
+25.0 quit

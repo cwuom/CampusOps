@@ -1,0 +1,21 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Menu3.txt
+0.5 CampusShot m00_warmup
+4 CampusShot m01_title
+5 CampusMenu play -1
+9 waitshaders
+9.5 CampusShot m02_lobby
+10 CampusMenu loadouts -1
+13 waitshaders
+13.5 CampusShot m03_loadouts
+14 CampusMenu gunsmith -1
+14.35 CampusShot m04_gunsmith_moving
+16.5 CampusShot m05_gunsmith
+17 CampusMenu gunsmith 3
+17.3 CampusShot m06_optic_moving
+18.6 CampusShot m07_optic
+19 CampusMenu gunsmith 6
+20.6 CampusShot m08_magazine
+21 CampusMenu options -1
+24 waitshaders
+24.5 CampusShot m09_options
+25 quit

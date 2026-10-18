@@ -1,0 +1,35 @@
+# 同用户的AK配件组合，检查贴近部位的标签与旋转和窄屏边界
+5.0 CampusPreset 1
+5.1 CampusUpscale 0 0 0
+5.3 waitshaders
+6.0 r.setres 2560x1440w
+6.2 CampusMenu gunsmith -1
+6.4 CampusMenu weapon:AK47 -1
+6.6 CampusMenu strip -1
+6.8 CampusMenu attach:barrel_long -1
+6.9 CampusMenu attach:light_tac -1
+7.0 CampusMenu attach:optic_reddot -1
+7.1 CampusMenu attach:stock_heavy -1
+7.2 CampusMenu attach:grip_angled -1
+7.3 CampusMenu attach:mag_fast -1
+7.4 CampusMenu attach:grip_stippled -1
+8.2 CampusShot labels_ak_whole
+8.5 CampusMenu gunsmith 3
+9.3 CampusShot labels_ak_optic
+9.5 CampusMenu turn:240,120 -1
+10.3 CampusShot labels_ak_rotated
+10.5 CampusMenu weapon:MP5 -1
+10.6 CampusMenu gunsmith 3
+11.4 CampusShot labels_mp5_optic
+11.6 CampusMenu weapon:MK14 -1
+11.7 CampusMenu gunsmith 3
+12.5 CampusShot labels_mk14_optic
+13.0 r.setres 1280x720w
+13.2 CampusMenu weapon:AK47 -1
+13.3 CampusMenu gunsmith -1
+14.2 CampusShot labels_ak_720
+14.5 CampusMenu gunsmith 3
+15.3 CampusShot labels_ak_optic_720
+15.5 CampusMenu turn:240,-240 -1
+16.3 CampusShot labels_ak_rotated_720
+17.0 quit

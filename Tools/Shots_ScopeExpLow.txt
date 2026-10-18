@@ -1,0 +1,14 @@
+# Launch with ?Weather=<n>?Time=<n> -benchmark -fps=30: the 6x at full ADS on a wall (just up, and held),
+# then the hip view of the same wall: the scope picture must match its brightness.
+6.0 CampusGod
+6.2 CampusPreset 0
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 270 2
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+9.0 CampusAim 1
+10.0 CampusShot se_up
+12.0 CampusShot se_6x
+12.2 CampusAim 0
+14.5 CampusShot se_hip
+15.0 quit

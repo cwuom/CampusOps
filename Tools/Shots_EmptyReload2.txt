@@ -1,0 +1,24 @@
+# Empty reloads in the awkward spots: aimed into a wall at arm's length, with a magnified scope, crouched.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+8.5 CampusView 1375 2900 170 180 -2
+10.0 CampusAct aim
+10.2 CampusAct fire
+13.1 CampusShotSeq ewa_ 24 4
+16.5 CampusAct unfire
+16.6 CampusAct unaim
+17.5 CampusEquip MK14 optic_scope
+18.0 CampusView -3000 -4300 100 0 -2
+19.5 CampusAct aim
+19.7 CampusAct fire
+24.5 CampusShotSeq esc_ 24 4
+28.5 CampusAct unfire
+28.6 CampusAct unaim
+29.5 CampusEquip AK47
+30.0 CampusAct crouch
+31.0 CampusAct aim
+31.2 CampusAct fire
+34.1 CampusShotSeq ecr_ 24 4
+37.5 CampusAct unfire
+38.5 quit

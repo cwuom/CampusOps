@@ -1,0 +1,21 @@
+# Launch with ?Time=3 -benchmark -fps=30 at 1280x720: the 6x at full ADS on the apartments south of the plaza (dark
+# spots in the magnified view), ultra with ray traced GI, then screen space GI; and a sequence while swaying.
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 4
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 270 2
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+9.0 CampusAim 1
+12.0 CampusShot sr_rt
+12.1 CampusShotSeq sr_rtseq_ 4 4
+13.0 CampusGfx GI 0
+13.2 waitshaders
+16.0 CampusShot sr_ss
+16.2 CampusGfx GI 4
+16.3 waitshaders
+17.0 CampusView -875 -3800 110 90 -1
+20.0 CampusShot sr_yard
+20.5 quit

@@ -1,0 +1,12 @@
+# bot throw
+6.0 CampusGod
+8.0 waitshaders
+9.0 CampusLookAtBotFrom 380
+9.1 CampusBotThrow 0 0
+9.6 CampusLookAtBotFrom 380
+10.0 CampusBotThrow 55 1
+10.02 CampusShotSeq bt_a 40 1
+13.5 CampusLookAtBotFrom 380
+13.7 CampusBotThrow 95 1
+13.72 CampusShotSeq bt_b 40 1
+17.0 quit

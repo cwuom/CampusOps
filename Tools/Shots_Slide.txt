@@ -1,0 +1,14 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Slide.txt
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+8.5 CampusMove 0 1
+8.6 CampusAct sprint
+9.6 CampusDebugVM
+9.8 CampusAct slide
+9.9 CampusDebugVM
+10.2 CampusDebugVM
+10.5 CampusDebugVM
+10.8 CampusDebugVM
+11.1 CampusDebugVM
+11.4 CampusDebugVM
+11.6 quit

@@ -1,0 +1,20 @@
+# School stairs at dusk, from above each landing looking back over the flights and the divider between them.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.5 CampusView 1265 3950 540 270 -48
+12.5 CampusShot st_ne
+12.7 CampusView 1265 3650 470 270 -62
+14.5 CampusShot st_ne2
+14.7 CampusView -3800 3950 540 270 -48
+16.5 CampusShot st_nw
+16.7 CampusView -3800 3650 470 270 -62
+18.5 CampusShot st_nw2
+18.7 CampusView -4050 -2970 540 0 -48
+20.5 CampusShot st_ww
+20.7 CampusFreeCam 0
+21.0 CampusView 1300 3330 540 0 -35
+22.5 CampusShot st_ne_head
+22.7 CampusView -3620 3290 540 90 -35
+24.0 CampusShot st_nw_head
+24.5 quit

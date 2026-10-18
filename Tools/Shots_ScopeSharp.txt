@@ -1,0 +1,22 @@
+# Launch with ?Time=3 -benchmark -fps=30: the 6x at full ADS from the covered walkway onto the yard trees and the
+# north wing, standing, strafing (sway smear), and at 67% render resolution with TSR.
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 4
+6.5 waitshaders
+7.0 CampusView -875 -3800 110 75 1
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+9.0 CampusAim 1
+11.5 CampusShot ss_still
+11.6 CampusMove 1 0
+12.4 CampusShotSeq ss_strafe_ 3 3
+13.0 CampusMove 0 0
+13.2 CampusGfx Scale 67
+13.4 waitshaders
+15.0 CampusShot ss_67
+15.1 CampusMove -1 0
+15.9 CampusShot ss_67strafe
+16.2 CampusMove 0 0
+16.5 quit

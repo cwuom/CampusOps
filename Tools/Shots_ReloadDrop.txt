@@ -1,0 +1,17 @@
+# Reload while dropping off a height and landing (the reported clipping): dense frames through fall and landing.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47
+9.0 CampusAct fire
+9.3 CampusAct unfire
+9.8 CampusView -2500 -3600 100 60 0
+10.2 CampusView -2500 -3600 700 60 -10
+10.25 CampusAct reload
+10.3 CampusShotSeq dr_a 36 3
+13.5 CampusAct fire
+13.8 CampusAct unfire
+14.2 CampusView -2500 -3200 100 60 0
+14.6 CampusAct reload
+15.2 CampusView -2500 -3200 900 60 -20
+15.25 CampusShotSeq dr_b 36 3
+19.0 quit

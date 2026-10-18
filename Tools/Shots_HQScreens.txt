@@ -1,0 +1,10 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1600 -ResY=900 -CampusScriptFile=E:/game-project/Tools/Shots_HQScreens.txt
+# The HQ (特勤处) screen wall from the title screen and the main menu pages, then every screen's picture to hqs_*.png.
+6 waitshaders
+9 CampusShot hq_title
+9.5 CampusMenu play -1
+11.5 CampusShot hq_play
+12 CampusMenu loadouts -1
+14 CampusShot hq_loadouts
+14.2 CampusDumpScreens
+15 quit

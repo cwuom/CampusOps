@@ -1,0 +1,71 @@
+# Reload held at key progresses with viewmodel debug (elbow / upper arm in camera space) and a shot of each.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8.0 CampusReloadPose 0.30 0
+8.3 CampusDebugVM
+8.4 CampusShot pr0_30
+8.5 CampusReloadPose 0.36 0
+8.8 CampusDebugVM
+8.9 CampusShot pr0_36
+9.0 CampusReloadPose 0.40 0
+9.3 CampusDebugVM
+9.4 CampusShot pr0_40
+9.5 CampusReloadPose 0.45 0
+9.8 CampusDebugVM
+9.9 CampusShot pr0_45
+10.0 CampusReloadPose 0.50 0
+10.3 CampusDebugVM
+10.4 CampusShot pr0_50
+10.5 CampusReloadPose 0.55 0
+10.8 CampusDebugVM
+10.9 CampusShot pr0_55
+11.0 CampusReloadPose 0.60 0
+11.3 CampusDebugVM
+11.4 CampusShot pr0_60
+11.5 CampusReloadPose 0.75 0
+11.8 CampusDebugVM
+11.9 CampusShot pr0_75
+12.0 CampusReloadPose 0.80 0
+12.3 CampusDebugVM
+12.4 CampusShot pr0_80
+12.5 CampusReloadPose 0.85 0
+12.8 CampusDebugVM
+12.9 CampusShot pr0_85
+13.0 CampusReloadPose 0.90 0
+13.3 CampusDebugVM
+13.4 CampusShot pr0_90
+13.5 CampusReloadPose 0.30 1
+13.8 CampusDebugVM
+13.9 CampusShot pr1_30
+14.0 CampusReloadPose 0.36 1
+14.3 CampusDebugVM
+14.4 CampusShot pr1_36
+14.5 CampusReloadPose 0.40 1
+14.8 CampusDebugVM
+14.9 CampusShot pr1_40
+15.0 CampusReloadPose 0.45 1
+15.3 CampusDebugVM
+15.4 CampusShot pr1_45
+15.5 CampusReloadPose 0.50 1
+15.8 CampusDebugVM
+15.9 CampusShot pr1_50
+16.0 CampusReloadPose 0.55 1
+16.4 CampusDebugVM
+16.4 CampusShot pr1_55
+16.5 CampusReloadPose 0.60 1
+16.9 CampusDebugVM
+16.9 CampusShot pr1_60
+17.0 CampusReloadPose 0.75 1
+17.4 CampusDebugVM
+17.4 CampusShot pr1_75
+17.5 CampusReloadPose 0.80 1
+17.9 CampusDebugVM
+17.9 CampusShot pr1_80
+18.0 CampusReloadPose 0.85 1
+18.4 CampusDebugVM
+18.4 CampusShot pr1_85
+18.5 CampusReloadPose 0.90 1
+18.9 CampusDebugVM
+18.9 CampusShot pr1_90
+19.5 quit

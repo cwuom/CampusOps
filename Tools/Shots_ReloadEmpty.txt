@@ -1,0 +1,166 @@
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusView -3000 -4300 100 0 -2
+8.50 CampusEquip M4A1
+10.10 CampusReloadPose 0.6 1
+10.55 CampusShot re_M4A1_60
+10.65 CampusReloadPose 0.68 1
+11.10 CampusShot re_M4A1_68
+11.20 CampusReloadPose 0.74 1
+11.65 CampusShot re_M4A1_74
+11.75 CampusReloadPose 0.78 1
+12.20 CampusShot re_M4A1_78
+12.30 CampusReloadPose 0.82 1
+12.75 CampusShot re_M4A1_82
+12.85 CampusReloadPose 0.86 1
+13.30 CampusShot re_M4A1_86
+13.40 CampusReloadPose 0.9 1
+13.85 CampusShot re_M4A1_90
+13.95 CampusReloadPose 0.95 1
+14.40 CampusShot re_M4A1_95
+14.50 CampusReloadPose -1
+14.80 CampusEquip AK47
+16.40 CampusReloadPose 0.6 1
+16.85 CampusShot re_AK47_60
+16.95 CampusReloadPose 0.68 1
+17.40 CampusShot re_AK47_68
+17.50 CampusReloadPose 0.74 1
+17.95 CampusShot re_AK47_74
+18.05 CampusReloadPose 0.78 1
+18.50 CampusShot re_AK47_78
+18.60 CampusReloadPose 0.82 1
+19.05 CampusShot re_AK47_82
+19.15 CampusReloadPose 0.86 1
+19.60 CampusShot re_AK47_86
+19.70 CampusReloadPose 0.9 1
+20.15 CampusShot re_AK47_90
+20.25 CampusReloadPose 0.95 1
+20.70 CampusShot re_AK47_95
+20.80 CampusReloadPose -1
+21.10 CampusEquip MP5
+22.70 CampusReloadPose 0.6 1
+23.15 CampusShot re_MP5_60
+23.25 CampusReloadPose 0.68 1
+23.70 CampusShot re_MP5_68
+23.80 CampusReloadPose 0.74 1
+24.25 CampusShot re_MP5_74
+24.35 CampusReloadPose 0.78 1
+24.80 CampusShot re_MP5_78
+24.90 CampusReloadPose 0.82 1
+25.35 CampusShot re_MP5_82
+25.45 CampusReloadPose 0.86 1
+25.90 CampusShot re_MP5_86
+26.00 CampusReloadPose 0.9 1
+26.45 CampusShot re_MP5_90
+26.55 CampusReloadPose 0.95 1
+27.00 CampusShot re_MP5_95
+27.10 CampusReloadPose -1
+27.40 CampusEquip MK14
+29.00 CampusReloadPose 0.6 1
+29.45 CampusShot re_MK14_60
+29.55 CampusReloadPose 0.68 1
+30.00 CampusShot re_MK14_68
+30.10 CampusReloadPose 0.74 1
+30.55 CampusShot re_MK14_74
+30.65 CampusReloadPose 0.78 1
+31.10 CampusShot re_MK14_78
+31.20 CampusReloadPose 0.82 1
+31.65 CampusShot re_MK14_82
+31.75 CampusReloadPose 0.86 1
+32.20 CampusShot re_MK14_86
+32.30 CampusReloadPose 0.9 1
+32.75 CampusShot re_MK14_90
+32.85 CampusReloadPose 0.95 1
+33.30 CampusShot re_MK14_95
+33.40 CampusReloadPose -1
+33.70 CampusEquip HK416
+35.30 CampusReloadPose 0.6 1
+35.75 CampusShot re_HK416_60
+35.85 CampusReloadPose 0.68 1
+36.30 CampusShot re_HK416_68
+36.40 CampusReloadPose 0.74 1
+36.85 CampusShot re_HK416_74
+36.95 CampusReloadPose 0.78 1
+37.40 CampusShot re_HK416_78
+37.50 CampusReloadPose 0.82 1
+37.95 CampusShot re_HK416_82
+38.05 CampusReloadPose 0.86 1
+38.50 CampusShot re_HK416_86
+38.60 CampusReloadPose 0.9 1
+39.05 CampusShot re_HK416_90
+39.15 CampusReloadPose 0.95 1
+39.60 CampusShot re_HK416_95
+39.70 CampusReloadPose -1
+40.00 CampusEquip UMP45
+41.60 CampusReloadPose 0.6 1
+42.05 CampusShot re_UMP45_60
+42.15 CampusReloadPose 0.68 1
+42.60 CampusShot re_UMP45_68
+42.70 CampusReloadPose 0.74 1
+43.15 CampusShot re_UMP45_74
+43.25 CampusReloadPose 0.78 1
+43.70 CampusShot re_UMP45_78
+43.80 CampusReloadPose 0.82 1
+44.25 CampusShot re_UMP45_82
+44.35 CampusReloadPose 0.86 1
+44.80 CampusShot re_UMP45_86
+44.90 CampusReloadPose 0.9 1
+45.35 CampusShot re_UMP45_90
+45.45 CampusReloadPose 0.95 1
+45.90 CampusShot re_UMP45_95
+46.00 CampusReloadPose -1
+46.30 CampusEquip RPK
+47.90 CampusReloadPose 0.6 1
+48.35 CampusShot re_RPK_60
+48.45 CampusReloadPose 0.68 1
+48.90 CampusShot re_RPK_68
+49.00 CampusReloadPose 0.74 1
+49.45 CampusShot re_RPK_74
+49.55 CampusReloadPose 0.78 1
+50.00 CampusShot re_RPK_78
+50.10 CampusReloadPose 0.82 1
+50.55 CampusShot re_RPK_82
+50.65 CampusReloadPose 0.86 1
+51.10 CampusShot re_RPK_86
+51.20 CampusReloadPose 0.9 1
+51.65 CampusShot re_RPK_90
+51.75 CampusReloadPose 0.95 1
+52.20 CampusShot re_RPK_95
+52.30 CampusReloadPose -1
+52.60 CampusEquip SAIGA12
+54.20 CampusReloadPose 0.6 1
+54.65 CampusShot re_SAIGA12_60
+54.75 CampusReloadPose 0.68 1
+55.20 CampusShot re_SAIGA12_68
+55.30 CampusReloadPose 0.74 1
+55.75 CampusShot re_SAIGA12_74
+55.85 CampusReloadPose 0.78 1
+56.30 CampusShot re_SAIGA12_78
+56.40 CampusReloadPose 0.82 1
+56.85 CampusShot re_SAIGA12_82
+56.95 CampusReloadPose 0.86 1
+57.40 CampusShot re_SAIGA12_86
+57.50 CampusReloadPose 0.9 1
+57.95 CampusShot re_SAIGA12_90
+58.05 CampusReloadPose 0.95 1
+58.50 CampusShot re_SAIGA12_95
+58.60 CampusReloadPose -1
+58.90 CampusEquip X16
+60.50 CampusReloadPose 0.6 1
+60.95 CampusShot re_X16_60
+61.05 CampusReloadPose 0.68 1
+61.50 CampusShot re_X16_68
+61.60 CampusReloadPose 0.74 1
+62.05 CampusShot re_X16_74
+62.15 CampusReloadPose 0.78 1
+62.60 CampusShot re_X16_78
+62.70 CampusReloadPose 0.82 1
+63.15 CampusShot re_X16_82
+63.25 CampusReloadPose 0.86 1
+63.70 CampusShot re_X16_86
+63.80 CampusReloadPose 0.9 1
+64.25 CampusShot re_X16_90
+64.35 CampusReloadPose 0.95 1
+64.80 CampusShot re_X16_95
+64.90 CampusReloadPose -1
+66.2 quit

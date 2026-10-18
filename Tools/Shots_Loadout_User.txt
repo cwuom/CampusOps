@@ -1,0 +1,12 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Loadout_User.txt
+# The player's M4A1 build: red dot, monolithic suppressor, 1 mW laser, CQB barrel, angled grip.
+5 CampusMenu gunsmith -1
+9 waitshaders
+9.2 CampusMenu weapon:M4A1 -1
+9.5 CampusMenu strip -1
+9.7 CampusMenu attach:optic_reddot -1
+9.8 CampusMenu attach:muzzle_suppressor -1
+9.9 CampusMenu attach:laser_tac -1
+10.0 CampusMenu attach:barrel_short -1
+10.1 CampusMenu attach:grip_angled -1
+11 quit

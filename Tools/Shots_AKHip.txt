@@ -1,0 +1,24 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_AKHip.txt
+# AK hip pose candidates (CampusPose hip X Y Z Pitch Yaw Roll), each also held at the reload draw phase.
+6.5 CampusGod
+7 CampusView -2900 -5450 110 90 0
+7.6 CampusShot h10
+7.8 CampusReloadPose 0.22 0
+8.6 CampusShot h11
+8.8 CampusReloadPose -1 0
+9.0 CampusPose hip 14 8 -5 2 -3 -6
+9.8 CampusShot h20
+10.0 CampusReloadPose 0.22 0
+10.8 CampusShot h21
+11.0 CampusReloadPose -1 0
+11.2 CampusPose hip 12 9 -7 0 -2 -8
+12.0 CampusShot h30
+12.2 CampusReloadPose 0.22 0
+13.0 CampusShot h31
+13.2 CampusReloadPose -1 0
+13.4 CampusPose hip 17 7 -5 3 -5 -4
+14.2 CampusShot h40
+14.4 CampusReloadPose 0.22 0
+15.2 CampusShot h41
+15.4 CampusReloadPose -1 0
+15.8 quit

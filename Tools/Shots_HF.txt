@@ -1,0 +1,14 @@
+# hand frame
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusPose thold 36 -20 -3 0 0 0
+8.6 CampusPose throwturn 0 0 0 0 0 0
+10.6 CampusAct refill
+11.0 CampusAct smoke
+12.2 CampusDebugVM
+12.2 CampusShot hf_0
+12.4 CampusPose throwturn 0 0 0 25 -80 -30
+12.8 CampusDebugVM
+12.8 CampusShot hf_1
+13.0 CampusAct release
+14 quit

@@ -1,0 +1,21 @@
+# Hotel north core: the B1 totem at the stair head, then the lobby glass balustrade over the stair well shot out.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.5 CampusView 1060 3130 160 180 -10
+12.0 CampusShot sg_0_sign
+12.2 CampusView 1350 2900 175 200 -8
+13.5 CampusShot sg_1_signwide
+13.7 CampusFreeCam 0
+14.0 CampusView 1000 2900 170 180 -30
+15.5 CampusShot sg_2_glass
+15.6 CampusAct fire
+15.66 CampusAct unfire
+16.2 CampusShot sg_3_crazed
+16.4 CampusAct fire
+16.46 CampusAct unfire
+16.8 CampusShot sg_4_falling
+19.5 CampusShot sg_5_after
+19.7 CampusView 1000 2900 170 180 -60
+20.5 CampusShot sg_6_down
+21.0 quit

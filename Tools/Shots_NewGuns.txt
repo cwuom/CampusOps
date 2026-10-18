@@ -1,0 +1,31 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_NewGuns.txt
+# Gunsmith previews of the new weapons (bare and with a red dot + grip), then the Saiga in game: hip, ADS, a shot.
+5 CampusMenu gunsmith -1
+8 waitshaders
+8.2 CampusMenu weapon:HK416 -1
+8.3 CampusMenu strip -1
+10.0 CampusShot ng_hk416
+10.2 CampusMenu weapon:UMP45 -1
+10.3 CampusMenu strip -1
+12.0 CampusShot ng_ump45
+12.2 CampusMenu weapon:RPK -1
+12.3 CampusMenu strip -1
+14.0 CampusShot ng_rpk
+14.2 CampusMenu weapon:SAIGA12 -1
+14.3 CampusMenu strip -1
+16.0 CampusShot ng_saiga
+16.2 CampusMenu attach:optic_reddot -1
+16.3 CampusMenu attach:grip_vertical -1
+17.8 CampusShot ng_saiga_kit
+18.0 CampusHost TDM
+23 waitshaders
+23.2 CampusGod
+24.5 CampusView -875 -4900 110 90 0
+26.0 CampusShot ng_saiga_hip
+26.2 CampusAim 1
+27.2 CampusShot ng_saiga_ads
+27.4 CampusFire 1
+27.45 CampusFire 0
+27.5 CampusShot ng_saiga_fire
+28.6 CampusShot ng_saiga_after
+29.0 quit

@@ -1,0 +1,21 @@
+# Kiosk climb, two candidate poses: palm-down hand on the lip, a deeper look down at it, weapon swung down and out.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.0 CampusPose mantleturn -4 -26 -26 -15.4 38.4 130
+9.0 CampusPose mantlecam 0 0 0 -18 0 -3.5
+9.0 CampusPose mantletuck -2 2.5 -5 -12 9 -8
+9.0 CampusPose mantlemin 32 -0.55 -0.75 0 0 0
+9.6 CampusView -1690 0 165 180 -6
+10.6 CampusMove 0 1
+10.7 CampusAct jump
+10.7 CampusShotSeq me_ 12 2
+12.2 CampusMove 0 0
+12.4 CampusPose mantleturn -4 -26 -26 -14 48.3 135
+12.4 CampusPose mantletuck -1.5 3 -4 -8 12 -4
+12.6 CampusView -1690 0 165 180 -6
+13.6 CampusMove 0 1
+13.7 CampusAct jump
+13.7 CampusShotSeq mf_ 12 2
+15.2 CampusMove 0 0
+15.5 quit

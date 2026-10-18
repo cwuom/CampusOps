@@ -1,0 +1,12 @@
+# Classroom door: shoot the vision panel, open the door, look at where the glass went.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.0 CampusLookAtDoor 160
+10.0 CampusShot dg_0
+10.1 CampusAct fire
+10.5 CampusAct unfire
+12.0 CampusShot dg_1
+12.1 CampusAct door
+14.0 CampusShot dg_2
+14.5 quit

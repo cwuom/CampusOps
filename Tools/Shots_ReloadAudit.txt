@@ -1,0 +1,91 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_ReloadAudit.txt
+# Reload held at 0..1 in 0.05 steps (normal rl_, then empty re_), for auditing hand paths and clipping.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8.0 CampusReloadPose 0.00 0
+8.3 CampusShot rl_00
+8.5 CampusReloadPose 0.05 0
+8.8 CampusShot rl_01
+9.0 CampusReloadPose 0.10 0
+9.3 CampusShot rl_02
+9.5 CampusReloadPose 0.15 0
+9.8 CampusShot rl_03
+10.0 CampusReloadPose 0.20 0
+10.3 CampusShot rl_04
+10.5 CampusReloadPose 0.25 0
+10.8 CampusShot rl_05
+11.0 CampusReloadPose 0.30 0
+11.3 CampusShot rl_06
+11.5 CampusReloadPose 0.35 0
+11.8 CampusShot rl_07
+12.0 CampusReloadPose 0.40 0
+12.3 CampusShot rl_08
+12.5 CampusReloadPose 0.45 0
+12.8 CampusShot rl_09
+13.0 CampusReloadPose 0.50 0
+13.3 CampusShot rl_10
+13.5 CampusReloadPose 0.55 0
+13.8 CampusShot rl_11
+14.0 CampusReloadPose 0.60 0
+14.3 CampusShot rl_12
+14.5 CampusReloadPose 0.65 0
+14.8 CampusShot rl_13
+15.0 CampusReloadPose 0.70 0
+15.3 CampusShot rl_14
+15.5 CampusReloadPose 0.75 0
+15.8 CampusShot rl_15
+16.0 CampusReloadPose 0.80 0
+16.4 CampusShot rl_16
+16.5 CampusReloadPose 0.85 0
+16.9 CampusShot rl_17
+17.0 CampusReloadPose 0.90 0
+17.4 CampusShot rl_18
+17.5 CampusReloadPose 0.95 0
+17.9 CampusShot rl_19
+18.0 CampusReloadPose 1.00 0
+18.4 CampusShot rl_20
+18.5 CampusReloadPose 0.00 1
+18.9 CampusShot re_00
+19.0 CampusReloadPose 0.05 1
+19.4 CampusShot re_01
+19.5 CampusReloadPose 0.10 1
+19.9 CampusShot re_02
+20.0 CampusReloadPose 0.15 1
+20.4 CampusShot re_03
+20.5 CampusReloadPose 0.20 1
+20.9 CampusShot re_04
+21.0 CampusReloadPose 0.25 1
+21.4 CampusShot re_05
+21.5 CampusReloadPose 0.30 1
+21.9 CampusShot re_06
+22.0 CampusReloadPose 0.35 1
+22.4 CampusShot re_07
+22.5 CampusReloadPose 0.40 1
+22.9 CampusShot re_08
+23.0 CampusReloadPose 0.45 1
+23.4 CampusShot re_09
+23.5 CampusReloadPose 0.50 1
+23.9 CampusShot re_10
+24.0 CampusReloadPose 0.55 1
+24.4 CampusShot re_11
+24.5 CampusReloadPose 0.60 1
+24.9 CampusShot re_12
+25.0 CampusReloadPose 0.65 1
+25.4 CampusShot re_13
+25.5 CampusReloadPose 0.70 1
+25.9 CampusShot re_14
+26.0 CampusReloadPose 0.75 1
+26.4 CampusShot re_15
+26.5 CampusReloadPose 0.80 1
+26.9 CampusShot re_16
+27.0 CampusReloadPose 0.85 1
+27.4 CampusShot re_17
+27.5 CampusReloadPose 0.90 1
+27.9 CampusShot re_18
+28.0 CampusReloadPose 0.95 1
+28.4 CampusShot re_19
+28.5 CampusReloadPose 1.00 1
+28.9 CampusShot re_20
+29.0 CampusReloadPose -1 0
+29.5 quit

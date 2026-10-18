@@ -1,0 +1,28 @@
+# grenade hold sweep
+6.0 CampusGod
+8.0 waitshaders
+8.5 CampusPose thold 30 -19 -2 0 0 0
+10.6 CampusAct refill
+12 CampusPose throwturn 0 0 0 25 -80 -30
+12.2 CampusShot gh_00
+12.3 CampusPose throwturn 0 0 0 0 -80 0
+12.5 CampusShot gh_01
+12.6 CampusPose throwturn 0 0 0 -30 -60 60
+12.8 CampusShot gh_02
+12.9 CampusPose throwturn 0 0 0 60 -90 -90
+13.100000000000001 CampusShot gh_03
+13.2 CampusPose throwturn 0 0 0 0 0 90
+13.400000000000002 CampusShot gh_04
+13.5 CampusPose throwturn 0 0 0 0 0 -90
+13.700000000000003 CampusShot gh_05
+13.8 CampusPose throwturn 0 0 0 -60 -80 0
+14.000000000000004 CampusShot gh_06
+14.1 CampusPose throwturn 0 0 0 30 -150 0
+14.300000000000004 CampusShot gh_07
+14.4 CampusPose throwturn 0 0 0 0 -170 60
+14.600000000000005 CampusShot gh_08
+14.7 CampusPose throwturn 0 0 0 -20 -40 -60
+14.900000000000006 CampusShot gh_09
+15 CampusAct release
+16.500000000000007 quit
+11.0 CampusAct smoke

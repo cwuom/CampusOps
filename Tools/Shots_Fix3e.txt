@@ -1,0 +1,23 @@
+# Launch with ?Time=3 -benchmark -fps=30: one static view of the corridor ceiling with SSR, SSGI and both turned off
+# in turn (which pass makes the snow).
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 0
+6.5 CampusFreeCam 1
+6.6 waitshaders
+7.0 CampusView -3290 -2400 180 90 30
+7.5 waitshaders
+11.0 CampusShot sn_base
+11.1 r.SSR.Quality 0
+13.0 CampusShot sn_nossr
+13.1 r.SSR.Quality 3
+13.15 r.SSGI.Enable 0
+15.0 CampusShot sn_nossgi
+15.1 r.SSR.Quality 0
+17.0 CampusShot sn_none
+17.1 r.SSR.Quality 3
+17.2 r.SSGI.Enable 1
+17.3 CampusMove 0 0.3
+18.0 CampusShot sn_move
+18.5 quit

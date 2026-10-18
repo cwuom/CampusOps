@@ -1,0 +1,52 @@
+# First-person clipping audit: live reloads of every weapon class and the main actions.
+6.0 CampusGod
+6.5 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+7.5 CampusEquip M4A1
+9.0 CampusAct fire
+9.3 CampusAct unfire
+9.6 CampusAct reload
+9.6 CampusShotSeq m4_ 14 5
+12.6 CampusEquip AK47
+14.0 CampusAct fire
+14.3 CampusAct unfire
+14.6 CampusAct reload
+14.6 CampusShotSeq ak_ 14 5
+17.6 CampusEquip MP5
+19.0 CampusAct fire
+19.3 CampusAct unfire
+19.6 CampusAct reload
+19.6 CampusShotSeq mp_ 14 5
+22.6 CampusEquip RPK
+24.0 CampusAct fire
+24.3 CampusAct unfire
+24.6 CampusAct reload
+24.6 CampusShotSeq rp_ 16 6
+28.6 CampusEquip SAIGA12
+30.0 CampusAct fire
+30.3 CampusAct unfire
+30.6 CampusAct reload
+30.6 CampusShotSeq sg_ 14 5
+33.6 CampusEquip M4A1
+35.0 CampusAct inspect
+35.0 CampusShotSeq in_ 14 6
+38.0 CampusAct melee
+38.0 CampusShotSeq me_ 8 2
+39.5 CampusAct switch
+39.5 CampusShotSeq sw_ 10 3
+41.5 CampusAct reload
+41.5 CampusShotSeq px_ 12 4
+43.5 CampusAct switch
+44.5 CampusAct frag
+44.5 CampusShotSeq fr_ 10 3
+45.6 CampusAct release
+45.6 CampusShotSeq fs_ 10 3
+47.5 CampusMove 0 1
+47.6 CampusAct sprintonly
+48.5 CampusShotSeq sp_ 4 4
+49.0 CampusAct tac
+49.6 CampusShotSeq tc_ 4 4
+50.2 CampusAct slide
+50.2 CampusShotSeq sl_ 8 3
+51.5 CampusAct stop
+52.0 quit

@@ -1,0 +1,23 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1600 -ResY=900 -CampusScriptFile=E:/game-project/Tools/Shots_OptionsTabs.txt
+# Each settings tab in turn (gameplay, controls, keys, visuals, audio).
+5 campus.OptionsTab 0
+5.2 CampusMenu options -1
+7 waitshaders
+8 CampusShot ot_0
+8.2 CampusMenu play -1
+8.4 campus.OptionsTab 1
+8.6 CampusMenu options -1
+9.4 CampusShot ot_1
+9.6 CampusMenu play -1
+9.8 campus.OptionsTab 2
+10.0 CampusMenu options -1
+10.8 CampusShot ot_2
+11.0 CampusMenu play -1
+11.2 campus.OptionsTab 3
+11.4 CampusMenu options -1
+12.2 CampusShot ot_3
+12.4 CampusMenu play -1
+12.6 campus.OptionsTab 4
+12.8 CampusMenu options -1
+13.6 CampusShot ot_4
+14 quit

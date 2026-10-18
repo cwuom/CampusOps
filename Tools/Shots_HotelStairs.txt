@@ -1,0 +1,15 @@
+# Hotel: the lift-lobby stairs down to the service level, from the lobby and from below.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView 650 -2560 175 -90 -50
+14.0 CampusShot hst_core_s
+14.2 CampusView 650 2560 175 90 -50
+16.0 CampusShot hst_core_n
+16.2 CampusView 950 -2560 170 -150 -20
+18.0 CampusShot hst_core_s_wide
+18.2 CampusView 550 -2300 -240 -90 28
+20.0 CampusShot hst_core_s_up
+20.2 CampusView 2600 -600 170 90 -10
+22.0 CampusShot hst_machine
+23.0 quit

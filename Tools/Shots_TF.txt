@@ -1,0 +1,9 @@
+# throw full
+6.0 CampusGod
+8.0 waitshaders
+10.6 CampusAct refill
+11.0 CampusAct frag
+11.0 CampusShotSeq ta_ 12 3
+12.4 CampusAct release
+12.4 CampusShotSeq tb_ 16 1
+14 quit

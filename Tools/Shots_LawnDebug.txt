@@ -1,0 +1,15 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_LawnDebug.txt
+# Lawn colour check: lit vs unlit (albedo) vs reflections off.
+6.5 CampusGod
+7 CampusFreeCam 1
+7.2 CampusView -2200 -1500 300 90 -35
+8.6 CampusShot ld01_lit
+8.8 viewmode unlit
+9.6 CampusShot ld02_unlit
+9.8 viewmode lit
+10.0 r.Lumen.Reflections.Allow 0
+10.8 CampusShot ld03_norefl
+11.0 r.Lumen.Reflections.Allow 1
+11.2 ShowFlag.Specular 0
+12.0 CampusShot ld04_nospec
+12.4 quit

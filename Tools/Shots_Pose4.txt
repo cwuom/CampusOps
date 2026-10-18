@@ -1,0 +1,34 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Pose4.txt
+# Carry tuning: rifle tactical sprint default, regular sprint candidates, pistol tactical / regular sprint candidates.
+6.5 CampusGod
+7 CampusView -3290 -2600 110 90 0
+7.6 CampusMove 0 1
+7.7 CampusAct sprint
+8.4 CampusShot t10_tac
+8.9 CampusShot t11_tac
+9.4 CampusShot t12_tac
+9.6 CampusAct stop
+10.2 CampusView -3290 -2600 110 90 0
+10.3 CampusPose sprint 2 1 0.5 -6 -30 24
+10.4 CampusMove 0 1
+10.5 CampusAct sprintonly
+11.2 CampusShot t20_sprint
+11.7 CampusPose sprint 3 0 1.5 -4 -24 32
+12.2 CampusShot t21_sprint
+12.4 CampusAct stop
+13.0 CampusAct switch
+14.0 CampusView -3290 -2600 110 90 0
+14.1 CampusPose tac 28 11 -20 70 0 110
+14.2 CampusMove 0 1
+14.3 CampusAct sprint
+15.0 CampusShot t30_ptac
+15.5 CampusPose tac 30 12 -22 66 0 120
+16.0 CampusShot t31_ptac
+16.2 CampusAct stop
+16.8 CampusView -3290 -2600 110 90 0
+16.9 CampusPose sprint 0 0 0 -18 -20 14
+17.0 CampusMove 0 1
+17.1 CampusAct sprintonly
+17.8 CampusShot t40_psprint
+18.0 CampusAct stop
+18.6 quit

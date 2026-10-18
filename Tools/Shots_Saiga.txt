@@ -1,0 +1,17 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_Saiga.txt
+# Saiga-12K pellet pattern on a classroom door from 5 m (aimed), then the frame of the shot.
+5 CampusMenu gunsmith -1
+7 waitshaders
+7.2 CampusMenu weapon:SAIGA12 -1
+7.3 CampusMenu strip -1
+8.0 CampusHost TDM
+13 waitshaders
+13.2 CampusGod
+22.0 CampusLookAtWindow 500
+23.0 CampusAim 1
+24.0 CampusFire 1
+24.05 CampusFire 0
+24.1 CampusShotSeq sga 3 2
+24.8 CampusAim 0
+25.6 CampusShot sg_pattern
+26.0 quit

@@ -1,0 +1,17 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=4 -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_Result.txt
+# COD crosshair at the hip, a frag hitmarker on a bot, then the VICTORY sequence through to the scoreboard.
+6.0 CampusGod
+8.0 waitshaders
+10.0 CampusLookAtBotFrom 900
+10.3 CampusShot r_cross
+10.4 CampusAct dropfrag450
+11.38 CampusShotSeq r_frag_ 8 2
+13.0 CampusEndMatch 1
+13.3 CampusShot r_v0
+13.78 CampusShot r_v1
+13.9 CampusShot r_v2
+14.3 CampusShot r_v3
+15.2 CampusShot r_v4
+18.4 CampusShot r_v5
+19.4 CampusShot r_v6
+20 quit

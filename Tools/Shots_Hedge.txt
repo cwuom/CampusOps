@@ -1,0 +1,14 @@
+# Courtyard garden hedges and lawn from a couple of metres; two lawn frames apart to see the wind.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusFreeCam 1
+8.2 CampusView -2480 20 150 -90 -18
+10.5 CampusShot hg_a_north_w
+10.7 CampusView -2200 -1500 150 90 -14
+13.0 CampusShot hg_b_south_w
+13.2 CampusView -2640 -1080 120 30 -22
+15.5 CampusShot hg_c_lawn_0
+16.4 CampusShot hg_c_lawn_1
+16.8 CampusView -2660 -1180 105 0 -4
+18.0 CampusShot hg_d_end
+18.5 quit

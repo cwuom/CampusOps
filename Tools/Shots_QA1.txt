@@ -1,0 +1,46 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_QA1.txt
+# QA: hip / ADS / fire, tactical sprint across a stride, tactical reload phases, empty reload with the bolt catch.
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -3290 -2600 110 90 0
+8 CampusShot q01_hip
+8.3 CampusAim 1
+9.2 CampusShot q02_ads
+9.4 CampusFire 1
+9.52 CampusShot q03_fire
+9.7 CampusFire 0
+9.9 CampusAim 0
+10.4 CampusView -3290 -2600 110 90 0
+10.5 slomo 0.5
+10.6 CampusMove 0 1
+10.7 CampusAct sprint
+11.6 CampusShot q10_tac
+12.0 CampusShot q11_tac
+12.4 CampusShot q12_tac
+12.8 CampusShot q13_tac
+13.2 CampusShot q14_tac
+13.4 CampusAct stop
+13.5 slomo 1
+14.0 CampusView -3290 -2600 110 90 0
+14.5 slomo 0.25
+14.6 CampusAct reload
+15.1 CampusShot q20_rl_reach
+15.9 CampusShot q21_rl_grip
+16.7 CampusShot q22_rl_draw
+17.5 CampusShot q23_rl_stow
+18.3 CampusShot q24_rl_fetch
+19.1 CampusShot q25_rl_line
+19.7 CampusShot q26_rl_seat
+20.5 CampusShot q27_rl_back
+22.5 slomo 1
+23 CampusFire 1
+24.0 slomo 0.25
+29 CampusFire 0
+30.0 CampusShot q30_er_a
+31.2 CampusShot q31_er_b
+32.4 CampusShot q32_er_c
+33.6 CampusShot q33_er_d
+34.8 CampusShot q34_er_e
+36.0 CampusShot q35_er_f
+37 slomo 1
+37.5 quit

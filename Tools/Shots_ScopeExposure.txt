@@ -1,0 +1,24 @@
+# Launch Map_Campus ?Time=3: the eye's exposure at the hip and on the 6x, with and without the exposure meter mask and
+# the sight picture (campus.ScopeDebug logs it every half second).
+6.0 CampusGod
+6.1 t.MaxFPS 0
+6.2 campus.ScopeDebug 1
+6.4 CampusPreset 3
+6.5 CampusUpscale 0 0 0
+6.6 CampusGfx GI 4
+6.7 r.setres 1920x1080w
+6.8 waitshaders
+7.0 CampusView -875 -3800 110 90 -3
+7.5 CampusEquip MK14 optic_sniper
+8.0 waitshaders
+12.0 CampusShot se_hip
+12.5 CampusAim 1
+17.0 CampusShot se_ads_mask
+17.2 campus.ScopeDebug 3
+22.0 CampusShot se_ads_nomask
+22.2 campus.ScopeDebug 7
+27.0 CampusShot se_ads_bare
+27.2 campus.ScopeDebug 1
+27.5 CampusAim 0
+32.0 CampusShot se_hip2
+32.5 quit

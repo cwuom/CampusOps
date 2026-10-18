@@ -1,0 +1,36 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Pose5.txt
+# Carry transitions in slow motion (script times are real time): flip up into tactical sprint, drop back to ready,
+# then the settled carries for the rifle and the pistol.
+6.5 CampusGod
+6.6 EnableCheats
+7 CampusView -3290 -2600 110 90 0
+7.5 CampusShot u00_hip
+8.0 slomo 0.2
+8.2 CampusMove 0 1
+8.3 CampusAct sprint
+8.6 CampusShot u01_flip
+9.0 CampusShot u02_flip
+9.4 CampusShot u03_flip
+9.8 CampusShot u04_flip
+10.4 slomo 1
+11.0 CampusShot u05_tac
+11.5 slomo 0.2
+11.6 CampusAct stop
+11.9 CampusShot u06_drop
+12.3 CampusShot u07_drop
+12.7 CampusShot u08_drop
+13.2 slomo 1
+13.5 CampusView -3290 -2600 110 90 0
+13.6 CampusMove 0 1
+13.7 CampusAct sprintonly
+14.5 CampusShot u10_sprint
+15.0 CampusShot u11_sprint
+15.2 CampusAct stop
+15.8 CampusAct switch
+16.8 CampusView -3290 -2600 110 90 0
+16.9 CampusMove 0 1
+17.0 CampusAct sprint
+17.7 CampusShot u20_ptac
+18.2 CampusShot u21_ptac
+18.4 CampusAct stop
+19.0 quit

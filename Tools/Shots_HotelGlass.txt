@@ -1,0 +1,31 @@
+# Hotel lounge curtain wall: blocked while whole, shot out, walked through; melee through a second pane.
+6.0 CampusGod
+6.5 waitshaders
+13.0 CampusView 130 -2100 100 90 0
+14.0 CampusShot gl_0_intact
+14.2 CampusMove 0 1
+16.0 CampusWhere blocked
+16.1 CampusMove 0 0
+16.5 CampusView 130 -2000 100 90 -8
+17.2 CampusAct fire
+17.26 CampusAct unfire
+18.0 CampusShot gl_1_crazed
+18.6 CampusAct fire
+18.66 CampusAct unfire
+18.9 CampusShot gl_2_falling
+21.0 CampusShot gl_3_rim
+21.2 CampusView 130 -2000 100 90 0
+21.4 CampusMove 0 1
+21.75 CampusShot gl_4_step
+23.4 CampusWhere through
+23.5 CampusMove 0 0
+23.6 CampusView 130 -1600 100 -90 -5
+24.5 CampusShot gl_5_inside
+25.0 CampusView 650 -1900 100 90 0
+25.5 CampusAct melee
+27.5 CampusShot gl_6_melee
+28.0 CampusView 650 -1980 100 90 0
+28.1 CampusMove 0 1
+30.0 CampusWhere melee_through
+30.1 CampusMove 0 0
+31.0 quit

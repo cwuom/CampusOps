@@ -1,0 +1,18 @@
+# School fog: the sky atmosphere's light in the fog swept, across the courtyard and out of a shaded arcade.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView 0 -1500 170 90 0
+10.1 CampusFogSky 0.3 1
+12.5 CampusShot fs_c_030
+12.6 CampusFogSky 0.6 1
+15.0 CampusShot fs_c_060
+15.1 CampusFogSky 1 1
+17.5 CampusShot fs_c_100
+17.7 CampusView -3250 -400 170 15 0
+17.8 CampusFogSky 0.3 1
+20.5 CampusShot fs_a_030
+20.6 CampusFogSky 0.6 1
+23.0 CampusShot fs_a_060
+23.1 CampusFogSky 1 1
+25.5 CampusShot fs_a_100
+26.0 quit

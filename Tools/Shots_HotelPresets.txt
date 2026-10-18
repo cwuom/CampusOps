@@ -1,0 +1,14 @@
+# Launch on Map_Hotel with ?Weather=<n>?Time=<n> -benchmark -fps=30: the spawn view at low, medium and ultra.
+6.0 CampusGod
+6.2 CampusPreset 0
+6.5 waitshaders
+9.0 CampusShot hp_lo
+9.2 CampusPreset 1
+9.5 waitshaders
+12.0 CampusShot hp_md
+12.2 CampusPreset 3
+12.3 CampusUpscale 0 0 0
+12.4 CampusGfx GI 4
+12.5 waitshaders
+16.0 CampusShot hp_hi
+16.5 quit

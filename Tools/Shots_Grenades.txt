@@ -1,0 +1,31 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Grenades.txt
+# Grenades: the frag draw / cook / throw in first person, its blast; a smoke screen; a flashbang whiteout; thermite.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -4
+7.2 CampusAct refill
+8.0 CampusAct frag
+8.0 CampusShotSeq tf 30 2
+10.2 CampusAct release
+10.2 CampusShotSeq tt 12 2
+11.4 CampusShotSeq fx 24 3
+14.5 CampusShot fx_after
+15.5 CampusView -875 -4900 110 90 -6
+16.0 CampusAct smoke
+16.6 CampusAct release
+19.5 CampusShot sm_3s
+23.0 CampusShot sm_6s
+23.2 CampusView -1500 -3200 140 -30 -4
+24.0 CampusShot sm_side
+24.4 CampusView -875 -4900 110 90 -6
+26.0 CampusAct thermite
+26.6 CampusAct release
+27.6 CampusShotSeq th 6 8
+30.5 CampusShot th_late
+31.0 CampusView -875 -4900 110 90 -10
+32.0 CampusAct flash
+32.5 CampusAct release
+33.9 CampusShotSeq fl 20 4
+37.5 CampusAct flashme
+37.6 CampusShotSeq fm 8 10
+41.0 quit

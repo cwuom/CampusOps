@@ -1,0 +1,11 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -CampusScriptFile=E:/game-project/Tools/Shots_Grime.txt
+# Optic glass grime: the equipped optic at full ADS, against the bright yard and the sky, and at the hip.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -875 -4900 110 90 -1
+8.5 CampusShot gr_hip
+8.7 CampusAim 1
+10.2 CampusShot gr_ads
+10.4 CampusView -875 -4900 110 90 12
+11.4 CampusShot gr_ads_sky
+11.6 quit

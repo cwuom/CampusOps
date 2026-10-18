@@ -1,0 +1,16 @@
+# Hotel north core: on the upper flight, shoot out the glass between the flights, then walk through the gap.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusView 700 2780 90 180 -15
+11.5 CampusShot sw_0_glass
+11.6 CampusAct fire
+11.9 CampusAct unfire
+12.6 CampusAct fire
+12.9 CampusAct unfire
+15.0 CampusShot sw_1_broken
+15.1 CampusWhere before
+15.2 CampusMove 0 1
+16.7 CampusMove 0 0
+16.8 CampusWhere after
+16.9 CampusShot sw_2_through
+17.5 quit

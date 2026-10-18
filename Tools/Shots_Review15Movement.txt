@@ -1,0 +1,47 @@
+# 用同一条输入链比较滑铲早跳、正常跳出和瞄准跳出
+6.0 CampusGod
+6.1 CampusPreset 1
+6.2 CampusUpscale 0 0 0
+6.3 r.setres 1280x720w
+6.4 waitshaders
+7.0 CampusView -4000 4900 110 0 -2
+7.2 CampusEquip M4A1 optic_reddot
+8.0 CampusMove 0 1
+8.1 CampusAct sprint
+9.1 CampusAct slide
+9.15 CampusDebugVM
+9.18 CampusAct jump
+9.19 CampusShotSeq review_slide_early 24 1
+9.2 CampusDebugVM
+9.3 CampusDebugVM
+9.4 CampusDebugVM
+9.6 CampusDebugVM
+9.9 CampusDebugVM
+10.4 CampusDebugVM
+11.0 CampusAct stop
+12.0 CampusView -4000 4900 110 0 -2
+13.0 CampusMove 0 1
+13.1 CampusAct sprint
+14.1 CampusAct slide
+14.2 CampusDebugVM
+14.5 CampusAct jump
+14.51 CampusShotSeq review_slide_late 24 1
+14.6 CampusDebugVM
+14.8 CampusDebugVM
+15.0 CampusDebugVM
+15.5 CampusDebugVM
+16.0 CampusAct stop
+17.0 CampusView -4000 4900 110 0 -2
+18.0 CampusMove 0 1
+18.1 CampusAct sprint
+19.1 CampusAct slide
+19.15 CampusDebugVM
+19.2 CampusAct aim
+19.3 CampusAct jump
+19.31 CampusShotSeq review_slide_ads 24 1
+19.4 CampusDebugVM
+19.6 CampusDebugVM
+19.8 CampusDebugVM
+20.3 CampusDebugVM
+21.0 CampusAct stop
+22.0 quit

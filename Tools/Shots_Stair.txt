@@ -1,0 +1,15 @@
+# Hotel core stair (south core): from the pavilion, halfway down, and from the service level.
+6.0 CampusGod
+6.5 waitshaders
+10.0 CampusFreeCam 1
+10.2 CampusView 1000 -2700 170 -150 -30
+12.0 CampusShot st_top
+12.2 CampusView 550 -2650 -60 -90 -25
+13.8 CampusShot st_mid
+14.0 CampusView 550 -3200 -240 90 -5
+15.6 CampusShot st_bottom
+15.8 CampusView 550 -2600 -240 -90 5
+17.4 CampusShot st_bottom2
+17.6 CampusView 1100 -2900 170 180 -10
+19.2 CampusShot st_pavilion
+20.0 quit

@@ -1,0 +1,22 @@
+# Survey of the stair wells and wing junctions on 1F / 2F (free camera).
+6.5 CampusGod
+6.6 CampusFreeCam 1
+7.0 CampusView -3300 3250 540 180 -5
+8.2 CampusShot v01
+8.4 CampusView -3600 3250 540 180 -5
+9.6 CampusShot v02
+9.8 CampusView -3600 3250 540 90 -5
+11.0 CampusShot v03
+11.2 CampusView -3800 3900 540 270 -10
+12.4 CampusShot v04
+12.6 CampusView -3300 3250 180 180 -5
+13.8 CampusShot v05
+14.0 CampusView -3520 -2800 540 270 -5
+15.2 CampusShot v06
+15.4 CampusView -3300 -2900 540 180 -5
+16.6 CampusShot v07
+16.8 CampusView 1100 3450 540 90 -5
+18.0 CampusShot v08
+18.2 CampusView 800 3250 540 0 -5
+19.4 CampusShot v09
+19.8 quit

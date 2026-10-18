@@ -1,0 +1,30 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -CampusScriptFile=E:/game-project/Tools/Shots_Pose2.txt
+6.5 CampusGod
+7 CampusPose lhand 28 -4.2 5.5 0 0 0
+7.1 CampusPose hip 5 7.5 -3 1 -4 -5
+7.5 CampusView -3290 -2600 110 90 0
+7.6 CampusPose tac 19 -1 8 75 0 90
+7.7 CampusMove 0 1
+7.8 CampusAct sprint
+8.6 CampusDebugVM
+8.7 CampusShot r10_tac
+8.9 CampusPose tac 19 1 6 70 0 90
+9.5 CampusShot r11_tac
+9.7 CampusPose tac 18 -2 9 78 -8 95
+10.3 CampusShot r12_tac
+10.5 CampusPose tac 20 0 7 72 6 80
+11.1 CampusShot r13_tac
+11.3 CampusPose tac 16 2 4 65 -5 90
+11.9 CampusShot r14_tac
+12.1 CampusAct stop
+12.7 CampusView -3290 -2600 110 90 0
+12.8 CampusPose sprint 1 1 -2 -8 -6 -14
+12.9 CampusMove 0 1
+13.0 CampusAct sprintonly
+13.8 CampusShot r20_sprint
+14.0 CampusPose sprint 0 0 -3 -12 -10 -20
+14.6 CampusShot r21_sprint
+14.8 CampusPose sprint 1 -1 -1 -6 4 -18
+15.4 CampusShot r22_sprint
+15.6 CampusAct stop
+16.2 quit

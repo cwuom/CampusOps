@@ -1,0 +1,39 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1920 -ResY=1080 -CampusScriptFile=E:/game-project/Tools/Shots_Perf.txt
+# GPU cost per video preset at the south yard spawn (stat unit on screen + profilegpu in the log).
+5.0 CampusGod
+5.1 waitshaders
+5.5 t.MaxFPS 0
+5.6 r.VSync 0
+5.7 r.ProfileGPU.ShowUI 0
+5.8 CampusView -875 -4900 110 60 -2
+6.0 stat unit
+6.1 r.setres 1920x1080w
+6.2 CampusPreset 0
+6.25 r.setres 1920x1080w
+6.3 waitshaders
+10.0 CampusShot perf_p0
+10.2 profilegpu
+11.0 CampusPreset 1
+11.05 r.setres 1920x1080w
+11.1 waitshaders
+15.0 CampusShot perf_p1
+15.2 profilegpu
+16.0 CampusPreset 2
+16.05 r.setres 1920x1080w
+16.1 waitshaders
+20.0 CampusShot perf_p2
+20.2 profilegpu
+21.0 CampusPreset 3
+21.05 r.setres 1920x1080w
+21.1 waitshaders
+25.0 CampusShot perf_p3
+25.2 profilegpu
+26.0 CampusAim 1
+28.0 CampusShot perf_p3ads
+28.2 profilegpu
+29.0 CampusPreset 0
+29.05 r.setres 1920x1080w
+29.1 waitshaders
+32.0 CampusShot perf_p0ads
+32.2 profilegpu
+33.0 quit

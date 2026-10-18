@@ -1,0 +1,19 @@
+# Hotel: roof sign (deck side and city side), edge, skyline, the street from the rail.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.2 CampusView 1000 -3300 180 -90 4
+14.0 CampusShot hs_sign_back
+14.2 CampusView 1500 -6200 300 115 2
+16.0 CampusShot hs_sign_front
+16.2 CampusView -3000 -4300 250 20 -8
+18.0 CampusShot hs_vista
+18.2 CampusView -3200 0 180 180 -38
+20.0 CampusShot hs_down
+20.2 CampusView 3200 4400 1400 -125 -22
+22.0 CampusShot hs_over
+22.2 CampusView 0 -4300 180 -90 0
+24.0 CampusShot hs_south
+24.2 CampusView 3300 0 180 0 -10
+26.0 CampusShot hs_east
+27.0 quit

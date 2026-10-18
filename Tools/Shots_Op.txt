@@ -1,0 +1,6 @@
+# operator
+6.0 waitshaders
+7.0 CampusMenu operator
+7.5 CampusMenu operator 1
+9.0 CampusShot op_1
+9.5 quit

@@ -1,0 +1,34 @@
+# Launch with ?Weather=<n>?Time=<n> -benchmark -fps=30: the yard, the apartment wall with the 6x up, and a classroom
+# at medium, high, then high with DLSS (quality), the scope at high with DLSS and at medium: every configuration must read the same.
+6.0 CampusGod
+6.1 CampusFreeCam 1
+6.2 CampusPreset 1
+6.5 waitshaders
+7.0 CampusView -875 -3800 110 75 1
+9.0 CampusShot mx_m_yard
+9.2 CampusView -3600 -2700 170 110 35
+11.0 CampusShot mx_m_room
+11.2 CampusPreset 2
+11.5 waitshaders
+12.0 CampusView -875 -3800 110 75 1
+14.0 CampusShot mx_h_yard
+14.2 CampusView -3600 -2700 170 110 35
+16.0 CampusShot mx_h_room
+16.2 CampusUpscale 4 1 0
+16.5 waitshaders
+17.0 CampusView -875 -3800 110 75 1
+19.0 CampusShot mx_hd_yard
+19.2 CampusView -3600 -2700 170 110 35
+21.0 CampusShot mx_hd_room
+21.2 CampusFreeCam 0
+21.4 CampusView -875 -4900 110 270 2
+21.6 CampusEquip MK14 optic_sniper
+22.0 waitshaders
+23.0 CampusAim 1
+26.0 CampusShot mx_hd_scope
+26.2 CampusAim 0
+26.4 CampusPreset 1
+26.6 waitshaders
+27.0 CampusAim 1
+30.0 CampusShot mx_m_scope
+30.5 quit

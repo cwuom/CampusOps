@@ -1,0 +1,21 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_GlassSmoke.txt
+# Shoots the nearest window pane (frames of the shatter), then a long burst outdoors and the barrel smoke after it.
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+7.5 CampusLookAtWindow 260
+8.5 CampusShot gl_before
+8.6 CampusShotSeq gl 16 2
+8.6 CampusFire 1
+8.75 CampusFire 0
+10.0 CampusShot gl_after1
+12.0 CampusShot gl_after2
+12.5 CampusView -875 -4900 110 90 0
+13.5 CampusFire 1
+16.0 CampusFire 0
+16.0 CampusShotSeq sm 10 6
+18.5 CampusAim 1
+19.4 CampusFire 1
+21.0 CampusFire 0
+21.0 CampusShotSeq sa 6 6
+23.5 quit

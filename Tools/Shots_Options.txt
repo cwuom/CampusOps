@@ -1,0 +1,13 @@
+# Launch: UnrealEditor.exe CampusOps.uproject -game -CampusScriptFile=E:/game-project/Tools/Shots_Options.txt
+# Settings page (video options), then switch the loadout to the M4A1 with the prism scope for a look at it.
+5 CampusMenu options -1
+7 waitshaders
+8 CampusShot opt1
+8.5 CampusMenu gunsmith -1
+9.5 CampusMenu weapon:M4A1 -1
+9.7 CampusMenu strip -1
+9.9 CampusMenu attach:optic_scope -1
+10.0 CampusMenu attach:muzzle_suppressor -1
+10.1 CampusMenu attach:grip_angled -1
+11.5 CampusShot opt2
+12 quit

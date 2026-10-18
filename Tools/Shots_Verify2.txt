@@ -1,0 +1,30 @@
+# Campus in rain: hedge close-ups, the 6x on a tiled wall (specks), a door light shot out, the knife's heavy stab.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusFreeCam 1
+8.2 CampusView -2480 20 150 -90 -18
+10.5 CampusShot v2_hedge_a
+10.7 CampusView -2200 -1500 150 90 -14
+12.5 CampusShot v2_hedge_b
+12.7 CampusFreeCam 0
+13.0 CampusView -875 -4900 110 60 -2
+13.5 CampusEquip MK14 optic_sniper
+15.0 CampusAim 1
+17.0 CampusShot v2_scope
+17.2 CampusAim 0
+17.5 CampusEquip M4A1
+18.0 CampusLookAtDoor 160
+19.0 CampusShot v2_door0
+19.1 CampusAct fire
+19.14 CampusAct unfire
+21.5 CampusShot v2_door1
+21.6 CampusAct door
+23.5 CampusShot v2_door2
+24.0 CampusEquip KNIFE
+24.5 CampusAct switch
+26.0 CampusPose knifet 0.15 3 0 0 0 0
+26.6 CampusShot v2_stab_draw
+26.7 CampusPose knifet 0.27 3 0 0 0 0
+27.3 CampusShot v2_stab_in
+27.4 CampusPose knifet -1 0 0 0 0 0
+28.0 quit

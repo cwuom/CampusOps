@@ -1,0 +1,27 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0?Weather=0?Time=1 -game -windowed -ResX=1280 -ResY=720 -CampusScriptFile=E:/game-project/Tools/Shots_Fix3.txt
+# Ultra, TSR: the 6x scope out of the covered walkway with ray traced GI, then screen space GI; the classroom ceiling
+# and the courtyard facade with screen space GI (snow / flicker).
+6.0 CampusGod
+6.2 CampusPreset 3
+6.3 CampusUpscale 0 0 0
+6.4 CampusGfx GI 4
+6.5 waitshaders
+7.0 CampusEquip MK14 optic_sniper
+7.5 CampusView -875 -3800 110 90 -1
+8.5 waitshaders
+9.0 CampusAim 1
+11.0 CampusShotSeq f3rt_ 4 3
+12.0 CampusAim 0
+12.2 CampusGfx GI 0
+12.4 waitshaders
+13.0 CampusAim 1
+15.0 CampusShotSeq f3ss_ 4 3
+16.0 CampusAim 0
+16.5 CampusFreeCam 1
+16.7 CampusView -3600 -2700 170 110 35
+18.0 CampusShotSeq f3ceil_ 6 2
+19.0 CampusView -2700 -2600 170 180 25
+20.5 CampusShotSeq f3wall_ 6 2
+21.5 CampusView -2300 -600 170 180 18
+23.0 CampusShotSeq f3fac_ 6 2
+24.0 quit

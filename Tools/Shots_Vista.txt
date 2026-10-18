@@ -1,0 +1,9 @@
+# Hotel: straight down off the south edge onto the scramble below, and out west over the park.
+6.0 CampusGod
+6.5 waitshaders
+12.0 CampusFreeCam 1
+12.5 CampusView 0 -4700 200 -90 -62
+15.0 CampusShot vs_scramble
+15.2 CampusView -3500 0 200 180 -30
+17.5 CampusShot vs_west
+18.5 quit

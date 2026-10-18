@@ -1,0 +1,59 @@
+# 保持瞄准输入连续开火，分别检查倍率镜、红点和机械瞄具
+6.0 CampusGod
+6.1 CampusPreset 1
+6.2 CampusUpscale 0 0 0
+6.3 r.setres 1280x720w
+6.4 waitshaders
+7.0 CampusEquip MK14 optic_sniper
+8.0 CampusAct aim
+8.8 CampusDebugVM
+9.0 CampusAct fire
+9.01 CampusShotSeq review_aim_scope 30 3
+9.2 CampusDebugVM
+9.3 CampusAct unfire
+9.6 CampusAct fire
+9.8 CampusAct unfire
+10.0 CampusDebugVM
+10.1 CampusAct fire
+10.3 CampusAct unfire
+10.6 CampusAct fire
+10.8 CampusAct unfire
+11.0 CampusDebugVM
+11.1 CampusAct fire
+11.3 CampusAct unfire
+11.6 CampusAct fire
+11.8 CampusAct unfire
+12.0 CampusDebugVM
+12.1 CampusAct fire
+12.3 CampusAct unfire
+12.6 CampusAct fire
+12.8 CampusAct unfire
+13.0 CampusDebugVM
+13.2 CampusAct unfire
+13.4 CampusAct unaim
+14.0 CampusEquip M4A1 optic_reddot
+15.0 CampusAct aim
+15.8 CampusDebugVM
+16.0 CampusAct fire
+16.01 CampusShotSeq review_aim_reddot 30 3
+16.2 CampusDebugVM
+17.0 CampusDebugVM
+18.0 CampusDebugVM
+19.0 CampusDebugVM
+20.0 CampusDebugVM
+20.2 CampusAct unfire
+20.4 CampusAct unaim
+21.0 CampusEquip MP5
+22.0 CampusAct aim
+22.8 CampusDebugVM
+23.0 CampusAct fire
+23.01 CampusShotSeq review_aim_iron 30 3
+23.2 CampusDebugVM
+24.0 CampusDebugVM
+25.0 CampusDebugVM
+26.0 CampusDebugVM
+27.0 CampusDebugVM
+27.2 CampusAct unfire
+27.4 CampusAct unaim
+28.0 CampusBots
+29.0 quit

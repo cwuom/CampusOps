@@ -1,0 +1,14 @@
+# Isolate the vanishing viewmodel: a plain jump in the open, then the kiosk climb with the tuck zeroed.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.5 CampusView -1690 0 165 0 -6
+10.5 CampusAct jump
+10.52 CampusShotSeq mj_ 8 2
+11.8 CampusView -1690 0 165 180 -6
+12.0 CampusPose mantletuck 0 0 0 0 0 0
+12.8 CampusMove 0 1
+12.9 CampusAct jump
+12.92 CampusShotSeq mz_ 8 2
+14.2 CampusMove 0 0
+14.5 quit

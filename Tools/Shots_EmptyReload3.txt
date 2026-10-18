@@ -1,0 +1,16 @@
+# Empty reloads with the loadout the reports show: AK with a red dot (and its light), aimed into the B1 service corridor
+# and at the open roof; every 3rd frame at 30 fps through the whole reload.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip AK47 optic_reddot,light_tac
+8.5 CampusView 450 -1500 -235 90 -3
+10.0 CampusAct aim
+10.2 CampusAct fire
+13.1 CampusShotSeq erd_ 30 3
+16.5 CampusAct unfire
+16.6 CampusAct unaim
+17.5 CampusView -3000 -4300 100 0 -2
+18.5 CampusAct fire
+21.4 CampusShotSeq ehx_ 30 3
+25.0 CampusAct unfire
+25.5 quit

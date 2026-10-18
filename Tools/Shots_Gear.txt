@@ -1,0 +1,12 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=4 -game -CampusScriptFile=E:/game-project/Tools/Shots_Gear.txt
+# Soldier gear on the bots: close looks from the front, side and back with the free camera.
+6.5 CampusGod
+9 CampusLookAtBot
+9.5 CampusShot b01_bot
+10.5 CampusLookAtBot
+11.0 CampusShot b02_bot
+12.0 CampusLookAtBot
+12.5 CampusShot b03_bot
+13.5 CampusLookAtBot
+14.0 CampusShot b04_bot
+15 quit

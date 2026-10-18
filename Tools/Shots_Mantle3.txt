@@ -1,0 +1,16 @@
+# Kiosk climb (110 cm), filmed with the default ledge hand, then again with a second wrist turn candidate.
+6.0 CampusGod
+6.5 waitshaders
+8.0 CampusEquip M4A1
+9.6 CampusView -1690 0 165 180 -6
+10.6 CampusMove 0 1
+10.7 CampusAct jump
+10.72 CampusShotSeq ma_ 10 2
+12.2 CampusMove 0 0
+12.5 CampusPose mantleturn -4 -26 -26 -10 20 -170
+12.6 CampusView -1690 0 165 180 -6
+13.6 CampusMove 0 1
+13.7 CampusAct jump
+13.72 CampusShotSeq mb_ 10 2
+15.2 CampusMove 0 0
+15.5 quit

@@ -1,0 +1,40 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -windowed -ResX=1600 -ResY=900 -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_Grenades3.txt
+# Grenade effects in the open courtyard (each type pre-warmed far away first), and the four models lying on the floor.
+6.5 CampusGod
+6.6 CampusAct refill
+6.7 CampusView -875 -5200 110 90 -4
+6.8 CampusAct dropfrag3000
+6.9 CampusAct dropsmoke3200
+7.0 CampusAct dropthermite3400
+7.1 CampusAct dropflash3600
+10.0 waitshaders
+10.5 CampusView -875 -3000 110 90 -5
+10.6 CampusAct dropfrag900
+11.5 CampusShotSeq ex 15 3
+13.5 CampusShot ex_late
+14.0 CampusView -2400 -3000 110 90 -6
+14.1 CampusAct dropsmoke700
+17.5 CampusShot sm_3s
+21.0 CampusShot sm_7s
+21.2 CampusView -2400 -1600 110 -90 -6
+21.6 CampusShot sm_inside
+21.8 CampusView -3400 -2300 110 0 -6
+22.2 CampusShot sm_side
+22.4 CampusView 600 -3000 110 90 -12
+22.5 CampusAct dropthermite450
+23.2 CampusShotSeq th 4 12
+26.0 CampusView -875 -3000 110 90 -10
+26.1 CampusAct dropflash650
+26.4 CampusShotSeq fl 14 3
+30.0 CampusView 1500 -3000 110 90 -4
+30.1 CampusAct placefrag70
+30.2 CampusView 1530 -3000 110 90 -4
+30.3 CampusAct placeflash70
+30.4 CampusView 1470 -3000 110 90 -4
+30.5 CampusAct placesmoke70
+30.6 CampusView 1560 -3000 110 90 -4
+30.7 CampusAct placethermite70
+31.5 CampusFreeCam 1
+31.6 CampusView 1515 -3035 25 90 -38
+33.0 CampusShot models
+33.2 quit

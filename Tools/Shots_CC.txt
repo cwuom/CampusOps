@@ -1,0 +1,21 @@
+# cctv
+6.0 CampusGod
+8.0 waitshaders
+10.5 CampusFreeCam 1
+11 CampusView -3410 -3020 275 0 8
+11.5 CampusShot cc_0
+11.7 CampusView -2890 -3020 275 180 8
+12.2 CampusShot cc_1
+12.4 CampusView -3150 -3280 275 90 8
+12.899999999999999 CampusShot cc_2
+13.1 CampusView -3150 -2760 275 270 8
+13.599999999999998 CampusShot cc_3
+13.8 CampusView -705 -3200 275 0 8
+14.299999999999997 CampusShot cc_4
+14.5 CampusView -185 -3200 275 180 8
+14.999999999999996 CampusShot cc_5
+15.2 CampusView -445 -3460 275 90 8
+15.699999999999996 CampusShot cc_6
+15.9 CampusView -445 -2940 275 270 8
+16.399999999999995 CampusShot cc_7
+16.6 quit

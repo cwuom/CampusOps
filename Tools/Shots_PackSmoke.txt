@@ -1,0 +1,7 @@
+# Packaged build: the pool at noon after the drop.
+10.0 CampusGod
+10.2 CampusView -2150 -400 100 180 -40
+10.6 CampusAct fire
+10.9 CampusAct unfire
+11.2 CampusShot pk_pool
+12.0 quit

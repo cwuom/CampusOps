@@ -1,0 +1,28 @@
+# Launch: UnrealEditor.exe CampusOps.uproject /Game/Campus/Maps/Map_Campus?game=TDM?Bots=0 -game -benchmark -fps=30 -CampusScriptFile=E:/game-project/Tools/Shots_AKIron.txt
+# AK iron sights (needs Shots_Loadout_AK first): hip, the raise frame by frame, full ADS, ADS mid-burst, then
+# tactical sprint pose candidates down the long yard (CampusPose tac X Y Z Pitch Yaw Roll, camera space).
+6.5 CampusGod
+6.6 waitshaders
+7.0 CampusView -2900 -5450 110 90 0
+8.0 CampusShot ak_hip
+8.2 CampusShotSeq ak_raise 12 1
+8.2 CampusAim 1
+9.4 CampusShot ak_ads
+9.5 CampusDebugVM
+9.6 CampusFire 1
+10.0 CampusShot ak_fire
+10.1 CampusFire 0
+10.6 CampusAim 0
+11.0 CampusView -875 -4900 110 90 0
+11.4 CampusAct sprint
+11.4 CampusMove 0 1
+12.6 CampusShot ak_tac0
+12.7 CampusDebugVM
+12.8 CampusPose tac 30 23 -33 72 0 80
+13.6 CampusShot ak_tac1
+13.7 CampusPose tac 28 22 -31 68 4 70
+14.5 CampusShot ak_tac2
+14.6 CampusPose tac 32 24 -30 78 -4 100
+15.4 CampusShot ak_tac3
+15.6 CampusMove 0 0
+16.2 quit
